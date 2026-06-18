@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-18T17:50:26Z",
+  "last_check": "2026-06-18T17:55:54Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -14,8 +14,73 @@
       "name": "Frais d'inscription étudiants étrangers"
     }
   ],
-  "spikes": [],
-  "last_alert_at": null,
+  "spikes": [
+    {
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "date": "2026-06-18",
+      "count": 3,
+      "at": "2026-06-18T17:55:57Z"
+    }
+  ],
+  "last_alert_at": "2026-06-18T17:55:57Z",
   "last_heartbeat": null,
-  "alerts": []
+  "alerts": [
+    {
+      "title": "\"Demander de payer 16 fois plus, c'est briser des rêves\" : mobilisation contre la hausse des frais d'inscription pour les étudiants étrangers",
+      "source": "France 3 Régions",
+      "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQTjA3ZUgxVURIcUdqVWNPQWt2ZHBZZTNyTVB5X2FKOWZsNHgxbEtnLUhXYXYzbWlvU3BxUGZrUTZIdkNoUjZualZVdnBDTlN6cUVNaHpjSWtiNy1lZ3RDeXNjREpEOGtYSGFGeUxLcEJCaEJ2MjZGZFlkcVlOdnhQdkZYd2djVHZmbkFPcm1VNU5xaURQUjRXRlJsSG93WWh3a09ISmJlVUkxU3dVNGVKUUNsck9ueGVrdlBSRHZmcjJIUXZnbHJDYlNEcnVKV3FBWGFST1NjZUJHT1RjbUJGUWNNUWFVRHNvZHBhR2llbW1KZXNsTmV4WjJFeHNlMXlyblAyaGRmc1Bnb0VyYzRMSlNZRVlCQ3lFa2xfT1Nad2sxamR6YU1yY0hja2MtQnZqSHZQN3d4Mk1CZw?oc=5",
+      "pubDate": "Tue, 12 May 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "frais d'inscription",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "briser contre demander etrangers etudiants fois frais hausse inscription mobilisation payer plus reves",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-18T17:55:56Z"
+    },
+    {
+      "title": "IFSI : les associations mobilisées contre l'augmentation des frais d'inscription pour les étudiants extra-communautaires",
+      "source": "Actusoins",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQR0lJWVpsaldGNFBlMHptM3d3Y0swVzZKZlEtWS11OUprQUExZGhncTNlYTBwZTRGeDVMdTB5T0ZtVTczTmtBcnRIbndVcmtGa3NBUXM2YzduSkY4eWJ5N1JlU3h0LU04X0tCeGlTdnhTX1M3Njkydk1OLXpIbER2Ni12YlItYUtuZ2ZwTDFydE1OZzJ1ZjBsYWg2T2RhbllFUHd5TzFwc3lrS2lZZDhyaHF0dWNnaWdpNk53Z085Z2I5Zml2dGd4MXA0OFY2azU1QVJDMlQ1b1N0MFB2bWJvbw?oc=5",
+      "pubDate": "Mon, 18 May 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "frais d'inscription",
+        "etudiant"
+      ],
+      "tkey": "associations augmentation communautaires contre etudiants extra frais ifsi inscription mobilisees",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-18T17:55:55Z"
+    },
+    {
+      "title": "Hausse des frais d'inscription pour les étudiants non européens : la Fage dénonce une mesure \"discriminatoire\"",
+      "source": "ici.fr",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQbWFjTEpmNWdrVVNzbTU2Z05HRUV6eVEtdnRBV1p6aEVyVjBwaHd6QWJ2WU1xc05QYWdqTXBnU085NjVIMkFjSE9kWk1Fb0NET0pvVzJ6SUtPdHZVNXVoNUg1R2VhVHNYLU5zUEktNEdqZlJ6dmNpcmpxMm5yMG94QlFmUU5laFlyc0owVzJvTVhZZTBfZTlGMmtCZkFNZDByeU5KUDJNenduenktSWYxQ05BcF9XcnYxWWh2RURLWlY2dFZ2a3p3blhpUG9OTEh5RXJ1aVBvX251NWxtcmg1NldSbVIzMEU1OUhEejZxVXRKUWdzcnU3bnFaaU42aW5PSUdjamhuN3Z4ZzYxdzk5Zw?oc=5",
+      "pubDate": "Tue, 12 May 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "frais d'inscription",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "denonce discriminatoire etudiants europeens fage frais hausse inscription mesure non",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-18T17:55:54Z"
+    }
+  ]
 }
