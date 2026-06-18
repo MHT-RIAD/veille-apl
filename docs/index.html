@@ -48,7 +48,7 @@
   .elig summary{cursor:pointer;padding:14px 0;font-weight:700;font-size:17px;list-style:none;letter-spacing:-.01em}
   .elig summary::-webkit-details-marker{display:none}
   .elig summary::before{content:"+ ";color:var(--accent)}
-  .elig[open] summary::before{content:"3 "}
+  .elig[open] summary::before{content:"– "}
   .eq{padding:6px 0 14px}.eq h4{margin:0 0 8px;font-size:13px;color:var(--ink-soft);font-weight:500}
   .opts{display:flex;gap:8px;flex-wrap:wrap}
   .opt{background:var(--paper);border:1px solid var(--edge);color:var(--ink-soft);padding:7px 12px;font-size:13px;cursor:pointer;font-family:inherit}
@@ -56,6 +56,15 @@
   .everdict{margin:4px 0 16px;padding:13px 15px;border:1px solid var(--hair);font-size:14px;line-height:1.5;display:none}
   .everdict.ok{border-left:3px solid var(--ink)}.everdict.ko{border-left:3px solid var(--accent)}
   .everdict small{display:block;margin-top:8px;color:var(--faint);font-family:var(--mono);font-size:11px}
+  .sess-form{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+  .sess-form input{background:var(--paper);border:1px solid var(--edge);padding:8px 12px;font:inherit;font-size:13px;min-width:150px;flex:1}
+  .sess-form button{flex:none;cursor:pointer}
+  .sess-msg{font-family:var(--mono);font-size:11px;color:var(--ink-soft);margin:0 0 10px;min-height:14px}
+  .sess-list{display:flex;flex-direction:column;gap:6px}
+  .sess-item{display:flex;justify-content:space-between;align-items:center;gap:10px;border:1px solid var(--hair);padding:8px 12px;font-size:13px}
+  .sess-item button{background:none;border:1px solid var(--edge);color:var(--ink-soft);padding:3px 9px;font-size:11px;cursor:pointer;font-family:inherit}
+  .sess-item button:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .sess-empty{font-family:var(--mono);font-size:11px;color:var(--faint);margin:0}
   .stats{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--hair);margin-top:24px}
   .stat{padding:16px;border-left:1px solid var(--hair)}.stat:first-child{border-left:0}
   .stat b{display:block;font-family:var(--mono);font-size:26px;font-weight:700;letter-spacing:-.02em;line-height:1}
@@ -146,6 +155,20 @@
     <div class="everdict" id="everdict"></div>
   </details>
 
+  <details class="elig sessions">
+    <summary>Sessions de veille</summary>
+    <div class="eq">
+      <h4>Ajouter un suivi (2 à 3 mots requis dans le titre)</h4>
+      <div class="sess-form">
+        <input id="sess-words" type="text" placeholder="ex. bourse crous étudiant" aria-label="Mots-clés">
+        <input id="sess-secret" type="password" placeholder="phrase secrète" aria-label="Phrase secrète">
+        <button id="sess-add" class="opt">Ajouter</button>
+      </div>
+      <p id="sess-msg" class="sess-msg"></p>
+      <div id="sess-list" class="sess-list"></div>
+    </div>
+  </details>
+
   <div class="stats">
     <div class="stat"><b id="c-total">—</b><span>alertes au total</span></div>
     <div class="stat s-high"><b id="c-high">—</b><span>probables décrets</span></div>
@@ -190,6 +213,8 @@ const dayKey=(s)=>{const d=new Date(s);return isNaN(d)?null:d.toISOString().slic
 const esc=(s)=>(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const safeUrl=(u)=>/^https?:\/\//i.test(u||"")?u:"#";
 const CONF={confirme:"confirmé",probable:"probable",rumeur:"à confirmer",lie:"lié",report:"report/susp."};
+// === Sessions : collez ici l'URL de votre Worker Cloudflare (voir WORKER_SETUP.md) ===
+const SESSIONS_WORKER_URL="";
 
 let DATA={last_check:null,alerts:[],topics_list:[],spikes:[]},DIGEST=null,TOPIC="";
 let TRIAGE={};try{TRIAGE=JSON.parse(localStorage.getItem("veille:triage")||"{}");}catch(e){TRIAGE={};}
@@ -324,7 +349,7 @@ function maybeNotify(){
   try{localStorage.setItem("veille:lastHigh",String(high));}catch(e){}
 }
 
-function refreshAll(){setHeader();showBanner();renderTimeline();buildTabs();buildSourceFilter();render();}
+function refreshAll(){setHeader();showBanner();renderTimeline();buildTabs();buildSourceFilter();render();renderSessions();}
 
 async function load(){
   try{const r=await fetch("./data.json?t="+Date.now(),{cache:"no-store"});DATA=await r.json();
@@ -371,6 +396,45 @@ installBtn.onclick=async()=>{if(deferred){deferred.prompt();deferred=null;instal
 const notifyBtn=document.getElementById("notify");
 if(("Notification"in window)&&Notification.permission==="default")notifyBtn.style.display="inline-flex";
 notifyBtn.onclick=()=>Notification.requestPermission().then(p=>{if(p!=="default")notifyBtn.style.display="none";});
+
+// --- Sessions de veille ---
+function sessMsg(t){const e=document.getElementById("sess-msg");if(e)e.textContent=t||"";}
+function renderSessions(){
+  const list=document.getElementById("sess-list");if(!list)return;
+  const sess=(DATA.topics_list||[]).filter(t=>t.session);
+  if(!SESSIONS_WORKER_URL){list.innerHTML='<p class="sess-empty">Configurez l\'URL du Worker dans index.html pour activer l\'ajout et la suppression.</p>';return;}
+  if(sess.length===0){list.innerHTML='<p class="sess-empty">Aucune session pour l\'instant.</p>';return;}
+  list.innerHTML=sess.map(t=>'<div class="sess-item"><span>'+esc(t.name)+'</span><button data-sid="'+esc(t.id.replace(/^session:/,""))+'">Supprimer</button></div>').join("");
+}
+async function sessionAction(payload){
+  if(!SESSIONS_WORKER_URL){sessMsg("URL du Worker non configurée.");return;}
+  sessMsg("Envoi…");
+  try{
+    const r=await fetch(SESSIONS_WORKER_URL,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)});
+    const d=await r.json().catch(()=>({}));
+    if(!r.ok){sessMsg(d.error||("Erreur "+r.status));return;}
+    sessMsg("Fait. La veille se met à jour (~1 min) — cliquez ensuite sur Actualiser.");
+  }catch(e){sessMsg("Worker injoignable.");}
+}
+(function initSessions(){
+  var add=document.getElementById("sess-add"),listEl=document.getElementById("sess-list"),sec=document.getElementById("sess-secret");
+  try{var sv=localStorage.getItem("veille:secret");if(sv&&sec)sec.value=sv;}catch(e){}
+  if(add)add.addEventListener("click",function(){
+    var words=document.getElementById("sess-words").value.trim().split(/\s+/).filter(Boolean);
+    var secret=sec?sec.value:"";
+    if(words.length<2||words.length>3){sessMsg("Indiquez 2 à 3 mots.");return;}
+    if(!secret){sessMsg("Phrase secrète requise.");return;}
+    try{localStorage.setItem("veille:secret",secret);}catch(e){}
+    sessionAction({action:"add",secret:secret,words:words});
+    document.getElementById("sess-words").value="";
+  });
+  if(listEl)listEl.addEventListener("click",function(e){
+    var b=e.target.closest("button[data-sid]");if(!b)return;
+    var secret=(sec&&sec.value)||localStorage.getItem("veille:secret")||"";
+    if(!secret){sessMsg("Entrez la phrase secrète pour supprimer.");return;}
+    sessionAction({action:"delete",secret:secret,id:b.getAttribute("data-sid")});
+  });
+})();
 
 load();
 </script>

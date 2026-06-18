@@ -1,4 +1,4 @@
-const CACHE = "veille-apl-v4";
+const CACHE = "veille-apl-v5";
 const CORE = ["./", "./index.html", "./manifest.webmanifest", "./data.json", "./presentation.html"];
 
 self.addEventListener("install", (e) => {

@@ -39,6 +39,7 @@ tableau de bord qui répond d'un coup d'œil : *le décret est-il sorti ?*
 | **Push** | Telegram + ntfy.sh, plus notifications PWA. |
 | **Brief quotidien IA** | Synthèse des dernières 24 h (optionnel). |
 | **Suis-je concerné ?** | Verdict personnalisé selon nationalité et statut boursier. |
+| **Sessions de veille** | Créez/supprimez un suivi par mots-clés (2–3 mots) depuis le dashboard, via un Worker Cloudflare gratuit. Voir [WORKER_SETUP.md](WORKER_SETUP.md). |
 | **Triage** | Lu / important / archivé, mémorisé dans le navigateur. |
 | **Auto-surveillance** | Battement de cœur hebdomadaire + alerte si un workflow échoue. |
 
@@ -81,6 +82,8 @@ digest.py             brief quotidien IA (optionnel)
 make_og.py            image de statut + icônes PWA
 topics.json           sujets suivis + règles de tri
 pages.json            pages officielles surveillées
+sessions.json         suivis par mots-clés créés depuis le dashboard
+worker.js             Worker Cloudflare (ajout/suppression de sessions)
 test_monitor.py       tests de non-régression
 docs/                 tableau de bord (PWA) servi par GitHub Pages
 .github/workflows/    monitor (horaire) · digest (quotidien) · ci (tests)

@@ -109,5 +109,23 @@ class TestPageFingerprint(unittest.TestCase):
         self.assertNotIn("bruit", only_main)
 
 
+class TestSessions(unittest.TestCase):
+    def s(self, title, words):
+        ok, pr, lbl, c = m.classify(title, {"match_all": words})
+        return (c if ok else "HORS")
+
+    def test_all_words_required(self):
+        self.assertEqual(self.s("Bourse CROUS pour etudiant etranger", ["bourse", "crous", "etudiant"]), "lie")
+
+    def test_missing_word(self):
+        self.assertEqual(self.s("Bourse CROUS attribuee", ["bourse", "crous", "etudiant"]), "HORS")
+
+    def test_session_confirmed(self):
+        self.assertEqual(self.s("Bourse CROUS etudiant : decret publie au journal officiel", ["bourse", "crous", "etudiant"]), "confirme")
+
+    def test_session_report(self):
+        self.assertEqual(self.s("Bourse CROUS etudiant : reforme suspendue", ["bourse", "crous", "etudiant"]), "report")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

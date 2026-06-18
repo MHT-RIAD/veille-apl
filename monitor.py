@@ -30,6 +30,7 @@ from html.parser import HTMLParser
 STATE_FILE = "seen.json"
 TOPICS_FILE = "topics.json"
 PAGES_FILE = "pages.json"
+SESSIONS_FILE = "sessions.json"
 PAGES_STATE = "pages_state.json"
 DATA_FILE = "docs/data.json"
 MAX_HISTORY = 1500
@@ -119,7 +120,7 @@ def save_json(path, obj):
 def matched_terms(title, rules):
     t = norm(title)
     out, seen = [], set()
-    for key in ("groupe_a", "groupe_b", "signaux"):
+    for key in ("groupe_a", "groupe_b", "signaux", "match_all"):
         for term in rules.get(key, []):
             if term_in(t, term) and term not in seen:
                 seen.add(term)
@@ -127,9 +128,25 @@ def matched_terms(title, rules):
     return out
 
 
+GENERIC_SIGNALS = ["decret", "arrete", "loi", "journal officiel", "publie", "promulgue",
+                   "vote", "adopte", "entree en vigueur", "circulaire"]
+
+
 def classify(title, rules):
     """Renvoie (alerter, priorite, label, confiance)."""
     t = norm(title)
+    # Sessions utilisateur : tous les mots requis doivent etre presents.
+    if "match_all" in rules:
+        words = rules.get("match_all", [])
+        if not words or not all(term_in(t, w) for w in words):
+            return False, None, "", ""
+        if contains_any(t, POSTPONE_TERMS):
+            return True, "related", "Report / suspension ?", "report"
+        if contains_any(t, CONFIRM_TERMS):
+            return True, "high", "Publie au JO", "confirme"
+        if contains_any(t, GENERIC_SIGNALS):
+            return True, "high", "Texte probable", "probable"
+        return True, "related", "Mention", "lie"
     if contains_any(t, rules.get("exclusions", [])):
         return False, None, "", ""
     if not (contains_any(t, rules.get("groupe_a", [])) and contains_any(t, rules.get("groupe_b", []))):
@@ -326,13 +343,28 @@ def main():
     pages = load_json(PAGES_FILE, {"pages": []}).get("pages", [])
     topic_by_id = {t["id"]: t for t in topics}
 
+    # Sessions de veille creees par l'utilisateur (mots-cles a la volee)
+    sessions = load_json(SESSIONS_FILE, {"sessions": []}).get("sessions", [])
+    for s in sessions:
+        words = [w for w in s.get("words", []) if w]
+        if not words:
+            continue
+        topics.append({
+            "id": "session:" + str(s.get("id", "")),
+            "name": s.get("name") or " \u00b7 ".join(words),
+            "queries": s.get("queries") or [" ".join(words)],
+            "rules": {"match_all": words},
+            "legifrance_queries": [],
+            "_session": True,
+        })
+
     first_run = not os.path.exists(STATE_FILE)
     seen = set(load_json(STATE_FILE, []))
     pstate = load_json(PAGES_STATE, {})
     data = load_json(DATA_FILE, {"last_check": None, "alerts": [], "spikes": [],
                                  "last_alert_at": None, "last_heartbeat": None})
     data.setdefault("spikes", [])
-    data["topics_list"] = [{"id": t["id"], "name": t["name"]} for t in topics]
+    data["topics_list"] = [{"id": t["id"], "name": t["name"], "session": bool(t.get("_session"))} for t in topics]
 
     # Cles de titre deja vues recemment (anti-doublon inter-sources)
     cutoff = now() - datetime.timedelta(hours=DEDUP_HOURS)
