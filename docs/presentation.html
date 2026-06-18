@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veille décret APL — présentation</title>
+<meta name="description" content="Veille automatique sur la publication du décret supprimant les APL des étudiants étrangers (loi de finances 2026, art. 179).">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cols:12;
+  --bl:8px;            /* unité de baseline */
+  --lh:24px;          /* interligne = 3 × baseline */
+  --gutter:24px;
+  --margin:72px;
+  --pad:96px;         /* padding haut/bas de spread (12 × bl) */
+  --maxw:1296px;
+
+  --paper:#ffffff;
+  --ink:#111315;
+  --ink-soft:#5b6066;
+  --accent:#e4002b;   /* rouge suisse, accent unique */
+
+  --g-col:rgba(228,0,43,.06);
+  --g-edge:rgba(228,0,43,.40);
+  --g-base:rgba(0,150,140,.30);
+  --g-base-min:rgba(0,150,140,.10);
+}
+*{box-sizing:border-box;}
+html,body{margin:0;}
+body{background:var(--paper);color:var(--ink);
+  font-family:"Inter",system-ui,sans-serif;font-size:16px;line-height:var(--lh);
+  -webkit-font-smoothing:antialiased;}
+img{display:block;width:100%;height:100%;object-fit:cover;}
+a{color:inherit;}
+
+/* ---- spread + grille (source de vérité unique) ---- */
+.spread{position:relative;width:100%;border-top:1px solid var(--ink);}
+.spread:first-of-type{border-top:0;}
+.wrap{position:relative;max-width:var(--maxw);margin:0 auto;padding:var(--pad) var(--margin);}
+.grid{display:grid;grid-template-columns:repeat(var(--cols),1fr);column-gap:var(--gutter);row-gap:var(--lh);}
+.band{grid-column:1 / -1;display:grid;grid-template-columns:subgrid;column-gap:var(--gutter);row-gap:var(--lh);align-items:start;}
+@supports not (grid-template-columns:subgrid){.band{grid-template-columns:repeat(var(--cols),1fr);}}
+
+/* ---- overlay : MÊME conteneur que le contenu -> colonnes identiques ---- */
+.guides{position:absolute;inset:0;pointer-events:none;z-index:60;opacity:0;transition:opacity .26s ease;}
+body.grid-on .guides{opacity:1;}
+.guides .cols{position:absolute;top:0;bottom:0;left:var(--margin);right:var(--margin);
+  display:grid;grid-template-columns:repeat(var(--cols),1fr);column-gap:var(--gutter);}
+.guides .col{background:var(--g-col);box-shadow:inset 1px 0 0 var(--g-edge),inset -1px 0 0 var(--g-edge);position:relative;}
+.guides .col span{position:absolute;top:32px;left:0;right:0;text-align:center;
+  font-family:"Space Mono",monospace;font-size:10px;line-height:1;color:var(--accent);}
+.guides .rows{position:absolute;left:var(--margin);right:var(--margin);top:0;bottom:0;
+  background-image:
+    repeating-linear-gradient(to bottom,var(--g-base) 0 1px,transparent 1px var(--lh)),
+    repeating-linear-gradient(to bottom,var(--g-base-min) 0 1px,transparent 1px var(--bl));}
+.guides .mline{position:absolute;top:0;bottom:0;width:1px;background:var(--g-edge);}
+.guides .mline.l{left:var(--margin);} .guides .mline.r{right:var(--margin);}
+
+/* ---- toggle ---- */
+.toggle{position:fixed;top:16px;right:16px;z-index:200;display:flex;align-items:center;gap:10px;
+  background:var(--ink);color:#fff;border:none;cursor:pointer;font-family:"Space Mono",monospace;
+  font-size:11px;letter-spacing:.16em;text-transform:uppercase;padding:11px 14px;}
+.toggle .dot{width:9px;height:9px;border-radius:50%;background:#555;}
+body.grid-on .toggle{background:var(--accent);} body.grid-on .toggle .dot{background:#fff;}
+
+/* ---- typographie ---- */
+.kicker{font-family:"Space Mono",monospace;font-size:12px;line-height:24px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink);margin:0;}
+.kicker.accent{color:var(--accent);}
+.masthead{font-weight:800;font-size:clamp(52px,9vw,108px);line-height:104px;letter-spacing:-.025em;margin:0;}
+.masthead .red{color:var(--accent);}
+.lede{font-size:clamp(20px,2.4vw,28px);line-height:40px;font-weight:400;color:var(--ink);margin:0;}
+.shead{font-weight:700;font-size:clamp(28px,4vw,44px);line-height:48px;letter-spacing:-.02em;margin:0;}
+.body{font-size:16px;line-height:24px;color:var(--ink);margin:0 0 24px;}
+.body.soft{color:var(--ink-soft);}
+.numeral{font-weight:800;font-size:clamp(44px,6vw,84px);line-height:80px;letter-spacing:-.03em;color:var(--accent);margin:0;white-space:nowrap;}
+.nlabel{font-family:"Space Mono",monospace;font-size:11px;line-height:16px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-soft);margin:8px 0 0;}
+.folio{font-family:"Space Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);}
+.rule{height:1px;background:var(--ink);border:0;margin:0;grid-column:1 / -1;}
+
+/* ---- composants ---- */
+.feat{border-top:2px solid var(--ink);padding-top:16px;}
+.feat .n{font-family:"Space Mono",monospace;font-size:12px;color:var(--accent);letter-spacing:.1em;}
+.feat h3{font-weight:700;font-size:19px;line-height:24px;margin:8px 0;letter-spacing:-.01em;}
+.feat p{font-size:14px;line-height:24px;color:var(--ink-soft);margin:0;}
+.flowstep{border-left:2px solid var(--accent);padding:0 0 0 16px;}
+.flowstep .s{font-family:"Space Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);}
+.flowstep h4{font-weight:600;font-size:17px;line-height:24px;margin:4px 0;}
+.flowstep p{font-size:14px;line-height:24px;color:var(--ink-soft);margin:0;}
+.cta{display:inline-flex;align-items:center;gap:12px;background:var(--accent);color:#fff;text-decoration:none;
+  font-weight:600;font-size:16px;line-height:24px;padding:12px 20px;}
+.cta.ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--ink);}
+.cta:hover{opacity:.88;}
+
+.tags{font-family:"Space Mono",monospace;font-size:11px;line-height:24px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-soft);}
+
+@media (max-width:860px){
+  :root{--margin:24px;--pad:64px;}
+  .band > *{grid-column:1 / -1 !important;}
+  .masthead{line-height:1.02;}
+}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}
+@media (prefers-reduced-motion:reduce){.guides{transition:none;}}
+</style>
+</head>
+<body>
+<button class="toggle" id="gridToggle" aria-pressed="false"><span class="dot"></span><span class="lbl">Afficher la grille</span></button>
+
+<!-- ===== SPREAD 1 — MASTHEAD ===== -->
+<section class="spread">
+  <div class="wrap">
+    <div class="grid">
+      <div class="band">
+        <p class="kicker accent" style="grid-column:1 / 9;">Veille législative · Loi de finances 2026 · Art. 179</p>
+        <p class="folio" style="grid-column:11 / 13;text-align:right;">01 — APL</p>
+      </div>
+      <div class="band" style="margin-top:24px;">
+        <h1 class="masthead" style="grid-column:1 / 11;">Le décret<br>est-il <span class="red">sorti</span> ?</h1>
+      </div>
+      <div class="band" style="margin-top:24px;">
+        <p class="lede" style="grid-column:1 / 7;">Une veille automatique qui surveille la presse, le Journal officiel et les pages gouvernementales, et prévient à la seconde où le décret supprimant les APL des étudiants étrangers est publié.</p>
+        <div style="grid-column:9 / 13;">
+          <p class="numeral" style="font-size:clamp(40px,5vw,68px);line-height:72px;">95&nbsp;000</p>
+          <p class="nlabel">Étudiants concernés (estimé)</p>
+        </div>
+      </div>
+      <hr class="rule" style="margin-top:24px;">
+      <div class="band" style="margin-top:16px;">
+        <div style="grid-column:1 / 4;"><p class="numeral" style="font-size:clamp(28px,3.4vw,44px);line-height:48px;">1.7.2026</p><p class="nlabel">Entrée en vigueur</p></div>
+        <div style="grid-column:4 / 7;"><p class="numeral" style="font-size:clamp(28px,3.4vw,44px);line-height:48px;">100–250&nbsp;€</p><p class="nlabel">Perte mensuelle estimée</p></div>
+        <div style="grid-column:7 / 10;"><p class="numeral" style="font-size:clamp(28px,3.4vw,44px);line-height:48px;">24/7</p><p class="nlabel">Surveillance, sans serveur</p></div>
+        <div style="grid-column:10 / 13;"><p class="numeral" style="font-size:clamp(28px,3.4vw,44px);line-height:48px;">0</p><p class="nlabel">Dépendance · stdlib Python</p></div>
+      </div>
+    </div>
+    <div class="guides" aria-hidden="true"><div class="cols"></div><div class="rows"></div><div class="mline l"></div><div class="mline r"></div></div>
+  </div>
+</section>
+
+<!-- ===== SPREAD 2 — LE PROBLÈME ===== -->
+<section class="spread">
+  <div class="wrap">
+    <div class="grid">
+      <div class="band">
+        <p class="kicker" style="grid-column:1 / 5;">Le contexte</p>
+        <p class="folio" style="grid-column:11 / 13;text-align:right;">02</p>
+      </div>
+      <div class="band" style="margin-top:8px;">
+        <h2 class="shead" style="grid-column:1 / 9;">Une mesure votée, un décret encore attendu.</h2>
+      </div>
+      <div class="band" style="margin-top:16px;">
+        <p class="body" style="grid-column:1 / 6;">L'article 179 de la loi de finances 2026 (loi n° 2026-103 du 19 février 2026) modifie l'article L. 822-2 du Code de la construction : à compter du 1er juillet 2026, les étudiants extra-communautaires non boursiers perdent l'accès aux aides personnelles au logement.</p>
+        <p class="body soft" style="grid-column:7 / 12;">Mais un décret d'application doit en préciser les modalités — dossiers en cours, conditions de résidence, cas particuliers. Tant qu'il n'est pas paru au Journal officiel, l'incertitude demeure. Ce décret peut tomber n'importe quel jour : c'est exactement ce que cette veille surveille.</p>
+      </div>
+    </div>
+    <div class="guides" aria-hidden="true"><div class="cols"></div><div class="rows"></div><div class="mline l"></div><div class="mline r"></div></div>
+  </div>
+</section>
+
+<!-- ===== SPREAD 3 — FONCTIONNALITÉS ===== -->
+<section class="spread">
+  <div class="wrap">
+    <div class="grid">
+      <div class="band">
+        <p class="kicker accent" style="grid-column:1 / 5;">Ce que fait l'outil</p>
+        <p class="folio" style="grid-column:11 / 13;text-align:right;">03</p>
+      </div>
+      <div class="band" style="margin-top:8px;">
+        <h2 class="shead" style="grid-column:1 / 10;">Détecter le signal, écarter le bruit.</h2>
+      </div>
+      <div class="band" style="margin-top:24px;row-gap:32px;">
+        <div class="feat" style="grid-column:1 / 4;"><span class="n">A</span><h3>Multi-sources</h3><p>Presse via Google News, texte officiel JORF/Légifrance, pages gouvernementales surveillées au moindre changement.</p></div>
+        <div class="feat" style="grid-column:4 / 7;"><span class="n">B</span><h3>Tri par confiance</h3><p>Confirmé · probable · à confirmer · report. La négation (« pas encore publié ») est comprise.</p></div>
+        <div class="feat" style="grid-column:7 / 10;"><span class="n">C</span><h3>Dédoublonnage</h3><p>Dix reprises d'une même dépêche, même reformulées, deviennent une alerte — un seul ping.</p></div>
+        <div class="feat" style="grid-column:10 / 13;"><span class="n">D</span><h3>Intensification</h3><p>Une montée brutale du volume — souvent annonciatrice — déclenche une alerte dédiée.</p></div>
+      </div>
+      <div class="band" style="margin-top:8px;row-gap:32px;">
+        <div class="feat" style="grid-column:1 / 4;"><span class="n">E</span><h3>Push Telegram · ntfy</h3><p>Notification immédiate sur le téléphone, plus une app installable (PWA) hors-ligne.</p></div>
+        <div class="feat" style="grid-column:4 / 7;"><span class="n">F</span><h3>Suis-je concerné ?</h3><p>Un verdict personnalisé selon la nationalité et le statut boursier.</p></div>
+        <div class="feat" style="grid-column:7 / 10;"><span class="n">G</span><h3>Brief quotidien</h3><p>Une synthèse des dernières 24 h, rédigée automatiquement.</p></div>
+        <div class="feat" style="grid-column:10 / 13;"><span class="n">H</span><h3>Auto-surveillance</h3><p>Battement de cœur hebdomadaire et alerte si la veille elle-même tombe en panne.</p></div>
+      </div>
+    </div>
+    <div class="guides" aria-hidden="true"><div class="cols"></div><div class="rows"></div><div class="mline l"></div><div class="mline r"></div></div>
+  </div>
+</section>
+
+<!-- ===== SPREAD 4 — COMMENT ÇA MARCHE ===== -->
+<section class="spread">
+  <div class="wrap">
+    <div class="grid">
+      <div class="band">
+        <p class="kicker" style="grid-column:1 / 5;">Architecture</p>
+        <p class="folio" style="grid-column:11 / 13;text-align:right;">04</p>
+      </div>
+      <div class="band" style="margin-top:8px;">
+        <h2 class="shead" style="grid-column:1 / 10;">Sans serveur, sans maintenance.</h2>
+      </div>
+      <div class="band" style="margin-top:24px;row-gap:24px;">
+        <div class="flowstep" style="grid-column:1 / 4;"><span class="s">01 · Collecte</span><h4>GitHub Actions</h4><p>Une tâche planifiée s'exécute chaque heure et interroge toutes les sources.</p></div>
+        <div class="flowstep" style="grid-column:4 / 7;"><span class="s">02 · Tri</span><h4>monitor.py</h4><p>Classement local par règles : pertinence, confiance, dédoublonnage. Aucune IA requise.</p></div>
+        <div class="flowstep" style="grid-column:7 / 10;"><span class="s">03 · Alerte</span><h4>Telegram · ntfy</h4><p>Push immédiat, et écriture de l'historique dans un fichier de données.</p></div>
+        <div class="flowstep" style="grid-column:10 / 13;"><span class="s">04 · Affichage</span><h4>GitHub Pages</h4><p>Le tableau de bord lit ce fichier et répond : le décret est-il sorti ?</p></div>
+      </div>
+    </div>
+    <div class="guides" aria-hidden="true"><div class="cols"></div><div class="rows"></div><div class="mline l"></div><div class="mline r"></div></div>
+  </div>
+</section>
+
+<!-- ===== SPREAD 5 — CTA / PIED ===== -->
+<section class="spread">
+  <div class="wrap">
+    <div class="grid">
+      <div class="band">
+        <h2 class="masthead" style="grid-column:1 / 11;font-size:clamp(40px,6vw,72px);line-height:72px;">Ouvrez le<br>tableau de bord.</h2>
+      </div>
+      <div class="band" style="margin-top:24px;">
+        <div style="grid-column:1 / 7;display:flex;gap:16px;flex-wrap:wrap;">
+          <a class="cta" href="https://mht-riad.github.io/veille-apl/">Voir la veille en direct</a>
+          <a class="cta ghost" href="https://github.com/MHT-RIAD/veille-apl">Code source</a>
+        </div>
+        <p class="body soft" style="grid-column:8 / 13;">Projet indépendant, sans lien avec l'administration. L'outil « Suis-je concerné ? » donne une estimation indicative, pas un avis juridique : la référence fait foi sur Légifrance / Journal officiel.</p>
+      </div>
+      <hr class="rule" style="margin-top:24px;">
+      <div class="band" style="margin-top:16px;">
+        <p class="tags" style="grid-column:1 / 9;">Python · GitHub Actions · GitHub Pages · Telegram · ntfy · PWA</p>
+        <p class="folio" style="grid-column:10 / 13;text-align:right;">Fin — appuyez sur G</p>
+      </div>
+    </div>
+    <div class="guides" aria-hidden="true"><div class="cols"></div><div class="rows"></div><div class="mline l"></div><div class="mline r"></div></div>
+  </div>
+</section>
+
+<script>
+/* toggle : bouton + touche G */
+var btn=document.getElementById('gridToggle');
+function setGrid(on){document.body.classList.toggle('grid-on',on);
+  if(btn){btn.setAttribute('aria-pressed',on?'true':'false');
+    var l=btn.querySelector('.lbl'); if(l) l.textContent=on?'Masquer la grille':'Afficher la grille';}}
+if(btn) btn.addEventListener('click',function(){setGrid(!document.body.classList.contains('grid-on'));});
+document.addEventListener('keydown',function(e){
+  if((e.key==='g'||e.key==='G')&&!e.metaKey&&!e.ctrlKey&&!e.altKey){
+    setGrid(!document.body.classList.contains('grid-on'));}});
+
+/* colonnes numérotées dans chaque overlay */
+document.querySelectorAll('.guides .cols').forEach(function(h){
+  var n=getComputedStyle(document.documentElement).getPropertyValue('--cols').trim()||'12';
+  for(var i=1;i<=parseInt(n,10);i++){var c=document.createElement('div');c.className='col';
+    var s=document.createElement('span');s.textContent=i;c.appendChild(s);h.appendChild(c);}});
+
+/* alignement optique : l'encre des gros titres sur la ligne, pas leur boîte */
+(function(){
+  var cvs=document.createElement('canvas'),ctx=cvs.getContext('2d');
+  var sel='.masthead, .numeral, .shead';
+  function align(){
+    document.querySelectorAll(sel).forEach(function(el){
+      el.style.marginLeft='0px';
+      var cs=getComputedStyle(el),ch=(el.textContent||'').trim().charAt(0); if(!ch) return;
+      if(cs.textTransform==='uppercase') ch=ch.toUpperCase();
+      ctx.font=cs.fontStyle+' '+cs.fontWeight+' '+cs.fontSize+' '+cs.fontFamily; ctx.textAlign='left';
+      var abl=ctx.measureText(ch).actualBoundingBoxLeft;
+      if(isFinite(abl)) el.style.marginLeft=abl.toFixed(2)+'px';
+    });
+  }
+  if(document.fonts&&document.fonts.ready){document.fonts.ready.then(align);}
+  align();
+  var t;window.addEventListener('resize',function(){clearTimeout(t);t=setTimeout(align,120);});
+})();
+</script>
+</body>
+</html>

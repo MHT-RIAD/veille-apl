@@ -1,5 +1,5 @@
-const CACHE = "veille-apl-v2";
-const CORE = ["./", "./index.html", "./manifest.webmanifest", "./data.json"];
+const CACHE = "veille-apl-v4";
+const CORE = ["./", "./index.html", "./manifest.webmanifest", "./data.json", "./presentation.html"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting()));

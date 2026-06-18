@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Genere docs/og.png : carte de statut partageable refletant l'etat de la veille."""
+"""Genere docs/og.png : carte de statut partageable (thème clair Swiss)."""
 import json
 import datetime
 from PIL import Image, ImageDraw, ImageFont
@@ -7,19 +7,16 @@ from PIL import Image, ImageDraw, ImageFont
 DATA_FILE = "docs/data.json"
 OUT = "docs/og.png"
 W, H = 1200, 630
-BG = (15, 22, 38)
-SEAL = (212, 169, 79)
-HIGH = (255, 93, 93)
-TEXT = (232, 236, 245)
-MUTED = (139, 150, 173)
+PAPER = (255, 255, 255)
+INK = (17, 19, 21)
+RED = (228, 0, 43)
+MUTED = (120, 125, 132)
+HAIR = (220, 220, 220)
 
 
 def font(size, bold=False):
-    paths = [
-        "/usr/share/fonts/truetype/dejavu/DejaVuSerif%s.ttf" % ("-Bold" if bold else ""),
-        "/usr/share/fonts/truetype/dejavu/DejaVuSans%s.ttf" % ("-Bold" if bold else ""),
-    ]
-    for p in paths:
+    for p in ["/usr/share/fonts/truetype/dejavu/DejaVuSans%s.ttf" % ("-Bold" if bold else ""),
+              "/usr/share/fonts/truetype/dejavu/DejaVuSerif%s.ttf" % ("-Bold" if bold else "")]:
         try:
             return ImageFont.truetype(p, size)
         except Exception:
@@ -34,25 +31,26 @@ def main():
     except FileNotFoundError:
         data = {"alerts": [], "last_check": None}
     high = sum(1 for a in data.get("alerts", []) if a.get("priority") == "high")
-    accent = HIGH if high else SEAL
+    accent = RED if high else INK
     verdict = "Décret probablement publié" if high else "Pas encore publié"
 
-    img = Image.new("RGB", (W, H), BG)
+    img = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(img)
-    d.rectangle([0, 0, W, 8], fill=accent)
-    d.text((70, 90), "VEILLE · DÉCRET APL ÉTUDIANTS ÉTRANGERS", font=font(26), fill=MUTED)
-    d.ellipse([70, 200, 104, 234], fill=accent)
-    d.text((120, 196), "Le décret est-il sorti ?", font=font(40, True), fill=TEXT)
-    # ajuste la taille du verdict pour tenir dans la largeur
-    vsize = 74
+    d.rectangle([0, 0, W, 10], fill=RED)
+    d.text((70, 92), "VEILLE · DÉCRET APL ÉTUDIANTS ÉTRANGERS", font=font(24, True), fill=RED)
+    d.line([70, 150, W - 70, 150], fill=HAIR, width=1)
+    d.text((70, 196), "Le décret est-il sorti ?", font=font(40, True), fill=INK)
+
+    vsize = 86
     while vsize > 32:
         vf = font(vsize, True)
         if d.textlength(verdict, font=vf) <= W - 140:
             break
         vsize -= 2
-    d.text((70, 300), verdict, font=font(vsize, True), fill=accent)
+    d.text((70, 290), verdict, font=font(vsize, True), fill=accent)
+
     total = len(data.get("alerts", []))
-    d.text((70, 430), "%d alertes au total · %d signaux forts" % (total, high), font=font(30), fill=MUTED)
+    d.text((70, 440), "%d alertes au total · %d signaux forts" % (total, high), font=font(28), fill=MUTED)
     lc = data.get("last_check")
     when = ""
     if lc:
@@ -61,8 +59,8 @@ def main():
             when = "Mis à jour le %s" % t.strftime("%d/%m/%Y")
         except Exception:
             when = ""
-    d.text((70, 520), when, font=font(26), fill=MUTED)
-    d.text((70, 560), "Loi de finances 2026 · art. 179", font=font(24), fill=MUTED)
+    d.text((70, 528), when, font=font(24), fill=MUTED)
+    d.text((70, 566), "Loi de finances 2026 · art. 179", font=font(22), fill=MUTED)
     img.save(OUT)
     print("OG genere :", OUT)
     make_icons()
@@ -70,15 +68,12 @@ def main():
 
 def make_icons():
     for size in (192, 512):
-        ic = Image.new("RGB", (size, size), BG)
+        ic = Image.new("RGB", (size, size), RED)
         d = ImageDraw.Draw(ic)
-        r = int(size * 0.16)
-        cx, cy = size // 2, int(size * 0.40)
-        d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=SEAL)
-        f = font(int(size * 0.22), True)
+        f = font(int(size * 0.30), True)
         txt = "APL"
         w = d.textlength(txt, font=f)
-        d.text(((size - w) / 2, int(size * 0.60)), txt, font=f, fill=TEXT)
+        d.text(((size - w) / 2, size * 0.34), txt, font=f, fill=(255, 255, 255))
         ic.save("docs/icon-%d.png" % size)
     print("Icones PWA generees.")
 

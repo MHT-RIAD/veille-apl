@@ -4,8 +4,8 @@
 > de la loi de finances 2026 (art. 179, modifiant l'art. L.822-2 CCH) supprimant les
 > APL des étudiants étrangers extra-communautaires non boursiers — et sur les sujets liés.
 
-<!-- Remplacez MHT-RIAD/veille-apl par votre pseudo et le nom du repo pour activer le badge CI -->
-[![CI](https://github.com/MHT-RIAD/veille-apl/actions/workflows/ci.yml/badge.svg)](https://github.com/MHT-RIAD/veille-apl/actions/workflows/ci.yml)
+<!-- Remplacez USER/REPO par votre pseudo et le nom du repo pour activer le badge CI -->
+[![CI](https://github.com/USER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/USER/REPO/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)
 ![Infra](https://img.shields.io/badge/infra-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 ![Hébergement](https://img.shields.io/badge/dashboard-GitHub%20Pages-222?logo=github)
@@ -21,6 +21,9 @@ pages gouvernementales, et **prévient sur Telegram dès qu'un signal apparaît*
 tableau de bord qui répond d'un coup d'œil : *le décret est-il sorti ?*
 
 ## Aperçu
+
+**[Voir la présentation](https://mht-riad.github.io/veille-apl/presentation.html)** ·
+**[Tableau de bord en direct](https://mht-riad.github.io/veille-apl/)**
 
 ![Aperçu du tableau de bord](assets/preview.png)
 
