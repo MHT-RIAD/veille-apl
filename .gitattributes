@@ -1,0 +1,5 @@
+docs/data.json merge=ours
+docs/og.png merge=ours
+docs/digest.json merge=ours
+seen.json merge=ours
+pages_state.json merge=ours
