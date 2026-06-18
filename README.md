@@ -4,8 +4,8 @@
 > de la loi de finances 2026 (art. 179, modifiant l'art. L.822-2 CCH) supprimant les
 > APL des étudiants étrangers extra-communautaires non boursiers — et sur les sujets liés.
 
-<!-- Remplacez USER/REPO par votre pseudo et le nom du repo pour activer le badge CI -->
-[![CI](https://github.com/USER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/USER/REPO/actions/workflows/ci.yml)
+<!-- Remplacez MHT-RIAD/veille-apl par votre pseudo et le nom du repo pour activer le badge CI -->
+[![CI](https://github.com/MHT-RIAD/veille-apl/actions/workflows/ci.yml/badge.svg)](https://github.com/MHT-RIAD/veille-apl/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)
 ![Infra](https://img.shields.io/badge/infra-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 ![Hébergement](https://img.shields.io/badge/dashboard-GitHub%20Pages-222?logo=github)
