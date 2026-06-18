@@ -1,0 +1,55 @@
+{
+  "topics": [
+    {
+      "id": "decret-apl",
+      "name": "Décret APL étudiants étrangers",
+      "queries": [
+        "decret APL etudiants etrangers",
+        "loi de finances 2026 APL etudiants etrangers",
+        "suppression APL etudiants extracommunautaires",
+        "APL etudiants etrangers journal officiel",
+        "fin des APL etudiants etrangers",
+        "aide au logement etudiants internationaux decret"
+      ],
+      "rules": {
+        "groupe_a": ["apl", "aide au logement", "aides au logement", "aide personnalisee au logement", "aides personnelles au logement"],
+        "groupe_b": ["etudiant", "etranger", "extracommunautaire", "extra-communautaire", "international", "hors ue", "non europeen", "doctorant"],
+        "signaux": ["decret", "journal officiel", "legifrance", "publie", "parution", "entree en vigueur", "promulgue", "texte d'application", "arrete", "circulaire", "applique"],
+        "exclusions": []
+      },
+      "legifrance_queries": ["aide personnalisee au logement etudiants etrangers"]
+    },
+    {
+      "id": "titres-sejour",
+      "name": "Taxes & titres de séjour",
+      "queries": [
+        "taxe titre de sejour etudiant 2026",
+        "hausse taxe titre de sejour etrangers",
+        "augmentation taxe titre de sejour etudiants"
+      ],
+      "rules": {
+        "groupe_a": ["titre de sejour", "carte de sejour", "taxe", "redevance", "visa", "timbre fiscal"],
+        "groupe_b": ["etudiant", "etranger", "extracommunautaire", "international"],
+        "signaux": ["decret", "journal officiel", "arrete", "entree en vigueur", "publie", "promulgue", "hausse", "augmentation"],
+        "exclusions": []
+      },
+      "legifrance_queries": []
+    },
+    {
+      "id": "frais-inscription",
+      "name": "Frais d'inscription étudiants étrangers",
+      "queries": [
+        "frais d'inscription etudiants etrangers decret",
+        "exoneration droits d'inscription etudiants etrangers",
+        "hausse frais inscription etudiants extracommunautaires"
+      ],
+      "rules": {
+        "groupe_a": ["frais d'inscription", "droits d'inscription", "frais de scolarite", "exoneration", "choose france"],
+        "groupe_b": ["etudiant", "etranger", "extracommunautaire", "international", "non europeen"],
+        "signaux": ["decret", "journal officiel", "promulgue", "publie", "arrete", "entree en vigueur", "applique", "plafonnement"],
+        "exclusions": []
+      },
+      "legifrance_queries": []
+    }
+  ]
+}

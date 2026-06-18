@@ -1,0 +1,47 @@
+name: Brief quotidien
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille-apl-write
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generer le brief
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python digest.py
+      - name: Sauvegarde
+        run: |
+          git add docs/digest.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git config user.name "veille-bot"
+            git config user.email "veille-bot@users.noreply.github.com"
+            git commit -m "brief du jour"
+            git pull --rebase --autostash || true
+            git push
+          fi
+      - name: Alerte en cas d'echec
+        if: failure()
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=⚠️ Le brief quotidien a échoué. Voir les logs GitHub Actions." >/dev/null || true

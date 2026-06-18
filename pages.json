@@ -1,0 +1,16 @@
+{
+  "pages": [
+    {
+      "id": "sp-apl-etudiant",
+      "name": "Service-Public — APL étudiant",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F12006",
+      "topic": "decret-apl"
+    },
+    {
+      "id": "mesr-apl-international",
+      "name": "MESR — Aides au logement étudiants internationaux",
+      "url": "https://www.enseignementsup-recherche.gouv.fr/fr/aides-au-logement-pour-les-etudiants-internationaux-le-gouvernement-adapte-les-criteres-d-100242",
+      "topic": "decret-apl"
+    }
+  ]
+}

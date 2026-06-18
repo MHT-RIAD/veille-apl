@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Système / éditeurs
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Archives locales
+*.zip
+
+# NB : seen.json, pages_state.json, docs/data.json, docs/og.png et docs/digest.json
+# NE sont PAS ignorés : ce sont l'état et l'historique, committés par la veille.

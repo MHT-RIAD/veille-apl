@@ -1,0 +1,56 @@
+name: Veille decret APL
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille-apl-write      # partage avec digest.yml : pas de push simultane
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dependance image de statut
+        run: pip install pillow
+      - name: Veille
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          PISTE_CLIENT_ID: ${{ secrets.PISTE_CLIENT_ID }}
+          PISTE_CLIENT_SECRET: ${{ secrets.PISTE_CLIENT_SECRET }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python monitor.py
+      - name: Image de statut partageable
+        run: python make_og.py
+      - name: Sauvegarde
+        run: |
+          git add seen.json pages_state.json docs/data.json docs/og.png docs/icon-192.png docs/icon-512.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git config user.name "veille-bot"
+            git config user.email "veille-bot@users.noreply.github.com"
+            git commit -m "maj veille $(date -u +%FT%RZ)"
+            git pull --rebase --autostash || true
+            git push
+          else
+            echo "Rien de nouveau."
+          fi
+      - name: Alerte en cas d'echec
+        if: failure()
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=⚠️ La veille (monitor) a échoué. Voir les logs GitHub Actions." >/dev/null || true

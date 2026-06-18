@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veille décret APL — étudiants étrangers</title>
+<meta name="description" content="Veille automatique sur le décret APL pour étudiants étrangers et sujets liés.">
+<meta name="theme-color" content="#0F1626">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./icon-192.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Veille décret APL — étudiants étrangers">
+<meta property="og:description" content="Le décret est-il sorti ? Statut en temps quasi réel.">
+<meta property="og:image" content="./og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0F1626;--surface:#161F33;--raised:#1C2740;--hair:#2A3550;
+    --text:#E8ECF5;--muted:#8B96AD;--faint:#5C6884;--seal:#D4A94F;--high:#FF5D5D;--related:#5FB0C4;
+    --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;}
+  *{box-sizing:border-box}html,body{margin:0}
+  body{background:radial-gradient(1200px 600px at 80% -10%,rgba(212,169,79,.06),transparent 60%),var(--bg);
+    color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;min-height:100vh}
+  .wrap{max-width:800px;margin:0 auto;padding:28px 20px 64px}
+  .topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);margin:0}
+  .tb-actions{display:flex;gap:8px}
+  .pill{display:none;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--hair);color:var(--muted);
+    border-radius:999px;padding:6px 12px;font-size:12px;cursor:pointer;font-family:Inter,sans-serif}
+  .pill:hover{color:var(--text);border-color:var(--faint)}
+  .verdict{font-family:Spectral,serif;font-weight:600;font-size:clamp(28px,6vw,44px);line-height:1.1;margin:0;letter-spacing:-.01em}
+  .vsub{font-style:italic;font-weight:500;font-size:17px;color:var(--muted);margin:10px 0 0}
+  .status{display:flex;align-items:center;gap:9px;margin:18px 0 0;font-size:14px;color:var(--muted)}
+  .dot{width:9px;height:9px;border-radius:50%;background:var(--seal);position:relative;flex:none}
+  .dot::after{content:"";position:absolute;inset:-5px;border-radius:50%;border:1px solid var(--seal);opacity:.6;animation:pulse 2.4s ease-out infinite}
+  @keyframes pulse{0%{transform:scale(.6);opacity:.7}100%{transform:scale(1.8);opacity:0}}
+  .state-high .dot{background:var(--high)}.state-high .dot::after{border-color:var(--high)}
+  .state-related .dot{background:var(--related)}.state-related .dot::after{border-color:var(--related)}
+  .banner{display:none;margin-top:20px;border:1px solid var(--high);border-radius:12px;background:rgba(255,93,93,.08);padding:13px 16px;font-size:14px;color:var(--text)}
+  .banner b{color:var(--high)}
+  .digest{margin-top:20px;border:1px solid var(--hair);border-left:3px solid var(--seal);border-radius:12px;background:var(--surface);padding:15px 17px;display:none}
+  .digest h3{margin:0 0 8px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--seal)}
+  .digest p{margin:0;font-size:14px;color:var(--text);line-height:1.6}
+  .digest em{display:block;margin-top:9px;font-style:normal;font-family:var(--mono);font-size:11px;color:var(--faint)}
+  .elig{margin-top:18px;border:1px solid var(--hair);border-radius:12px;background:var(--surface);padding:0 17px}
+  .elig summary{cursor:pointer;padding:14px 0;font-family:Spectral,serif;font-size:17px;list-style:none}
+  .elig summary::-webkit-details-marker{display:none}
+  .elig summary::before{content:"▸ ";color:var(--seal)}
+  .elig[open] summary::before{content:"▾ "}
+  .eq{padding:6px 0 14px}.eq h4{margin:0 0 8px;font-size:13px;color:var(--muted);font-weight:500}
+  .opts{display:flex;gap:8px;flex-wrap:wrap}
+  .opt{background:var(--raised);border:1px solid var(--hair);color:var(--muted);border-radius:8px;padding:7px 12px;font-size:13px;cursor:pointer;font-family:Inter,sans-serif}
+  .opt.sel{border-color:var(--seal);color:var(--text)}
+  .everdict{margin:4px 0 16px;padding:13px 15px;border-radius:10px;border:1px solid var(--hair);font-size:14px;line-height:1.5;display:none}
+  .everdict.ok{border-color:var(--related)}.everdict.ko{border-color:var(--high)}
+  .everdict small{display:block;margin-top:8px;color:var(--faint);font-family:var(--mono);font-size:11px}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--hair);border:1px solid var(--hair);border-radius:14px;overflow:hidden;margin-top:18px}
+  .stat{background:var(--surface);padding:15px 16px}
+  .stat b{display:block;font-family:var(--mono);font-size:24px;font-weight:600;letter-spacing:-.02em;line-height:1}
+  .stat span{display:block;font-size:11.5px;color:var(--muted);margin-top:7px}
+  .stat.s-high b{color:var(--high)}.stat.s-rel b{color:var(--related)}.stat.s-seal b{color:var(--seal)}
+  .timeline{margin-top:18px;border:1px solid var(--hair);border-radius:14px;background:var(--surface);padding:16px 16px 12px}
+  .timeline .th{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px}
+  .timeline .th h3{margin:0;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;font-family:var(--mono)}
+  .timeline .th em{font-style:normal;font-family:var(--mono);font-size:11px;color:var(--faint)}
+  .bars{display:flex;align-items:flex-end;gap:5px;height:52px}
+  .bar{flex:1;display:flex;flex-direction:column;justify-content:flex-end;height:100%;position:relative}
+  .bar i{display:block;background:var(--hair);border-radius:3px 3px 0 0;min-height:2px}
+  .bar i.hot{background:var(--high)}.bar i.warm{background:var(--related)}
+  .bar:hover i{filter:brightness(1.25)}
+  .bar em{position:absolute;bottom:-16px;left:50%;transform:translateX(-50%);font-family:var(--mono);font-size:9px;color:var(--faint);white-space:nowrap}
+  .timeline .axis{height:18px}
+  .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
+  .tab{background:var(--surface);border:1px solid var(--hair);color:var(--muted);border-radius:999px;padding:7px 14px;font-size:13px;cursor:pointer;font-family:Inter,sans-serif}
+  .tab.active{background:var(--raised);color:var(--text);border-color:var(--faint)}
+  .rule{height:1px;background:var(--hair);border:0;margin:20px 0}
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:20px}
+  .search{flex:1;min-width:160px;display:flex;align-items:center;gap:9px;background:var(--surface);border:1px solid var(--hair);border-radius:10px;padding:9px 13px}
+  .search input{flex:1;background:none;border:0;color:var(--text);font-size:14px;font-family:Inter,sans-serif;outline:none}
+  .search input::placeholder{color:var(--faint)}.search svg{color:var(--faint);flex:none}
+  select,.toggle,.refresh{background:var(--surface);border:1px solid var(--hair);border-radius:10px;padding:9px 13px;font-size:13px;color:var(--muted);font-family:Inter,sans-serif;cursor:pointer}
+  .toggle{display:flex;align-items:center;gap:8px;user-select:none}.toggle input{accent-color:var(--high)}
+  .refresh:hover,select:hover{color:var(--text);border-color:var(--faint)}
+  .list{display:flex;flex-direction:column;gap:12px}
+  .card{background:var(--surface);border:1px solid var(--hair);border-left:3px solid var(--hair);border-radius:12px;padding:15px 17px;transition:opacity .15s}
+  .card.high{border-left-color:var(--high)}.card.related{border-left-color:var(--related)}
+  .card.read{opacity:.5}
+  .chead{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+  .badge{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase}
+  .badge::before{content:"";width:6px;height:6px;border-radius:50%}
+  .high .badge{color:var(--high)}.high .badge::before{background:var(--high)}
+  .related .badge{color:var(--related)}.related .badge::before{background:var(--related)}
+  .conf{font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.06em;border:1px solid var(--hair);border-radius:999px;padding:2px 8px;color:var(--muted)}
+  .conf.confirme{color:var(--high);border-color:var(--high)}
+  .conf.probable{color:var(--seal);border-color:var(--seal)}
+  .conf.rumeur{color:var(--muted)}
+  .conf.lie{color:var(--related);border-color:var(--related)}
+  .conf.report{color:var(--seal);border-color:var(--seal)}
+  .tpill{font-family:var(--mono);font-size:9.5px;color:var(--muted);background:var(--raised);border:1px solid var(--hair);border-radius:999px;padding:2px 8px}
+  .src{font-family:var(--mono);font-size:10.5px;color:var(--faint)}
+  .card h2{margin:10px 0;font-family:Spectral,serif;font-weight:500;font-size:18px;line-height:1.3}
+  .card h2 a{color:inherit;text-decoration:none}.card h2 a:hover{text-decoration:underline}
+  .summary{margin:0 0 11px;font-size:13.5px;color:var(--muted);line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .more{font-family:var(--mono);font-size:11px;color:var(--faint);margin:0 0 10px}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
+  .chip{font-family:var(--mono);font-size:10px;color:var(--muted);background:var(--raised);border:1px solid var(--hair);border-radius:999px;padding:2px 8px}
+  .meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--mono);font-size:11.5px;color:var(--faint);margin-bottom:11px}
+  .triage{display:flex;gap:8px;flex-wrap:wrap}
+  .triage button{background:none;border:1px solid var(--hair);color:var(--muted);border-radius:8px;padding:5px 9px;font-size:11.5px;cursor:pointer;font-family:Inter,sans-serif}
+  .triage button:hover{color:var(--text);border-color:var(--faint)}.triage button.on{color:var(--seal);border-color:var(--seal)}
+  .empty{text-align:center;padding:46px 20px;color:var(--muted)}
+  .empty .big{font-family:Spectral,serif;font-style:italic;font-size:20px;color:var(--text);margin-bottom:10px}
+  footer{margin-top:40px;font-family:var(--mono);font-size:11px;color:var(--faint);text-align:center;line-height:1.7}
+  footer a{color:var(--muted)}
+  a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--seal);outline-offset:2px;border-radius:6px}
+  @media (max-width:520px){.stats{grid-template-columns:repeat(2,1fr)}}
+  @media (prefers-reduced-motion:reduce){.dot::after{animation:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <p class="eyebrow">Veille · Loi de finances 2026</p>
+    <div class="tb-actions">
+      <button class="pill" id="notify">🔔 Notifications</button>
+      <button class="pill" id="install">⬇ Installer</button>
+    </div>
+  </div>
+
+  <h1 class="verdict" id="verdict" aria-live="polite">Chargement…</h1>
+  <p class="vsub" id="verdict-sub"></p>
+  <div class="status" id="status"><span class="dot"></span><span id="status-text">Connexion à la veille…</span></div>
+
+  <div class="banner" id="banner" role="status" aria-live="polite"></div>
+  <div class="digest" id="digest"><h3>Brief du jour</h3><p id="digest-text"></p><em id="digest-when"></em></div>
+
+  <details class="elig">
+    <summary>Suis-je concerné ?</summary>
+    <div class="eq"><h4>Votre nationalité</h4><div class="opts" id="eq-nat">
+      <button class="opt" data-q="nat" data-v="ue">UE / EEE / Suisse</button>
+      <button class="opt" data-q="nat" data-v="hors">Hors UE</button></div></div>
+    <div class="eq"><h4>Boursier CROUS sur critères sociaux ?</h4><div class="opts" id="eq-bourse">
+      <button class="opt" data-q="bourse" data-v="oui">Oui</button>
+      <button class="opt" data-q="bourse" data-v="non">Non</button></div></div>
+    <div class="everdict" id="everdict"></div>
+  </details>
+
+  <div class="stats">
+    <div class="stat"><b id="c-total">—</b><span>alertes au total</span></div>
+    <div class="stat s-high"><b id="c-high">—</b><span>probables décrets</span></div>
+    <div class="stat s-rel"><b id="c-rel">—</b><span>sujets liés</span></div>
+    <div class="stat s-seal"><b id="c-src">—</b><span>sources</span></div>
+  </div>
+
+  <div class="timeline">
+    <div class="th"><h3>Détections — 14 jours</h3><em id="tl-total"></em></div>
+    <div class="bars" id="bars"></div><div class="axis"></div>
+  </div>
+
+  <div class="tabs" id="tabs"></div>
+  <hr class="rule">
+
+  <div class="controls">
+    <label class="search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="q" type="search" placeholder="Filtrer…" aria-label="Filtrer">
+    </label>
+    <select id="src-filter" aria-label="Source"><option value="">Toutes les sources</option></select>
+    <label class="toggle"><input type="checkbox" id="only-high"> Décret</label>
+    <label class="toggle"><input type="checkbox" id="only-imp"> ★ Importants</label>
+    <label class="toggle"><input type="checkbox" id="show-arch"> Archivés</label>
+    <button class="refresh" id="refresh">Actualiser</button>
+  </div>
+
+  <div class="list" id="list"></div>
+
+  <footer>
+    Veille automatique toutes les heures · presse + JORF/Légifrance + pages officielles<br>
+    Source officielle : <a href="https://www.legifrance.gouv.fr" target="_blank" rel="noopener">Légifrance</a> / Journal officiel
+  </footer>
+</div>
+
+<script>
+const REL=(iso)=>{if(!iso)return"jamais";const s=Math.floor((Date.now()-new Date(iso))/1000);
+  if(s<60)return"à l'instant";if(s<3600)return"il y a "+Math.floor(s/60)+" min";
+  if(s<86400)return"il y a "+Math.floor(s/3600)+" h";return"il y a "+Math.floor(s/86400)+" j";};
+const fmtDate=(s)=>{const d=new Date(s);return isNaN(d)?(s||""):d.toLocaleDateString("fr-FR",{day:"numeric",month:"short",year:"numeric"});};
+const dayKey=(s)=>{const d=new Date(s);return isNaN(d)?null:d.toISOString().slice(0,10);};
+const esc=(s)=>(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const safeUrl=(u)=>/^https?:\/\//i.test(u||"")?u:"#";
+const CONF={confirme:"confirmé",probable:"probable",rumeur:"à confirmer",lie:"lié",report:"report/susp."};
+
+let DATA={last_check:null,alerts:[],topics_list:[],spikes:[]},DIGEST=null,TOPIC="";
+let TRIAGE={};try{TRIAGE=JSON.parse(localStorage.getItem("veille:triage")||"{}");}catch(e){TRIAGE={};}
+const saveTriage=()=>{try{localStorage.setItem("veille:triage",JSON.stringify(TRIAGE));}catch(e){}};
+const stOf=(l)=>TRIAGE[l]||{};
+const scope=()=>TOPIC?DATA.alerts.filter(a=>a.topic===TOPIC):DATA.alerts;
+
+function setHeader(){
+  const A=scope();
+  const high=A.filter(a=>a.priority==="high").length;
+  const rel=A.filter(a=>a.priority==="related").length;
+  const confirmed=A.filter(a=>a.confidence==="confirme").length;
+  const v=document.getElementById("verdict"),sub=document.getElementById("verdict-sub");
+  const st=document.getElementById("status"),stx=document.getElementById("status-text");
+  st.className="status";
+  if(confirmed>0){st.classList.add("state-high");v.textContent="Décret publié — confirmé";
+    sub.textContent=confirmed+" source"+(confirmed>1?"s":"")+" confirme(nt) la publication.";stx.textContent="Confirmé · vérifié "+REL(DATA.last_check);
+  }else if(high>0){st.classList.add("state-high");v.textContent="Décret probablement publié";
+    sub.textContent=high+" signal"+(high>1?"x":"")+" fort(s) — à vérifier sur Légifrance.";stx.textContent="Signal détecté · vérifié "+REL(DATA.last_check);
+  }else if(rel>0){st.classList.add("state-related");v.textContent="Articles liés détectés";
+    sub.textContent="Aucun signal de publication pour l'instant.";stx.textContent="Veille active · vérifié "+REL(DATA.last_check);
+  }else{v.textContent="Aucune publication détectée";sub.textContent="Rien repéré sur ce sujet pour l'instant.";
+    stx.textContent="Veille active · vérifié "+REL(DATA.last_check);}
+  document.getElementById("c-total").textContent=A.length;
+  document.getElementById("c-high").textContent=high;
+  document.getElementById("c-rel").textContent=rel;
+  document.getElementById("c-src").textContent=new Set(A.map(a=>a.source).filter(Boolean)).size;
+}
+
+function showBanner(){
+  const today=new Date().toISOString().slice(0,10);
+  const sp=(DATA.spikes||[]).filter(s=>s.date===today&&(!TOPIC||s.topic===TOPIC));
+  const b=document.getElementById("banner");
+  if(sp.length){b.style.display="block";
+    b.innerHTML="📈 <b>Intensification détectée</b> — "+esc(sp.map(s=>s.topic_name+" ("+s.count+" aujourd'hui)").join(", "))+". Publication possiblement imminente.";}
+  else b.style.display="none";
+}
+
+function renderTimeline(){
+  const A=scope();const days=[];const today=new Date();today.setHours(0,0,0,0);
+  for(let i=13;i>=0;i--){const d=new Date(today);d.setDate(d.getDate()-i);days.push(d);}
+  const counts=days.map(d=>{const k=d.toISOString().slice(0,10);
+    const it=A.filter(a=>dayKey(a.found_at)===k);
+    return{n:it.length,hot:it.some(a=>a.priority==="high"),warm:it.some(a=>a.priority==="related"),d};});
+  const max=Math.max(1,...counts.map(c=>c.n));
+  document.getElementById("bars").innerHTML=counts.map((c,i)=>{
+    const h=c.n===0?2:Math.round((c.n/max)*48);const cls=c.hot?"hot":(c.warm?"warm":"");
+    const lbl=(i%2===0)?c.d.toLocaleDateString("fr-FR",{day:"numeric",month:"numeric"}):"";
+    return '<div class="bar" title="'+c.d.toLocaleDateString("fr-FR")+' : '+c.n+'"><i class="'+cls+'" style="height:'+h+'px"></i><em>'+lbl+'</em></div>';
+  }).join("");
+  document.getElementById("tl-total").textContent=counts.reduce((s,c)=>s+c.n,0)+" sur la période";
+}
+
+function buildTabs(){
+  const tabs=document.getElementById("tabs");
+  let list=DATA.topics_list&&DATA.topics_list.length?DATA.topics_list:
+    [...new Map(DATA.alerts.map(a=>[a.topic,{id:a.topic,name:a.topic_name||a.topic}])).values()];
+  const all=[{id:"",name:"Tous les sujets"}].concat(list);
+  tabs.innerHTML=all.map(t=>'<button class="tab'+(t.id===TOPIC?" active":"")+'" data-topic="'+esc(t.id)+'">'+esc(t.name)+'</button>').join("");
+}
+
+function buildSourceFilter(){
+  const sel=document.getElementById("src-filter");const cur=sel.value;
+  const srcs=[...new Set(scope().map(a=>a.source).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+  sel.innerHTML='<option value="">Toutes les sources</option>'+srcs.map(s=>'<option>'+esc(s)+'</option>').join("");
+  sel.value=srcs.includes(cur)?cur:"";
+}
+
+function showDigest(){
+  const box=document.getElementById("digest");
+  if(DIGEST&&DIGEST.text){box.style.display="block";
+    document.getElementById("digest-text").textContent=DIGEST.text;
+    document.getElementById("digest-when").textContent="Généré "+REL(DIGEST.generated_at)+" · "+(DIGEST.count||0)+" alertes / 24h";}
+  else box.style.display="none";
+}
+
+function render(){
+  const q=document.getElementById("q").value.toLowerCase();
+  const onlyHigh=document.getElementById("only-high").checked;
+  const onlyImp=document.getElementById("only-imp").checked;
+  const showArch=document.getElementById("show-arch").checked;
+  const src=document.getElementById("src-filter").value;
+  const list=document.getElementById("list");
+  let items=scope().slice();
+  if(onlyHigh)items=items.filter(a=>a.priority==="high");
+  if(src)items=items.filter(a=>a.source===src);
+  if(onlyImp)items=items.filter(a=>stOf(a.link).important);
+  if(!showArch)items=items.filter(a=>!stOf(a.link).archived);
+  if(q)items=items.filter(a=>((a.title||"")+" "+(a.source||"")+" "+(a.summary||"")+" "+(a.matched||[]).join(" ")).toLowerCase().includes(q));
+
+  // Regroupement inter-sources par tkey
+  const groups=new Map();
+  for(const a of items){const k=a.tkey||a.link;if(!groups.has(k))groups.set(k,[]);groups.get(k).push(a);}
+  let rows=[...groups.values()].map(g=>{
+    g.sort((a,b)=>new Date(b.found_at)-new Date(a.found_at));
+    const sources=[...new Set(g.map(x=>x.source).filter(Boolean))];
+    return{head:g[0],count:g.length,sources};});
+  rows.sort((a,b)=>new Date(b.head.found_at)-new Date(a.head.found_at));
+
+  if(rows.length===0){
+    list.innerHTML='<div class="empty"><div class="big">'+
+      (scope().length===0?"Rien à signaler pour l'instant.":"Aucune alerte ne correspond.")+'</div>'+
+      (scope().length===0?"Tu seras prévenu ici et sur Telegram dès qu'un article correspond.":"Ajuste les filtres pour voir l'historique.")+'</div>';
+    return;}
+  list.innerHTML=rows.map(({head:a,count,sources})=>{
+    const cls=a.priority==="high"?"high":"related";const s=stOf(a.link);
+    const chips=(a.matched||[]).slice(0,6).map(m=>'<span class="chip">'+esc(m)+'</span>').join("");
+    const conf=a.confidence?'<span class="conf '+esc(a.confidence)+'">'+esc(CONF[a.confidence]||a.confidence)+'</span>':'';
+    const more=count>1?'<div class="more">+ '+(count-1)+' autre'+(count>2?"s":"")+' source'+(count>2?"s":"")+' : '+esc(sources.slice(1,4).join(", "))+(sources.length>4?"…":"")+'</div>':'';
+    return '<div class="card '+cls+(s.read?" read":"")+'">'+
+      '<div class="chead"><span class="badge">'+esc(a.label||"")+'</span>'+conf+
+        (a.topic_name?'<span class="tpill">'+esc(a.topic_name)+'</span>':'')+
+        (a.source?'<span class="src">'+esc(a.source)+'</span>':'')+'</div>'+
+      '<h2><a href="'+esc(safeUrl(a.link))+'" target="_blank" rel="noopener">'+esc(a.title)+'</a></h2>'+
+      (a.summary?'<p class="summary">'+esc(a.summary)+'</p>':'')+more+
+      (chips?'<div class="chips">'+chips+'</div>':'')+
+      '<div class="meta">'+(a.pubDate?'<span>publié '+esc(fmtDate(a.pubDate))+'</span>':'')+'<span>détecté '+REL(a.found_at)+'</span></div>'+
+      '<div class="triage">'+
+        '<button data-action="important" data-link="'+esc(a.link)+'" class="'+(s.important?"on":"")+'">'+(s.important?"★ Important":"☆ Important")+'</button>'+
+        '<button data-action="read" data-link="'+esc(a.link)+'">'+(s.read?"Non lu":"Marquer lu")+'</button>'+
+        '<button data-action="archive" data-link="'+esc(a.link)+'">'+(s.archived?"Désarchiver":"Archiver")+'</button>'+
+      '</div></div>';
+  }).join("");
+}
+
+function maybeNotify(){
+  const high=DATA.alerts.filter(a=>a.priority==="high").length;
+  const had=localStorage.getItem("veille:lastHigh");const last=parseInt(had||"0",10);
+  if(had!==null&&high>last&&("Notification"in window)&&Notification.permission==="granted"){
+    try{new Notification("Veille décret APL",{body:"Nouveau signal fort détecté ("+high+")",icon:"./icon-192.png"});}catch(e){}
+  }
+  try{localStorage.setItem("veille:lastHigh",String(high));}catch(e){}
+}
+
+function refreshAll(){setHeader();showBanner();renderTimeline();buildTabs();buildSourceFilter();render();}
+
+async function load(){
+  try{const r=await fetch("./data.json?t="+Date.now(),{cache:"no-store"});DATA=await r.json();
+    if(!DATA.topics_list)DATA.topics_list=[];if(!DATA.spikes)DATA.spikes=[];}
+  catch(e){document.getElementById("verdict").textContent="Données indisponibles";
+    document.getElementById("status-text").textContent="Impossible de lire data.json";return;}
+  try{const r2=await fetch("./digest.json?t="+Date.now(),{cache:"no-store"});if(r2.ok)DIGEST=await r2.json();}catch(e){}
+  showDigest();refreshAll();maybeNotify();
+}
+
+// --- Suis-je concerné ? ---
+const ELIG={nat:null,bourse:null};
+function eligVerdict(){
+  const box=document.getElementById("everdict");
+  if(!ELIG.nat||!ELIG.bourse){box.style.display="none";return;}
+  let cls,txt;
+  if(ELIG.nat==="ue"){cls="ok";txt="Non concerné : ressortissant UE/EEE/Suisse, l'APL est maintenue.";}
+  else if(ELIG.bourse==="oui"){cls="ok";txt="Non concerné : la bourse sur critères sociaux maintient le droit à l'APL.";}
+  else{cls="ko";txt="Concerné : étudiant hors UE non boursier → suppression de l'APL au 1er juillet 2026 (sauf évolution du décret d'application).";}
+  box.className="everdict "+cls;box.style.display="block";
+  box.innerHTML=esc(txt)+"<small>Estimation indicative, pas un avis juridique. Vérifiez auprès du CROUS / de la CAF.</small>";
+}
+document.querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>{
+  const q=b.getAttribute("data-q"),v=b.getAttribute("data-v");ELIG[q]=v;
+  document.querySelectorAll('.opt[data-q="'+q+'"]').forEach(x=>x.classList.toggle("sel",x===b));
+  eligVerdict();}));
+
+// Interactions
+document.getElementById("q").addEventListener("input",render);
+["only-high","only-imp","show-arch","src-filter"].forEach(id=>document.getElementById(id).addEventListener("change",render));
+document.getElementById("refresh").addEventListener("click",load);
+document.getElementById("tabs").addEventListener("click",(e)=>{const b=e.target.closest("button[data-topic]");if(!b)return;
+  TOPIC=b.getAttribute("data-topic");refreshAll();});
+document.getElementById("list").addEventListener("click",(e)=>{const b=e.target.closest("button[data-action]");if(!b)return;
+  const l=b.getAttribute("data-link"),act=b.getAttribute("data-action"),s=TRIAGE[l]||{};
+  const key=act==="read"?"read":act==="archive"?"archived":"important";s[key]=!s[key];
+  TRIAGE[l]=s;saveTriage();render();});
+
+// PWA
+if("serviceWorker"in navigator)navigator.serviceWorker.register("./sw.js").catch(()=>{});
+let deferred=null;const installBtn=document.getElementById("install");
+window.addEventListener("beforeinstallprompt",(e)=>{e.preventDefault();deferred=e;installBtn.style.display="inline-flex";});
+installBtn.onclick=async()=>{if(deferred){deferred.prompt();deferred=null;installBtn.style.display="none";}};
+const notifyBtn=document.getElementById("notify");
+if(("Notification"in window)&&Notification.permission==="default")notifyBtn.style.display="inline-flex";
+notifyBtn.onclick=()=>Notification.requestPermission().then(p=>{if(p!=="default")notifyBtn.style.display="none";});
+
+load();
+</script>
+</body>
+</html>

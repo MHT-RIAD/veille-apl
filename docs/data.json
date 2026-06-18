@@ -1,0 +1,12 @@
+{
+  "last_check": null,
+  "topics_list": [
+    {"id": "decret-apl", "name": "Décret APL étudiants étrangers"},
+    {"id": "titres-sejour", "name": "Taxes & titres de séjour"},
+    {"id": "frais-inscription", "name": "Frais d'inscription étudiants étrangers"}
+  ],
+  "spikes": [],
+  "last_alert_at": null,
+  "last_heartbeat": null,
+  "alerts": []
+}
