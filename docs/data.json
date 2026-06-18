@@ -1,9 +1,43 @@
 {
-  "last_check": null,
+  "last_check": "2026-06-18T22:55:29Z",
   "topics_list": [
-    {"id": "decret-apl", "name": "Décret APL étudiants étrangers"},
-    {"id": "titres-sejour", "name": "Taxes & titres de séjour"},
-    {"id": "frais-inscription", "name": "Frais d'inscription étudiants étrangers"}
+    {
+      "id": "decret-apl",
+      "name": "Décret APL étudiants étrangers",
+      "session": false
+    },
+    {
+      "id": "titres-sejour",
+      "name": "Taxes & titres de séjour",
+      "session": false
+    },
+    {
+      "id": "frais-inscription",
+      "name": "Frais d'inscription étudiants étrangers",
+      "session": false
+    }
   ],
-  "spikes": [], "last_alert_at": null, "last_heartbeat": null, "alerts": []
+  "spikes": [],
+  "last_alert_at": "2026-06-18T22:55:30Z",
+  "last_heartbeat": null,
+  "alerts": [
+    {
+      "title": "Aides au logement : les étudiants non-européens et non-boursiers pourront bien en être privés",
+      "source": "Sud Ouest",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTGNjWnpjY0ZMUkx0M0Rvd0k3RWd2VnRGNm5ydVlrcC1MVUNoZUxXWDgweHVCeXFRZUlSU0ZMcjM4Sk9Gc3hNLXhzNlNjZFhROVRxSzI4RXl6cXBMQkNyZS1GV0dFQWdFMkhIQVlwRFJhM0hSVjR0NERiRWJWOHRLRktnaXY2VER0SFh2U0dPSHJmTnpueXp6cFJTRlA1ZDlxQTVZRnN1QVE4NnBkaW1NVE9FUk5DS3lEbXJnRllXaFJHZUZtRVVuMUk5SUxNT1pUNEtzcTlicjVNbncxT054WFpfbFJJZw?oc=5",
+      "pubDate": "Fri, 20 Feb 2026 08:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "aides au logement",
+        "etudiant"
+      ],
+      "tkey": "aides bien boursiers etre etudiants europeens logement non pourront prives",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-18T22:55:30Z"
+    }
+  ]
 }
