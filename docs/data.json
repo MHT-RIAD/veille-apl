@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-18T17:55:54Z",
+  "last_check": "2026-06-18T20:24:10Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -23,9 +23,47 @@
       "at": "2026-06-18T17:55:57Z"
     }
   ],
-  "last_alert_at": "2026-06-18T17:55:57Z",
+  "last_alert_at": "2026-06-18T20:24:12Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Suppression des APL pour les étudiant-e-s étranger-e-s",
+      "source": "SOS Racisme",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQLUI1ZDl0V2Vtbms4eEF1bTFKa1hpOHhiS1FUZkxmZEh1Mk9VXzhYcFQ5b184RUVHNlVXb3RkYVNpQ0JsbklkNndBaHdoUHg1djhXUjJKWEJ6M1lKYlJEb0NrcWZ1cUJKaEJTTkp5bVFTcFdTMUllWThRZDRNYmdFbWN3d2FQdVc1b1Bpc0NQUlVhc1Riakd3N2ZBdmFLN2JrUWRhODNvVEFLSks5Ny1SbklFal9IMFUzTWlQZlhLUkhtV24zUXUxdTdiYktfYm8tZDAwU0xsUmlXbHNPYUo1dHhxczY2WWxJYzN5cVFJcw?oc=5",
+      "pubDate": "Thu, 19 Feb 2026 08:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "apl etranger etudiant suppression",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-18T20:24:12Z"
+    },
+    {
+      "title": "APL : seuls les étudiants non européens non boursiers ne seront plus éligibles au 1er juillet 2026",
+      "source": "Les Surligneurs",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMFdWLWYwZElGY1E5Qmd0Q0xaZTlJTzlPb0FneDJUMXo4WE9DMXhwQS1Cc18xdnREb2hmUlpRTzhPQk10NHRLWW9IUjVxZDhYcjFkRHpRdGowcmc3VXFFUEhBdmtKZmFkcVM1UTVBWUxoaTV4Ny11T2wzSV9WTGI3M19tUEtOMjZQYjZURUlMcG1JQm45SlhQc3pCVGhkQVpyR2hxOXo0NC1SZWRHQnVJQUNJSlVadzB4NTRETUFiN0w?oc=5",
+      "pubDate": "Fri, 05 Jun 2026 10:17:59 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "1er 2026 apl boursiers eligibles etudiants europeens juillet non plus seront seuls",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-18T20:24:10Z"
+    },
     {
       "title": "\"Demander de payer 16 fois plus, c'est briser des rêves\" : mobilisation contre la hausse des frais d'inscription pour les étudiants étrangers",
       "source": "France 3 Régions",
