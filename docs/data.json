@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-18T22:55:29Z",
+  "last_check": "2026-06-19T00:25:51Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -18,9 +18,28 @@
     }
   ],
   "spikes": [],
-  "last_alert_at": "2026-06-18T22:55:30Z",
+  "last_alert_at": "2026-06-19T00:25:52Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Les étudiants de la HEAD en grève contre la hausse des taxes",
+      "source": "Tribune de Genève",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSy01SmhHSXp4bHBIUUVRRjU3N0xSQjVlZkx0NlJacTBVaU9FdGdLYXZGcDFXZmt0LWlVc0JIZjBkV2xLejE3RlVucE04NkIzUVBrZ0VER3ZyaGRtdmRYaU1LaFhvdWZYSHd4ekg5QVpHc0tjRmZHa0kzQktTQzhTNE9wSTJWM3hmdGJkbzVvanpIdDFXUlBr?oc=5",
+      "pubDate": "Mon, 29 Sep 2025 07:00:00 GMT",
+      "priority": "high",
+      "label": "Probable decret",
+      "confidence": "probable",
+      "matched": [
+        "taxe",
+        "etudiant",
+        "hausse"
+      ],
+      "tkey": "contre etudiants greve hausse head taxes",
+      "topic": "titres-sejour",
+      "topic_name": "Taxes & titres de séjour",
+      "summary": "",
+      "found_at": "2026-06-19T00:25:51Z"
+    },
     {
       "title": "Aides au logement : les étudiants non-européens et non-boursiers pourront bien en être privés",
       "source": "Sud Ouest",
