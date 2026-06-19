@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-19T06:17:19Z",
+  "last_check": "2026-06-19T11:22:10Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -17,10 +17,129 @@
       "session": false
     }
   ],
-  "spikes": [],
-  "last_alert_at": "2026-06-19T00:25:52Z",
+  "spikes": [
+    {
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "date": "2026-06-19",
+      "count": 4,
+      "at": "2026-06-19T11:22:15Z"
+    }
+  ],
+  "last_alert_at": "2026-06-19T11:22:15Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "« Choose France for Higher Education » : un prix de plus en plus élevé pour les étudiants maghrébins",
+      "source": "Jeune Afrique",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNelBCVU5yWWVFVldGSnhFVk4weFdocV9FVHc2SThaQXU4VnNCdjR2bksxcFJGbWYtMXdXWEduVDNSUGdyUldlckh5OUs4VXZtanBCOXdQelV4WU9XbGtlU244QWhGX3NQMUkxTVpRNnRKc0ZDOEVPaExLbG1wNXZUSFNpdFdvVlRzTzVubjFfaFpjb1NlR1V1TjBMQWVEa1F2X1dTUXphLXQ5SnFOU3R1NjVLRmkwME04b2pqVnZJUlJoVVRsSzRKemFyOXJVSm13VjJBLUtLdzdkQQ?oc=5",
+      "pubDate": "Tue, 12 May 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "choose france",
+        "etudiant"
+      ],
+      "tkey": "choose education eleve etudiants for france higher maghrebins plus prix",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-19T11:22:14Z"
+    },
+    {
+      "title": "\"Je risque de tout perdre\" : la hausse des frais d'inscription pour les étudiants étrangers mobilise à Paris",
+      "source": "France 3 Régions",
+      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxORGh0Q29ZRU1qSXVla0FTdGFuNWtSZ2NIajM2ck9CVkhVRFRaYk9SaXUwZ3NuT0FRZXI2cHhJdktQeGV4NmZzQ3RBVzVEUlNhcnpnRDhzTmxySGhOVkhnd0VHWC1TUE1yaE5LZ3VZVldVdGVEVWxkV3ZSdkZGYlpySnZFaUdGT1pYdmdHZmhjdjVEOXRzQjdBQkJwNnF4dklBeTdZQTdIdXlwclJsTWsxbXJLTjhEdWF1VXJzZ00wREYwUTFyQ2dzMXhUVU5ybi1pMzhLTFpNV3gwSEpIYkRjc1hDQWE0Z0ZjLTV3VHBVY1h3QWxzUjk2SHNSWXk1RmJoaXN5cmU1ZkpncGhjMHc?oc=5",
+      "pubDate": "Tue, 12 May 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "frais d'inscription",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "etrangers etudiants frais hausse inscription mobilise paris perdre risque tout",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-19T11:22:13Z"
+    },
+    {
+      "title": "Vers une exonération de frais d’inscription dans les universités françaises pour les étudiants libanais ?",
+      "source": "Ici Beyrouth",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSld4WDNYVTMxZXBnVzFUZFpSNWRXeXBIQ2F5RTJWbUZTU0xkLTd3WGJXTE9CMXJaYVdYWTN1QU9FR19neEhZRzB3SnJmc3lRT3d2MThMNlZIYXp5aHV6ME5LZUIxNl85amFfWDFFTjdFbW41V0FFYkNUcmhYXzZMcnlZTHB4SXVwMUpiZVpYMk5GRzQ4bDlDRVRabnhUeHNfTGFmTGJlWFhQb1RFR00tRWstc0ZuZzZON1dweFNyNzJNaVdEVnFreGJFQ1RqdXlhYUFtcFAyX3VMZFk?oc=5",
+      "pubDate": "Sat, 25 Apr 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "exoneration",
+        "etudiant"
+      ],
+      "tkey": "etudiants exoneration frais francaises inscription libanais universites vers",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-19T11:22:12Z"
+    },
+    {
+      "title": "Universités : le gouvernement veut mettre fin aux “exonérations massives” des droits d’inscription des étudiants étrangers",
+      "source": "Le Populaire du Centre",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOM0JscG9oUGk0WGJIOENDZEo1ZXY4NGx3c0xoS0RTMm5VV3I0VllHVUxUcndFcFp5QklQQVdhOFZwSzZvZmNRbU91c1FERl92MEQ0U1ZLQXJaTHJLUGkzZXY4Y0NYMXhYYVZlNWM2cmtJNUFTbmNiaEU3c05vMUpTV09yTVNkTTFId19RZDJHUEo4bzRsX2RpY252MWo5aHRRbTZfdlBhWVUwMkllZWFvRzQ2aEdmTUV4QkRYaXFDQmNTQmNPTzRWb1BmUDJ6MlJ2c0VOVlJuR2hpZ19KdTZiZGZ1MENnMUpoR2ZDUDZneXozaFFzU3FKblQxWDhYRE1uTk9jaVJDOWZ4aVU?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "exoneration",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "droits etrangers etudiants exonerations fin gouvernement inscription massives mettre universites veut",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-19T11:22:12Z"
+    },
+    {
+      "title": "La fin des APL pour les étudiants étrangers en 2026: vrai ou faux ?",
+      "source": "MCE TV",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMjNrYkVUdFlzYUxwRU0yR013cXlpM3lCT1FYbVFyZFByVTBxcnBnUHJMSi1RRVNBNXk3LVMycmJVQ1BrRTdfNlFPZzFhNjdPN0NkRG5rYW5qSkdsQ3ltUU9FRjVCSUxUUDNNRFB2WTM1eXFiT0RBMmtCQ0RQNUhERTc4ZmdQb0xWTEFodUJUemFOT3U3R0d1ZDh1SlF3NFlQZHdJTWo1aGZpN2hNNHc?oc=5",
+      "pubDate": "Thu, 16 Oct 2025 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "2026 apl etrangers etudiants faux fin vrai",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-19T11:22:11Z"
+    },
+    {
+      "title": "Étudiants algériens en France : l’aide au logement pourrait disparaître en 2026",
+      "source": "Visas & Voyages Algérie",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaUhFNnFSLU9neTBycXMyT3FNRW5wZ1pMWGNqSGk1azVHdEZzQ3FvbldZbFNtc0U4eldEZ1dxTHFvT1ZiTW1tNkItdmxOYnAxYjdJZ2ZVMUdrYkFabG8yZXc0Mk5ZNUtES1dZMmR3M09ya0RCOEhkYmdHa2JRNnFBXy02Yzd4NFZsa1Zlb0RjTVpPa3M3eF9WUTUzT19ycDVhMlFIMEpza0lsZw?oc=5",
+      "pubDate": "Sun, 28 Sep 2025 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "aide au logement",
+        "etudiant"
+      ],
+      "tkey": "2026 aide algeriens disparaitre etudiants france logement pourrait",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-19T11:22:11Z"
+    },
     {
       "title": "Les étudiants de la HEAD en grève contre la hausse des taxes",
       "source": "Tribune de Genève",
