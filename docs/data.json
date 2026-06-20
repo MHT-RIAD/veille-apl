@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-20T13:58:40Z",
+  "last_check": "2026-06-20T15:48:32Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -26,9 +26,28 @@
       "at": "2026-06-19T11:22:15Z"
     }
   ],
-  "last_alert_at": "2026-06-20T13:58:40Z",
+  "last_alert_at": "2026-06-20T15:48:33Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Budget 2026 : suppression APL étudiants étrangers",
+      "source": "parlons-politique.fr",
+      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQYzFGRzBmUWdWUHBpdTNReHRIS0JHVDFmUEU2Zll1am5QbEhzNTRFcmxvcTFtN0gwd0h0RGZaMnRjRjlYeGg3RGE2bEdqMDNZYTkzWi1KcUNLXzFRTXhXQlBsbXBmTGhwWm1VZDlWNFE4bWpEY3FHMGlsQzJiRG45SlJIcDROczlZcnlkVnRkTXFQWWVFaHpJQzBtbEM1alBWdmp0LVp6X0hURWJOQ1hWUGFucXFkSG1DeTZfVW8zR1ZPUmR4VkpQcHVXN3RZbGtYaW1BQWFsaU0wb1FfS3A3T1JjSFNDRml5U2FUVDRIVXU3djJSNVJWZ2MwQVRCNWtydkJJRXdnSGhlVEJnd3hpaVUtRlM1UG5rdjlSamFRMFlON04yLVB2b0cxSDBpeFRyZS1mVk1NVzROWG1iN0E?oc=5",
+      "pubDate": "Mon, 03 Nov 2025 08:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "2026 apl budget etrangers etudiants suppression",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-20T15:48:32Z"
+    },
     {
       "title": "Louvain-la-Neuve : la taxe sur les kots inquiète certains étudiants",
       "source": "RTBF",
