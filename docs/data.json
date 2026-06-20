@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-20T11:16:57Z",
+  "last_check": "2026-06-20T13:58:40Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -26,9 +26,27 @@
       "at": "2026-06-19T11:22:15Z"
     }
   ],
-  "last_alert_at": "2026-06-19T11:22:15Z",
+  "last_alert_at": "2026-06-20T13:58:40Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Louvain-la-Neuve : la taxe sur les kots inquiète certains étudiants",
+      "source": "RTBF",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNclc0LXozQ2pxU3pqR2ZOT1R3U2FEZ0NHbjFlWXJTT2lYNHg2dlRTLUI3Nlc2TnoyNXVGblMzSW1KSEZ0VVo3dGE1Rmt1V1FBaWl2UndYaDRVQUZxNDZEVEdDbUtIT000ZEhLbGlCQjM3ZEUydXYyNm42aXlLSVo0NXFOOGd1bHpnbzZyQmxUblUxYU5RTDJUSG1FU3IyOVFYNkY4dQ?oc=5",
+      "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "taxe",
+        "etudiant"
+      ],
+      "tkey": "certains etudiants inquiete kots louvain neuve taxe",
+      "topic": "titres-sejour",
+      "topic_name": "Taxes & titres de séjour",
+      "summary": "",
+      "found_at": "2026-06-20T13:58:40Z"
+    },
     {
       "title": "« Choose France for Higher Education » : un prix de plus en plus élevé pour les étudiants maghrébins",
       "source": "Jeune Afrique",
