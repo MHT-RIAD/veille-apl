@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-20T15:48:32Z",
+  "last_check": "2026-06-20T17:25:06Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -26,9 +26,47 @@
       "at": "2026-06-19T11:22:15Z"
     }
   ],
-  "last_alert_at": "2026-06-20T15:48:33Z",
+  "last_alert_at": "2026-06-20T17:25:07Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Universités : le gouvernement veut mettre fin aux “exonérations massives” des droits d’inscription des étudiants étrangers",
+      "source": "La République du Centre",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOejVHWExVRW1lT1hyMS0zNnFkTm04UjhZUl9mTkwtakxtOHNONUxtb2w1UHFiSXVaODdHUGVleHE4TjQ0VDlxMVFGRXRLYUZkc0lfaF83NlFDZUxPNUtzX0FtbUV5aFNWZlRBVTlOLU9jZmJ3czdmdWNxZ3k0aHVMY0RlRG9PUnhMSG9OZnpTckRETlNzcXk2Zk1XZjlQZjJJSktSSHZXMkVJTlU2WUREWlY2RkVXY2o3a2dZLUpsaW5nVkwzMTUzRi1SOEt0YS15THY0LUhTY1lDVVh1X04weEt5dnZHYVlVUUFpN1dyWVUzcmxSbGdWNHpvSnhFWEtTYTJ3?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "exoneration",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "droits etrangers etudiants exonerations fin gouvernement inscription massives mettre universites veut",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-20T17:25:07Z"
+    },
+    {
+      "title": "Montant APL 2026 : revalorisation, plafonds figés, coup de frein pour les étudiants étrangers… ce que la CAF va vraiment vous verser (ou vous retirer)",
+      "source": "Bourse Inside",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPel8wOERYdlB6U2szRUE2Q3dzZUNGdk1xZFJKYnNRZ3NrbF84bGFiVDdSSDNjck4ydG1EN3dZV3JSeVRFUGo5YWpCNGlDSDM2UzBqMVRqeVNaT05DQzcwR1VDclo4MXY0SVdWOW5xVU1IcFZiZUlfS0xTdmpBVDV3QzFnWXUyY1A2ZjNHbVo1WFJOLWRrakp1U3ppRHVoVEF2VGw0ZW9GbzVzZEo5TkVEcjQwVFY3T1d2SHlFVkJOOGsyUkYwM0RaVm11eUpMSGdZa3FhUGtxaG15Y0JQODFqV0tzTUtROWFMRGdfdE1hYVBRREFjQkhXeF9zNFdSb3BzU0Z0a0NCR3BIdk0?oc=5",
+      "pubDate": "Sun, 25 Jan 2026 08:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "2026 apl caf coup etrangers etudiants figes frein montant plafonds que retirer revalorisation verser vous vraiment",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-20T17:25:06Z"
+    },
     {
       "title": "Budget 2026 : suppression APL étudiants étrangers",
       "source": "parlons-politique.fr",
