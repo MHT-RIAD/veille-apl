@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-21T04:00:13Z",
+  "last_check": "2026-06-21T08:39:44Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -26,9 +26,28 @@
       "at": "2026-06-19T11:22:15Z"
     }
   ],
-  "last_alert_at": "2026-06-20T17:25:07Z",
+  "last_alert_at": "2026-06-21T08:39:44Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Étudiants étrangers : le gouvernement veut mettre fin aux « exonérations massives » des droits d’inscriptions",
+      "source": "La Croix",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdXVMaURKaTFBM3BiY0JnNGN0RmstenVDUWswcGxkb1FHcUhHLXd0T0FEZmE1Z1YxOTNIVGRvLVVMejBIZkdNM20yOUFlQUhCaFVwaHN0SjhLX3gwU1NqbkljOWhqTXVkZlhsS1czRDgwd1ZjX2hjS1A3ZWItOG01QURHRjhqbTVSamFlOGozMXB2OWo2TFNQRWYzUHN6NktxTG1uLTZQdmlIWlhwQWxPbHlRbUhfRUhpWXFfTDBaZXBZZVJOemtOU05oVWl0QUp5a25Ec1Q1VVVGVGg4dmc?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "exoneration",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "droits etrangers etudiants exonerations fin gouvernement inscriptions massives mettre veut",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-21T08:39:44Z"
+    },
     {
       "title": "Universités : le gouvernement veut mettre fin aux “exonérations massives” des droits d’inscription des étudiants étrangers",
       "source": "La République du Centre",
