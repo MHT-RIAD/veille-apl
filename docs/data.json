@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-22T06:28:09Z",
+  "last_check": "2026-06-22T12:49:07Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -26,9 +26,46 @@
       "at": "2026-06-19T11:22:15Z"
     }
   ],
-  "last_alert_at": "2026-06-21T08:39:44Z",
+  "last_alert_at": "2026-06-22T12:49:08Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Et si on augmentait la taxe sur les titres de séjour des étrangers ?",
+      "source": "Boulevard Voltaire",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT2JhdkZ6emtMd0ptZ3RDdk4yWlhRYTk5RUJPOWs3WkVUcDAyVTRJNFRJQ19sQnJHQXhkQUhfaG1wOVo4REl1TlVXaXNlRHNtQ0x2X3RQd2RXcS1CazBfQTV1OHdBMFp2WmJnNWNXdnQycGpweEI0enNvN2QxbUpWMC10QmVhaGl5VkJwX2hmdkp3XzFFejFN?oc=5",
+      "pubDate": "Thu, 17 Oct 2024 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "taxe",
+        "etranger"
+      ],
+      "tkey": "augmentait etrangers sejour taxe titres",
+      "topic": "titres-sejour",
+      "topic_name": "Taxes & titres de séjour",
+      "summary": "",
+      "found_at": "2026-06-22T12:49:08Z"
+    },
+    {
+      "title": "Gel des APL, suppression pour les étudiants étrangers : les attaques frontales du budget Lecornu pour la jeunesse, avec un clin d'œil au RN",
+      "source": "L'insoumission",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBncEZPLWdSTlFvYVNLZkVqeFZwQlkyNTA3d2dYYkVubHdDMWNIV3RjbE56LUpqNkZsOHhYT3k0YW5mZWFtNTZ4R0NHVTc5LVdFZ0ZjRmJTdnFpWG9uV3NQWC1wbjZPRGw0NkNXMU1OeDY5TUU?oc=5",
+      "pubDate": "Tue, 21 Oct 2025 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "apl attaques budget clin etrangers etudiants frontales gel jeunesse lecornu suppression",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-22T12:49:08Z"
+    },
     {
       "title": "Étudiants étrangers : le gouvernement veut mettre fin aux « exonérations massives » des droits d’inscriptions",
       "source": "La Croix",
