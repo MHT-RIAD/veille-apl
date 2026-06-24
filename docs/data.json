@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-24T16:19:50Z",
+  "last_check": "2026-06-24T18:50:55Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -33,9 +33,27 @@
       "at": "2026-06-24T03:24:37Z"
     }
   ],
-  "last_alert_at": "2026-06-24T13:20:56Z",
+  "last_alert_at": "2026-06-24T18:50:55Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Augmentation des frais d'inscription pour les étudiant·es extra-communautaire, l'Union Étudiante dénonce une attaque raciste du gouvernement",
+      "source": "L'Union Étudiante",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPY3lKS3FFWjQ1VXFYN3JUaVpKU1NGdEF3Zk1yM3hmVzQxbmM2MGUtT1VkbG84MHRtNmFxN1l2SGt5UGhCdVFMb2h3c3o5am9WaG1GWmZLZUhqck5OclltZWFTWEhxTHd2dkRhR04zcjg4bXMxdGNvUUJaZzdBeFphaVh6UlpEQ1JvaURVakJCYmJ2N0hsT0dTSGZlbnpaTzVfNS1DSFdNRXJLVDU4bjM2NU1hYkgxaTBJdldlZkhvSWVZWnBzUDNTaS16RlVOOE9NLXJQWlF5Qmh4VGtYMFR1VFBzbWNhUGE0Tnk3TjJDVFp1azZQamh0T1Bxd2E1YUg2SUVldjJ3SjFoSWd6RTF3MWs4Y2dwazhGRXRF?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 18:15:21 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "frais d'inscription",
+        "etudiant"
+      ],
+      "tkey": "attaque augmentation communautaire denonce etudiant etudiante extra frais gouvernement inscription raciste union",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-24T18:50:55Z"
+    },
     {
       "title": "Pourquoi certains étudiants pourraient perdre leurs APL en 2026",
       "source": "Orange Actualités",
