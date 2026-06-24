@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-23T23:55:04Z",
+  "last_check": "2026-06-24T03:24:35Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -24,11 +24,75 @@
       "date": "2026-06-19",
       "count": 4,
       "at": "2026-06-19T11:22:15Z"
+    },
+    {
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "date": "2026-06-24",
+      "count": 3,
+      "at": "2026-06-24T03:24:37Z"
     }
   ],
-  "last_alert_at": "2026-06-22T12:49:08Z",
+  "last_alert_at": "2026-06-24T03:24:37Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Les étudiants dénoncent les frais de scolarité pour les étrangers",
+      "source": "L'Etudiant",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNME0tOVdDTG9uem5OaHlCX1FkRkdwU2NyYjVDS2VpTG9FbldBU1VkOW1fc2lkb0lEZ19VelFoaXdUa0d6Z0NzaVU2NHhjRFZZSmt1bkRxVzFweUlLbmx2bHVWRGRSdjFPMjAxVU9PWmhsRzF4MkxEOHpOcjkxV3poMlVQQ0cyVFM1WHg0cGc3OTRqRXI2dkJEVkVKOWY3ejdNbkNfYnRrTTlYSVg5WnZpelhR?oc=5",
+      "pubDate": "Fri, 15 May 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "frais de scolarite",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "denoncent etrangers etudiants frais scolarite",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-24T03:24:37Z"
+    },
+    {
+      "title": "« Non » à la hausse des frais d'inscription pour les étudiants étrangers hors UE",
+      "source": "Outre-mer La 1ère",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNLUhiRTRyaUFIZDVVbEZLdjVQSGVDRnRZUkVYcWdQSnNnNHJKbzhsMmVibm4yX3M1R1VlUWdwQ1NENXpqeVBVVlNkQ3VJZ3hTVnNyMDBkRHNEdkZ5ak0xbTRGMlRVWTFqbFVSU3NoZmg1MjZaUGFpV1JOal8xWTBrbmtURFZiZ09qUzY0eWl5VVk5LUNFcGJudDI5ejVfOWw0N1JOeHhWRnR0NnRWZjN0bFNhOWNmVUtLRXR0d2F1elJERGM?oc=5",
+      "pubDate": "Tue, 26 May 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "frais d'inscription",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "etrangers etudiants frais hausse hors inscription non",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-24T03:24:36Z"
+    },
+    {
+      "title": "Etudiants étrangers : le gouvernement lâche du lest sur l'augmentation des droits d'inscription",
+      "source": "Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQV19ybHhsMVhRWEhqZUtrSXlkMDNkQ0xNSkN5U3hQWkVUNS1zN3hucVVLYWJyOUEzUXpSbmRjdmtVMm9BYnJPN1ZIT2piR0VqbDhjTE0yak1nZG1IUXJ1YW43NURkVEpFUzZKcloyWVRrMjUzOTNjbE1ZMmYzUUZWOTFlRllhci0tUmpuVHhzQkFWQ2ZkeGYybGVuS1pBOEFfbW5WdF9xTnNuNEl4WnBOZEoyZjNEY1dacjhZbzFsRW93bDdFdGUyV2lza3Q4enlFQThsN0RyZzFRR3hsMGhtcUFRSjVaZw?oc=5",
+      "pubDate": "Tue, 12 May 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "droits d'inscription",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "augmentation droits etrangers etudiants gouvernement inscription lache lest",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-24T03:24:36Z"
+    },
     {
       "title": "Et si on augmentait la taxe sur les titres de séjour des étrangers ?",
       "source": "Boulevard Voltaire",
