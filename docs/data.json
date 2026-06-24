@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-24T07:38:34Z",
+  "last_check": "2026-06-24T10:47:35Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -33,9 +33,62 @@
       "at": "2026-06-24T03:24:37Z"
     }
   ],
-  "last_alert_at": "2026-06-24T07:38:35Z",
+  "last_alert_at": "2026-06-24T10:47:38Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "L'université de Reims refuse la hausse des frais d'inscription pour les étudiants non-européens",
+      "source": "Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNV2s1dXdKcm5ocDA2dUNxSW95bm9URHpLSnJjckMzeXpidW5RS1p5ZDBGODNaOFhBYU1wa0MwYkVCMFE0T2l3dnNxdzdMalFuVFRHNlBocjJTVGxwdFZHUWpSY3BCd3AyZFJQdlpkMlgzSV9yWGNYSXpTaEN6aktWX1pNeEVHSXVMeEF5b2ZvOWlFTV9zUEpMaldFR0NnTkpJQUZRZGVxeG9jYlNJZUc4M1Y0SmJsdHZhZWh4TFhjcFpXNTNrODh2OHZUTjZiXzAtQzRJamExOGVnN3VDMnA0WQ?oc=5",
+      "pubDate": "Tue, 09 Apr 2019 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "frais d'inscription",
+        "etudiant"
+      ],
+      "tkey": "etudiants europeens frais hausse inscription non refuse reims universite",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-24T10:47:37Z"
+    },
+    {
+      "title": "L'université de Tours refuse d'appliquer la hausse des frais d'inscription pour les étudiants étrangers",
+      "source": "ici.fr",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaXZfa3pWaENodzc2VTc3eHZ0TThqbHd3WnRXV2RXWFNFdWNLTGFHcEt5MmFkRWg0UG5FUDkxUlBIYXZyazdJUHlOUWN1NjlGXzAxaGl5NWhVTXRIMEFJRk5xWTRnREwxNnV5NGNhWjJsZHB4ancyWkt0dXQ5c2pzZ1E5YmlvcUxFUE5RX2phODJOWFBZWnc0cGNmbExMRnYyMkt2V19BcTVTTnJDQngxWDlIUmtSOGFQd0hIYlZubEFrQ1pPemlYZ3NQVE1vLUFwVE9HSHd3?oc=5",
+      "pubDate": "Thu, 24 Jan 2019 08:00:00 GMT",
+      "priority": "high",
+      "label": "Probable decret",
+      "confidence": "probable",
+      "matched": [
+        "frais d'inscription",
+        "etudiant",
+        "etranger",
+        "applique"
+      ],
+      "tkey": "appliquer etrangers etudiants frais hausse inscription refuse tours universite",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-24T10:47:36Z"
+    },
+    {
+      "title": "Modification detectee : Service-Public — APL étudiant",
+      "source": "Service-Public — APL étudiant",
+      "link": "https://www.service-public.fr/particuliers/vosdroits/F12006",
+      "pubDate": "",
+      "priority": "high",
+      "label": "Page modifiee",
+      "confidence": "confirme",
+      "matched": [],
+      "tkey": "page:https://www.service-public.fr/particuliers/vosdroits/F12006",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-24T10:47:35Z"
+    },
     {
       "title": "Universités : le gouvernement veut mettre fin aux “exonérations massives” des droits d’inscription des étudiants étrangers",
       "source": "Le Berry Républicain",
