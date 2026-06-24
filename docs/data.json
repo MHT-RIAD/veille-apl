@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-24T10:47:35Z",
+  "last_check": "2026-06-24T13:20:55Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -33,9 +33,27 @@
       "at": "2026-06-24T03:24:37Z"
     }
   ],
-  "last_alert_at": "2026-06-24T10:47:38Z",
+  "last_alert_at": "2026-06-24T13:20:56Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Pourquoi certains étudiants pourraient perdre leurs APL en 2026",
+      "source": "Orange Actualités",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVGtBdC13SFRjcDZkOGtIQkpGWkNmMTF5bmdLSHBQQmE2VUtmY1FVMjk5dXJYSnFmNFhhVjR2bEdUWGRNRk05VFBZT0dWMlRtd0FYUDNKZkV0MmxUcFlsTmhrcjJ4N0ZRU0ZTMngwbWRrYjZocEI0eXk5em5PUDd2RDhJMFVEejV5YW1DcWNOcURDZm5lOUV1Qk44bTRWZ0tKRHBwWmp3SHVLOE1fM0Y0dEZjc19lalNwaEVF?oc=5",
+      "pubDate": "Wed, 24 Sep 2025 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "2026 apl certains etudiants leurs perdre pourquoi pourraient",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-24T13:20:55Z"
+    },
     {
       "title": "L'université de Reims refuse la hausse des frais d'inscription pour les étudiants non-européens",
       "source": "Les Echos",
