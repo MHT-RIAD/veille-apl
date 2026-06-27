@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-27T07:48:15Z",
+  "last_check": "2026-06-27T10:06:29Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -33,9 +33,29 @@
       "at": "2026-06-24T03:24:37Z"
     }
   ],
-  "last_alert_at": "2026-06-24T18:50:55Z",
+  "last_alert_at": "2026-06-27T10:06:31Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "APL étudiant étranger hors UE en 2026 : bail signé, aide supprimée et recours CAF",
+      "source": "Kohen Avocats",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVVFXY3doaUpGaDQyNDk5WmR4NHlvZ204MXJ4UWJ3bGdkYWprM3YteFRvVXdaMWYybzJkVTB4MnFPNGtzM1NtUllERUZpUXJKVElNcFk0ejJDYnpCLUFLZHBWcnBOR1J4MG5oTnFJOUtvNzRKeEVWdUxLVlc4c1BuMEEzeV9WdzVISE5nS3RpVWM?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger",
+        "hors ue"
+      ],
+      "tkey": "2026 aide apl bail caf etranger etudiant hors recours signe supprimee",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-27T10:06:30Z"
+    },
     {
       "title": "Universités : le gouvernement veut mettre fin aux “exonérations massives” des droits d’inscription des étudiants étrangers",
       "source": "L’Écho Républicain",
