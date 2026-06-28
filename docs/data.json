@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-28T11:06:04Z",
+  "last_check": "2026-06-28T13:42:41Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -31,11 +31,113 @@
       "date": "2026-06-24",
       "count": 3,
       "at": "2026-06-24T03:24:37Z"
+    },
+    {
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "date": "2026-06-28",
+      "count": 5,
+      "at": "2026-06-28T13:42:44Z"
     }
   ],
-  "last_alert_at": "2026-06-27T10:06:31Z",
+  "last_alert_at": "2026-06-28T13:42:44Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "France: les étudiants non européens, non boursiers, privés d'APL à partir du 1er juillet",
+      "source": "RFI",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQUlZY3hBa0Z6VTZOTDFBT0RYaFlzWWNydE9uMUt4Z2ZOYUI3clFCcEYxUTZOTHJrbkEtaC1yUHV0THhuNVBIWVozTUVvLW55WlU2Vlc3Mnh6and5UjdCRFRUQzB4ZVd0RHpOeUM0bGNpWWswNzdwQnNIelptbmp4VjRBMjdKcVFzcGZmTDdVc213cHY2RjlVVl9tWUVkWlpiLUduRW5WdVI1X1ZJNXNzWEhkN1dQQWg0R0F5R29ZbkdiREpPT2NFSWVJS1FrZjFIbGdSdEFZSVpOYS1o?oc=5",
+      "pubDate": "Sun, 28 Jun 2026 11:19:42 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "1er apl boursiers etudiants europeens france juillet non partir prives",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-28T13:42:43Z"
+    },
+    {
+      "title": "À partir du 1er juillet, les étudiants extra-européens et non boursiers ne toucheront plus les APL",
+      "source": "BFM",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPM3drTENmUjg4WjJJNHFzYWFfSlpVX1pTNWw4VGFJSzh2VGxUODJsX1hJTmFuV2k3TFNiQ2ZpUXlfeXdaby15SVpmckV1NGNIM1JKWV9BSU1nbHRsVVhzWV9PLV9XeGYzSWY0MGhXREpDM0UyLVZjTEJmUmtDZ0hBeEZmUWxnRm5kMkt1OXRYUW9aX2tVLW1DTUNFRXRJSlZSdG1hVno4WkpkMXY4WVNUQjVadTU1a0QweWZzVTBiUW1qNUVMQWp2T0JvTm1zNmhQeERLaWc3aXFhejFidU90Wjd5cVdiYXJWNFZtektkQUtSN0NHRmxCNDJOQW5YSHVZX2c?oc=5",
+      "pubDate": "Sun, 28 Jun 2026 12:02:56 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "1er apl boursiers etudiants europeens extra juillet non partir plus toucheront",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-28T13:42:42Z"
+    },
+    {
+      "title": "Aides au logement : coup dur pour ces étudiants qui n’auront plus le droit de toucher les APL à partir du 1er juillet",
+      "source": "L'Indépendant",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOUW1pd09heTJqUzZyallqY0hTUHdUdmFpa3VjLVc3UFBRQ19TYUZYRUVOY2p5VWpJeGYxVXpiU2hPRWExTjk5VzVyS0FGdk1WRk9CRjVXRjJhLXVTYS1tRlZNZlhreEdyV2pYZ1RIYW9PQmY3ZXpaWXlLOFZJdG43OUdIUGZ2UldjOUdYbzdPT3YwX0xwREVMdFZGNEVIcnZOWFdWZ0VneGVPZndYWndYS3hvNklrWGlpZy1xVFdyV052dGxFY2Z4MXZzSFRrWFhqMFZLOS15VDBnYkRGNjk4dGdiVHBMR0haZmZueU9VcmFVUmlRYW15WG9R?oc=5",
+      "pubDate": "Sun, 28 Jun 2026 13:34:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "aides au logement",
+        "etudiant"
+      ],
+      "tkey": "1er aides apl auront ces coup droit dur etudiants juillet logement partir plus toucher",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-28T13:42:42Z"
+    },
+    {
+      "title": "Préférence nationale à l’université : les étudiants non européens et non boursiers privés d’APL à partir du 1er juillet",
+      "source": "L'Humanité",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMHp5anM3cEdFMW12cUw0bHlralU3UllaMVdUUVVCRDBSdDNxUTEtaEM0SmlvYWFvc2o0VVlRWFVzZXZLNllRU2tvS05BWF9zaFppYkl6a2N4U09pcUQxSE1FcGdqSmEwNXBGdjNud2VfRHpBaVB5azdPSjJLTk8zUXhxQWR6dEJDZTZsbTJrYTZMeFV5UEx0ZGhmNUJieEIyd2xldmpfVHdfTkJGVVZOc19ZaHcySGhGQ0VHV0ZHb3owMUg5OTNhV0pHYVJiU0J4RWMtUm1LWWVzLWxxSmxkWDk0M0ZoTW11ajFLMkJoOWNJVnlKem81QXY2Yw?oc=5",
+      "pubDate": "Sun, 28 Jun 2026 11:54:09 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "1er apl boursiers etudiants europeens juillet nationale non partir preference prives universite",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-28T13:42:41Z"
+    },
+    {
+      "title": "Aides au logement : les étudiants non européens et non boursiers désormais privés des APL",
+      "source": "Sud Ouest",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTGNKYlhteEttb2RQRzh0MkhWUUNTTnJ3WVNoeVk0alpTd1JFQUN6UlNvRzlqUWJwTjVBWG8tTUdsUE5SelNIRl9yTG9tbzJiR1hYM3RxUmlrSURFZmw0a29Pd2phSVNBSGRiX3RPeXFOSUpUNjB0STZmVm5vYXlYQkRTN3p3OEExWndMU0poQUVVTjdxVkdHSldRZXVwOEd1X1VsYXlILVAzMnhPcThjZzhiaDd4Z0t1M3NGQUItVlZuQk83OEQ1M0V4WGc0Yk5GVWh6Tjh4bHc?oc=5",
+      "pubDate": "Sun, 28 Jun 2026 13:15:51 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "aides au logement",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "aides apl boursiers desormais etudiants europeens logement non prives",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-28T13:42:41Z"
+    },
     {
       "title": "APL étudiant étranger hors UE en 2026 : bail signé, aide supprimée et recours CAF",
       "source": "Kohen Avocats",
