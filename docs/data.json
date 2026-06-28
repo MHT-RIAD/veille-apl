@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-28T15:17:02Z",
+  "last_check": "2026-06-28T17:08:20Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -40,9 +40,64 @@
       "at": "2026-06-28T13:42:44Z"
     }
   ],
-  "last_alert_at": "2026-06-28T13:42:44Z",
+  "last_alert_at": "2026-06-28T17:08:22Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "APL supprimées pour les étudiants étrangers : une mesure controversée entre économies budgétaires et précarité aggravée",
+      "source": "El Watan",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZUJRMHZlSkpVMjAxQ1hPRy1GMVB3LVNxVWNMVnhDVTB1b2dxTXVyWjd3NkNNQlV2NktxQjZueWxMVUd6M3ZpYVJaRmJWSnJrVk1QWnFRNzJpbHFyeE9YbHBXeUxsMUlpZ3QwcjJfNTF4ak9iNWIxV0dFYUhDYldySmFfalJZQzA2ak1TWGs3UGJrQ3FiZjRpVW5hbVdLRE9EaWF3NndFQmJLWFRJS1NKa2QtN0lIeE54bXRBamhsREd5QTFfakNGVjQxWlJJc0tCeXFB?oc=5",
+      "pubDate": "Sun, 28 Jun 2026 16:36:23 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "aggravee apl budgetaires controversee economies entre etrangers etudiants mesure precarite supprimees",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-28T17:08:21Z"
+    },
+    {
+      "title": "APL : les étudiants extra-européens non boursiers désormais exclus du dispositif",
+      "source": "lejdd.fr",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObTVWaEdBRG5pOFExdURMc2h4WEpLQkJqYV9uaG5QcEhPRFR5X1NnLUc0S0R1OWdYQXp1Wm9Nc3E5N3ZmcWhBVElCOGVEd3hSWVJyZjFMdi1SWVVxdUl0bkFXSm94SlZYdHVmWE5ERVotZ1RiMXlHQWd6V3pGc1NEOHpKM2pUNTJVUWxGOUdLNHhObWwtNFBUUlpQSDQzZDkwejJrb2pTQ216bHY2N1VVMC1Cd2Y?oc=5",
+      "pubDate": "Sun, 28 Jun 2026 16:08:24 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "apl boursiers desormais dispositif etudiants europeens exclus extra non",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-28T17:08:21Z"
+    },
+    {
+      "title": "Bientôt la fin des APL pour certains étudiants à partir du 1er juillet, êtes-vous concernés ?",
+      "source": "Capital.fr",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOX3hxc2M1eU9wMllfcmU2bjd4Tm40OUxXbmVjS3hpbGlTUXlfbnFxNk84OGJXX1VGRnVsaEZPR19EOGs5U0NjSk1yMm53dS1PNVQ3RW92UFZaUzVDUHZaQ2Q4bGdWckVXdi1FR1NYa2hfRzRGZ1lTSzgzS3JCYkc4SUxuYU9GOWlmVXF6bDJpT1U0SXhEcW9ocHNPNlRTOHNuMUdrSHlnNVR6Yy1CX21IalV6dXhZQ1FISFU3dzZfVmJ2NkxzMjdlVDZQVFBXNFE?oc=5",
+      "pubDate": "Sun, 28 Jun 2026 16:00:33 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "1er apl bientot certains concernes etes etudiants fin juillet partir vous",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-28T17:08:20Z"
+    },
     {
       "title": "France: les étudiants non européens, non boursiers, privés d'APL à partir du 1er juillet",
       "source": "RFI",
