@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-28T17:08:20Z",
+  "last_check": "2026-06-28T19:17:03Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -40,9 +40,47 @@
       "at": "2026-06-28T13:42:44Z"
     }
   ],
-  "last_alert_at": "2026-06-28T17:08:22Z",
+  "last_alert_at": "2026-06-28T19:17:05Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Exclusion des étudiants non européens de l’APL : Ce qu’il faut savoir",
+      "source": "Cyril Jarnias",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14R0tzWVNya1RseWxMaGo3elBSbFVNbUdiV2lxazN6N1ZwLWgtZ19VUm4wYS1VbmVSNHAtOUdxOTQwT3JBSm9WNXQ1V1pYejJvUWVtd18wVGpyYy1xellVaHRGSTRDWjJFSF9aX2tpcnlnRW1f?oc=5",
+      "pubDate": "Sun, 28 Jun 2026 17:09:58 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "apl etudiants europeens exclusion faut non savoir",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-28T19:17:04Z"
+    },
+    {
+      "title": "Les étudiants non européens non boursiers privés d'APL à partir du 1ᵉʳ juillet",
+      "source": "TF1 Info",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdU0xTGp4cTNsdHotbTZEZFZ1RTVsdk9LM0NOd2FnMUxjUkt3bGVLUDA5RGdQNHp3V2VKRDdkNmlqTmlXOER4aUdlSEdmY0pPMUxqUjhxZ3BPM1lqdjMxUGRhN195MFNBc2NCRWEzWW1wdmh1NVVHa2pIbUZhb3gxN1BBQ2lBbGFOY3RMOEN2RzZkZVE1NE1WNy0tNFBzbURiakRiMUpER0tuRTdVQVc5WFRXUmhUTHpYNTNfVTBYbWQ?oc=5",
+      "pubDate": "Sun, 28 Jun 2026 14:48:16 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "apl boursiers etudiants europeens juillet non partir prives",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-28T19:17:03Z"
+    },
     {
       "title": "APL supprimées pour les étudiants étrangers : une mesure controversée entre économies budgétaires et précarité aggravée",
       "source": "El Watan",
