@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-29T21:25:02Z",
+  "last_check": "2026-06-29T22:58:02Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -47,9 +47,28 @@
       "at": "2026-06-29T05:48:36Z"
     }
   ],
-  "last_alert_at": "2026-06-29T19:54:35Z",
+  "last_alert_at": "2026-06-29T22:58:03Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "France : la CNCDH dénonce la suppression des APL pour certains étudiants étrangers",
+      "source": "Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVW0zUm40akUweExfOWNRTC1id1VFYTBZYUF3a2Y1NnZ2V1dwTFdoM0c1YWZoaEhBV2VCLXN5LU91U3F2RXFaODRPZEh0eWZFQVhrWlZGZElNLVJ6eFM3OWRtNUhxWTdjSjJCbHlpT3VVS2FSLXd0TWFySnFyelJoc3dRajdsVGVTX0hpMF8zeG12N2ZudmJRZGMxeXhnOWJmdVhtandrcVBIM05QcGp4YUVHbjQ2X0pWTlJxaGtZVEpJc28ybG9IZVZDUzBHLXpS?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 16:52:23 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "apl certains cncdh denonce etrangers etudiants france suppression",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T22:58:02Z"
+    },
     {
       "title": "APL : certains étudiants étrangers désormais privés de l’aide de la CAF",
       "source": "Merci pour l’info",
