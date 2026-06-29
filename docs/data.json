@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-29T10:54:32Z",
+  "last_check": "2026-06-29T14:47:00Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -47,9 +47,120 @@
       "at": "2026-06-29T05:48:36Z"
     }
   ],
-  "last_alert_at": "2026-06-29T10:54:37Z",
+  "last_alert_at": "2026-06-29T14:47:07Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Jusqu’à 250 euros par mois en moins... Cette réforme des APL inquiète déjà les étudiants concernés",
+      "source": "Be Magazine",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOU0Y0cUZRMU1ZZHBnT01oM2ZDWS16QjlNWk12NmxKUmJDY2RialNOOFZnOWdVM3FRd3A1eURob3pXWk1NVlJjUVctaExicUFlUE1wcnRuYWJxejNrRFNzdmw0blY4UnV4SG9zY0tkaDFiQ0ZicEJSa1hCaHVpOUZvOUZjOGNoOVBmUTl0eGdSSEZReWYtZW1mY2Rjdnd6TmtxQUpBQkozMTJfNWdVQzdaWC1mQmRzakxOTG9hR0REMlFUQWpKTHg2alZYWkRQSTlldS1wdGpDeUk?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 12:42:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "250 apl cette concernes deja etudiants euros inquiete jusqu moins mois reforme",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T14:47:06Z"
+    },
+    {
+      "title": "APL : voici les étudiants qui ne pourront plus toucher cette aide à partir du 1er juillet",
+      "source": "Version Femina",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ0t6aWVOM3JRSFByeHpseWUzWTFfN1VaZGU0MXNyNWhwb0xLcGQzME11cF9lcDRwbENWenZfd042UkFibHYxV1o5QVFGSU5pRm5oUExabGhMbE9sRFlpWks5RVUwZ3JOQVVLUWtzR1NSVklmNVVzMGRoUDlRNHQtYkJFaEZFMUNzWkZYaGJ0c2VobHRpU3NCOS11NlZrNGJxSmNocVpPeHM3cnNNcjFkbHlGSGJfbjhi?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 12:19:28 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "1er aide apl cette etudiants juillet partir plus pourront toucher voici",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T14:47:04Z"
+    },
+    {
+      "title": "Comment s'applique l'exclusion des étudiants hors-UE du bénéfice des APL ?",
+      "source": "Ash.tm.fr",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV05iaG9jQUtSQTE4ZVVZSzR2bTdJbDg0bkExVWlpY0NQWFJNYkYzRk85S1NKYnAzVS1QSDQ2T2Vla01kVVFyd3ZPQS1MaW5OdTZ0WUQ0RFBhQXI4VmFBWEtUVjh4aXNGSE5rdnRJdGRyN0pyR1BWUEFVQ1I4X2swTzJqSm9hZzFNM1I5Z3VUQ00zenJTMUVjTlplMWFVUVBSdHQ4alJjcF91TC1PekxrSVF5Yw?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 12:29:48 GMT",
+      "priority": "high",
+      "label": "Probable decret",
+      "confidence": "probable",
+      "matched": [
+        "apl",
+        "etudiant",
+        "applique"
+      ],
+      "tkey": "apl applique benefice comment etudiants exclusion hors",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T14:47:03Z"
+    },
+    {
+      "title": "France : les APL supprimées pour ces étudiants étrangers dès le 1er juillet, qui est concerné ?",
+      "source": "Algerie360",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORGFNMDlvcW1aNmNiS1JydVpoRTlfclpjbVFNQjhPeUh1eGZ1YlphNXFqVUtoX19fcFRGcWJtTWJqcTFsdm9acG1KWGFJcVhoTFZGVGJjTVRiZU41RFIwaDU4NngtSldMeERYTkw5M3VSRkRoNHVEQTE4U0lDZFdKLXFjVHVyX2tERFQySUpBUC1xUG1BdDc1ejBpWEktM21RLUNrWFllRWp4WERyaTJHNjJaVV95TE1aRFE?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 13:55:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "1er apl ces concerne etrangers etudiants france juillet supprimees",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T14:47:02Z"
+    },
+    {
+      "title": "LFI vent debout contre la suppression des APL pour certains étudiants étrangers !",
+      "source": "Boulevard Voltaire",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS3VWT3lUNExKbTEtVHFnQjZ2WGhWTDBINS1MYVRjUDFQM2lUSG5TUURib3RJaE9iUXgtU1F3bXB6dWxXTHh1WWxZb055bHNjZXFJT200c0o5OXAzdWNwRm9kcDVvTG0tTTRSNmdNaTQtbHZVeHNtbDVKS0dnRlBoNHpmUnIyaEpIT0V3N0xtSEN0eTNER0FnSjJvSFRlNVhVemVycUpSa3o?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 14:40:34 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "apl certains contre debout etrangers etudiants lfi suppression vent",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T14:47:01Z"
+    },
+    {
+      "title": "France : après la hausse des frais, les étudiants marocains non boursiers perdent les APL",
+      "source": "Maroc Diplomatique",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWE1YZ3V0OVlJQ0Y4d1RnZVhoc2wtUlhmcldwUTd3YTFFVVRUbTQ1TVpNLUxtZ0lJaHZhWFJTd3FRS2daR1YwY29zcFBvcV9kN2RuSFR6T1NCRVR5S2RVcnRDM2FDMlduZVlSNHEwcFI3ejZKbDR0U0FNX20tUHlJeTY3WDI2ZnBSbHpTbjE2UkY0X3ZKQy1mVnJmZFRJN0RwRTRnaENHZzc3X1NUMGFpSnEzOGpHTmR4V0E?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 11:48:45 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "apl apres boursiers etudiants frais france hausse marocains non perdent",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T14:47:00Z"
+    },
     {
       "title": "Les étudiants non européens et non boursiers seront privés d'APL à partir du 1er juillet",
       "source": "Gentside",
