@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-28T22:09:31Z",
+  "last_check": "2026-06-29T00:07:05Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -40,9 +40,46 @@
       "at": "2026-06-28T13:42:44Z"
     }
   ],
-  "last_alert_at": "2026-06-28T19:17:05Z",
+  "last_alert_at": "2026-06-29T00:07:06Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "APL étudiant : conditions, demande, montant et versement 2025",
+      "source": "Capital.fr",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9QN2s5ZFVWbVV5bmNtUWJuTk9jQW1Ta3BrZ1N4aUFRaXRFQWxrSGNCWVJrekI0aTZMTDhxOUMyTHBWdXRDdmtISXYySFJtWnNDZEJjby1Vc1haSkdkYlQ0ZjBSSHE?oc=5",
+      "pubDate": "Mon, 15 Sep 2025 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "2025 apl conditions demande etudiant montant versement",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T00:07:06Z"
+    },
+    {
+      "title": "Les étudiants non européens non boursiers privés d'APL à partir du 1er juillet",
+      "source": "Le Figaro",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcGlvUVFDMnd6OVNfWVZhTUpiRkIzaGlZQVlieEVpR2FBMEx2X0ZuUjRhM2xXc3RGSTk4SDJoS1BXNlBUcWF4VThyeXJjX1ozUGxSMVc5MjFocGRjT1EwMDh0b0R0Zzd2QVplbVoxOF9jcVk3Mk5FSWpqaW9yM1lwVDBieC1PT2wwTGJ4b1h5VTdXcFRJS1JyZW01b09qVWY0TXBjeE1uWnZyUGwzRDNUdGtXcGJOVC1tVG5JSzR3?oc=5",
+      "pubDate": "Sun, 28 Jun 2026 11:09:19 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "1er apl boursiers etudiants europeens juillet non partir prives",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T00:07:05Z"
+    },
     {
       "title": "Exclusion des étudiants non européens de l’APL : Ce qu’il faut savoir",
       "source": "Cyril Jarnias",
