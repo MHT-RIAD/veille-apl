@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-29T00:07:05Z",
+  "last_check": "2026-06-29T05:48:34Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -38,11 +38,110 @@
       "date": "2026-06-28",
       "count": 5,
       "at": "2026-06-28T13:42:44Z"
+    },
+    {
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "date": "2026-06-29",
+      "count": 7,
+      "at": "2026-06-29T05:48:36Z"
     }
   ],
-  "last_alert_at": "2026-06-29T00:07:06Z",
+  "last_alert_at": "2026-06-29T05:48:36Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Les étudiants extra-européens et non boursiers ne toucheront plus les APL, à partir du 1er juillet",
+      "source": "epochtimes.fr",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUjhOX3VxcEp0UVhmZ3NnbEFZdFlqMFdDb3BZTGI3YmMycDBpODlZd0cwanJJZlp4ODBKVTZyb0NpVER4RHlfMERnMko3QlV6VEhENnVOQ01LLUhfdVd1dU13M0drZmM3OWJUekVteTBsQ0dHQzhIQnhHNGJfNk1obWJ2UThiXzhLckllMXRxZnBZNHBaOGlSYTQzM1BsWjU2d01oOHVjNUpoQTFTdE1PMV9fU0U0MVNORFRHQVFtTFlCLUlLUFUxc1FNN0J5UVd3ZUE?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 04:38:18 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "1er apl boursiers etudiants europeens extra juillet non partir plus toucheront",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T05:48:36Z"
+    },
+    {
+      "title": "Suppression des APL pour certains étudiants : ce qui change pour les non-Européens",
+      "source": "Cyril Jarnias",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBSS1YdjJsejV3VVctTmk3aTVfTFB0ZnhiVG9pQ3Ruc2ZFbjV5MEhLeVlkcW1Sbk9XOEVzNGszb1h6U3RRRXlvQWxSS2M5R3JFS09qbDFRMjZuclpQUFJTU0dGR202dUlBdWNjZ0xKamp1S0M0WjV3bzJ3RXBkQQ?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 02:09:40 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "apl certains change etudiants europeens non suppression",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T05:48:35Z"
+    },
+    {
+      "title": "Bientôt la fin des APL pour certains étudiants à partir du 1er juillet, êtes-vous concernés ?",
+      "source": "Yahoo Finance France",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVk9BX1czX0NMWmc0dUpNSDJHV2ZpOE9nWm94VW4zbEhuNUwxQ1F4OHZRSGpiWENCZjFodWV1M2Q0dXlrbl8zOW5rRGZSbVY2d052UW9OeEY1X2w4OUtkQl9vVnJKZDBrVUVBajBnbkNZa3M3MzBRajBDbDVLcVdVajBHU09KamJGWXAtV2xPZDhnbUJvektzcVlZcndSbjJp?oc=5",
+      "pubDate": "Sun, 28 Jun 2026 16:00:33 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "1er apl bientot certains concernes etes etudiants fin juillet partir vous",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T05:48:35Z"
+    },
+    {
+      "title": "APL supprimées dès le 1er juillet : ces étudiants que la France va laisser sans un euro d'aide au logement",
+      "source": "Le Tribunal du Net",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTnN1V3VzVEM3OWk5M1NmQjVTZENxNHN0aXAtOURrLTlUa1c4dXpzU2FTb1kwUU9KQU8yTmdvSkVybG1PbUhHcVlFRWcxb1l4SlA5TjR0NUpCMFBqY0l6dkdld3NpTmJnRWs0SjliRjhjWTY2dzhJY29DV2tldGVXOGNLN3FHeC1LOGx2U3FCT2dyQ25YZ255TjV0NVktRGs?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 05:04:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "aide au logement",
+        "etudiant"
+      ],
+      "tkey": "1er aide apl ces etudiants euro france juillet laisser logement que sans supprimees",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T05:48:35Z"
+    },
+    {
+      "title": "APL : étudiants étrangers exclus au 1er juillet 2026, qui est concerné",
+      "source": "1001web.fr",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8zWjRuMkw5c1p2bldZTEFQam1EYnd0cFRnU0ljT1FFMjhzV3R3R18yTGhXUXpnQXQxckg2ZmxrbmZrYWZYUHF4S2d3QlF6RS1VVEY0R2hNSE13M3E5Tk0xLS05cENDaUNyM1BWNWFyVzFpenc?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 03:19:29 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "1er 2026 apl concerne etrangers etudiants exclus juillet",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T05:48:34Z"
+    },
     {
       "title": "APL étudiant : conditions, demande, montant et versement 2025",
       "source": "Capital.fr",
