@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-29T14:47:00Z",
+  "last_check": "2026-06-29T17:35:06Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -47,9 +47,142 @@
       "at": "2026-06-29T05:48:36Z"
     }
   ],
-  "last_alert_at": "2026-06-29T14:47:07Z",
+  "last_alert_at": "2026-06-29T17:35:14Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "APL : les étudiants étrangers non boursiers perdent leurs aides au logement dès cet été 2026",
+      "source": "Nice-Presse",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51Y2tYSEJHZjJoanNKM1ZJcklWemoxTzM5R2FGbFBYUDF3cTl2ZERYeklpYTl4SkZyU1o2TUNUNFBHOGl0US1rN29sSF9WaEpTMXlyT2VLU1pQa1VDSFA3aWZRYzRkRi12ZXh2Z3RabzFUZ0E?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 16:16:19 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "aides au logement",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "2026 aides apl boursiers cet ete etrangers etudiants leurs logement non perdent",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T17:35:13Z"
+    },
+    {
+      "title": "APL supprimées pour les étudiants non européens et non boursiers le 1er juillet : l'Unef se dit \"très inquiet\"",
+      "source": "L'Etudiant",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeURLZGdwTV9TYmdNQ1JzX0EwaXFCd1hBWl9uaUlBUk1YTVBfdTFlbFdibGR6TlpMWGlhQVB0S01UbUxKak1CRHlnSURhRTYzQzU2MDdpdkhZT08tS0JXN1RIZTFBN20zcEZPY3FHRktzQm83aGIwREpkQmNfdXJTRTdsczRablFhaUxJMXpqYmNDejNKTDlnNkVJVEJidEdGZjZjOEcyQzRJZWh5UmZ1by1ubDVpZm53MnFYc09yR0NZVHB0ckZXdjVn?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 16:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "1er apl boursiers dit etudiants europeens inquiet juillet non supprimees tres unef",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T17:35:12Z"
+    },
+    {
+      "title": "France : Fini l’APL pour les étudiants hors-UE non boursiers",
+      "source": "Yabiladi.com",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVptUjVuYnZUUEpETzhOemwtYnhCY0swTkQ5SGtEZnJTSDhlYmFINGladXpXTk9aQVg1bExwYTg4WV9hMWViZEw5cjZEbEJCcGliQWZ5TVRFWTdaR2wzUEdjSUhzLTdRRkpQbFFDMGg0OWppd0hwTG9kV25FeUtNb3hEaXFrUWNRTUJmMXVzTQ?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 16:35:25 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "apl boursiers etudiants fini france hors non",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T17:35:11Z"
+    },
+    {
+      "title": "APL supprimées, quels étudiants vont perdre jusqu’à 250 euros par mois dès juillet",
+      "source": "Melty",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVk4xNnRQV1Q0eGtNNUhTQWcxU3hDWmg4UzQwc1JfZjYyd1BtakJaYVBwSktMWFRmcXd2SlgxSm9VT0hjMEMycHZYaDFuYnNXRDl2cEpSay0wTm53WVRrZXBKNEN0eHRXWlV0cTRMTzJIVHNwOExWdEVUSUl1cmFaaHVWWmRxa0tmTFotNTJFb2Fyb1VyanpaRmxYMWFaZGVJZEp5VWhINC1lSTBESVBhTjM1XzBXdTJERHFBYkdR?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 14:54:06 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "250 apl etudiants euros juillet jusqu mois perdre quels supprimees vont",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T17:35:10Z"
+    },
+    {
+      "title": "France : à partir du 1er juillet, les étudiants non européens et non boursiers n'auront plus le droit aux APL pour se loger",
+      "source": "InfoMigrants",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOY3JGYllZczdDOFUwd0Z3XzhOZ0Z0ZEZQWWxVZ29oY0JZSUhUOHZHczQ2WmRBNXBLeDZiX1g3ZWtYeUlBa3pfV0RVRGNmOHJYb1VzSDM1UEF2aDJQTG1YWk9oZDFfRmxoM0JjcFIwZ2ZOLXVvaFZISWtvclNsRmF4SGJSRDVXRjE4U2w0NG9fMERMelN6cjdGNnZ6R2w0Y2RFM3VNLXprWmFqNndRUndnd2JUOEgySmhBaUo0NEVZMmRGZWIxc3hVVXViLXJIWTNkU3hfcU5UaURqTjNwNFFmcU5Jel9MMWd0bWtWNk9yZEhrbEJHVVE?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 15:03:45 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "1er apl auront boursiers droit etudiants europeens france juillet loger non partir plus",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T17:35:09Z"
+    },
+    {
+      "title": "APL : un décret précise les modalités d'exclusion des étudiants extracommunautaires non-boursiers",
+      "source": "AEF info",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZHowcVpuai0xY0tlRENGMXg1cVRJWFJZSWFEVWlxcGE2bmVOTy1DNjhQcWxSak81RDRmdE5BUV91NnRxZkpnRjZmVm1HSGFZNG1hdDU1VnNWSWtEZ3dLLU1nMlNrVmh5LV82R0NBNUJ5QmNOOTJMRDhMOEZjSjdXVC1QSHByMWFrMThTbDk5RGZlYXZWMm1JM2V1TlNJUXFuN0hpTU04enNLV2E4ZEpGV2h2RUVlQUtkS1VEcm5wa0Z0RWxlWlcxN0V5MnM?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 16:43:00 GMT",
+      "priority": "high",
+      "label": "Probable decret",
+      "confidence": "probable",
+      "matched": [
+        "apl",
+        "etudiant",
+        "extracommunautaire",
+        "decret"
+      ],
+      "tkey": "apl boursiers decret etudiants exclusion extracommunautaires modalites non precise",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T17:35:08Z"
+    },
+    {
+      "title": "APL : les associations redoutent une précarisation de milliers d'étudiants étrangers",
+      "source": "Enfance & Jeunesse Infos",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNlpvcmowTjdYMXhUV2Z0dFhvaTBqdlBOcER0V1BPeDBiQmhfZXc0OGdFQkI2Z3hIQjJXMXU3QTkyWklyclpqZmpIemN0bUNETG1vYWRZTGFJS0dfak5iQWFSd3RVZmNfMFo4SzhrbjA5b2lQREYxSjA2d21EUVZxaEU1SWtETlllLXpNMFc0ZWJMUWUwb1EyQXZmNFpDMkVjdWxMdHBESDZWQ0ZhVzlDbHMxLUFXUjN2Smc?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 16:19:11 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "apl associations etrangers etudiants milliers precarisation redoutent",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-29T17:35:07Z"
+    },
     {
       "title": "Jusqu’à 250 euros par mois en moins... Cette réforme des APL inquiète déjà les étudiants concernés",
       "source": "Be Magazine",
