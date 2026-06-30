@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-30T12:08:19Z",
+  "last_check": "2026-06-30T15:26:01Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -47,9 +47,84 @@
       "at": "2026-06-29T05:48:36Z"
     }
   ],
-  "last_alert_at": "2026-06-30T12:08:21Z",
+  "last_alert_at": "2026-06-30T15:26:05Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "France : les étudiants extra-européens non boursiers privés d’APL dès le 1er juillet 2026",
+      "source": "Gabon Media Time",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdV9DcEN3bExvdHIwY1kycUpEVWtMbTZOdjczN1BMZUREQjJpaGppSXRNU1VMblNpMExvTXZ2U2hyTGwtN0lTMFZGMDhEWDgzRUl3cFNrLWtpQnlPeVRyVHdTQmpuUmtnb0hod0VUbENqOUprUl9OTzFhSVZ1LTZlMUl5Rm1hVUVjNWFpckhGVUxBOUdfMEN6WFQtQmItT1JOUXVtMnlUUndMV3JuRE5rSjk2Zm8?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 12:49:01 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "1er 2026 apl boursiers etudiants europeens extra france juillet non prives",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-30T15:26:04Z"
+    },
+    {
+      "title": "Les APL s’arrêtent pour de nombreux étudiants étrangers : voici comment les conserver",
+      "source": "Presse-citron",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNUxiM1JGOW9WY3UxTW5wSEFxc0tZaVRLRnlsUGJnUWJPT3c2dFNsTEJQQjVqMHNJTi1wazdibWtOWlUzWk5MeWg0YjI0TDZZNWNKZXVSRzU3UFVabnpkRUJEaUxxTFJwN2FNd183YmQyR0cyOU9FTnB4d2p1MFdUdDhKb3phRzVhZEI2TDBaSGZ2ZnZndWlQcGFiaGtSRUxwbXg0XzVnUWlzWExkalNNSlRqYw?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 13:33:18 GMT",
+      "priority": "high",
+      "label": "Probable decret",
+      "confidence": "probable",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger",
+        "arrete"
+      ],
+      "tkey": "apl arretent comment conserver etrangers etudiants nombreux voici",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-30T15:26:03Z"
+    },
+    {
+      "title": "100 000 étudiants vont être privés d’APL dès cet été",
+      "source": "Journal du Geek",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSXY2QzFaS1pGLXcyWlQxQUMza1NmRXVVaWJPY1l5OFBrRURIVUdSUm5ZcW9QQ2VLWTJqVnlmRWcxLUkxOTJIdGY1Rk9xMVRORkxldS1QSHkzRFhhcXdHZnN6d1JKMVdpS05sWkxYOGRVWkxRa0lLblg3cjloQnVFdkxXYnlmbnpLTzRpaFhjSU9VWktlLUN4OQ?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 14:30:50 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "000 100 apl cet ete etre etudiants prives vont",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-30T15:26:02Z"
+    },
+    {
+      "title": "Suppression des APL pour les étudiants étrangers à partir du 1er juillet",
+      "source": "Valeurs actuelles",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQU3hwX3FXN1NCY29XQXhzSTlWQTZnNUdZeExRRS10dHRyQkdNdU11TVlrQUtPQ0xYbGZodjFta2dJQ2pLTkVBblVGcWExdVlIOG9OQkZCLUtqbGJocElXMG42TlBQTWI1RzlScmg5RDM0NThzRGM4NWlQaHZkUjVYdG9JYWJpcTdIZUEzekc1VGZjd2dTYmhJdTZzQ1FGYTRMdmZwbmhEOUVBU2w0WU01RU1BRQ?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 14:00:49 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "1er apl etrangers etudiants juillet partir suppression",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-30T15:26:01Z"
+    },
     {
       "title": "Mauvaise nouvelle pour les étudiants étrangers : à partir du 1er juillet, les non européens et non boursiers perdent leur droit aux APL",
       "source": "Social Mag",
