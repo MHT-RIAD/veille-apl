@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-30T19:53:02Z",
+  "last_check": "2026-06-30T21:26:54Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -45,11 +45,36 @@
       "date": "2026-06-29",
       "count": 7,
       "at": "2026-06-29T05:48:36Z"
+    },
+    {
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "date": "2026-06-30",
+      "count": 13,
+      "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-06-30T17:51:19Z",
+  "last_alert_at": "2026-06-30T21:26:55Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "APL étudiantes supprimées: qui perd l’aide logement en juillet 2026",
+      "source": "24matins",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUzg2ekozdGxIVzF6RUJ1WVJRNTdadkx0aEIzSHhjQUVOZllIYVVOR1VNUW52UnUwOFNOYXE1Vm45Wk55eHZTSG10cXRmTEwyWUNpSjN2aXFMRDY1TGZveWR5OFQ5X3kxc0JCeUdSX2xiUEQ3V0liaFh1eF9FNl95UTRLc1ZuT1hCQWNETW5TT0dOYTVmS0NsM09obGRvdw?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 21:00:53 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "2026 aide apl etudiantes juillet logement perd supprimees",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-30T21:26:54Z"
+    },
     {
       "title": "Hausse du prix du Gaz, APL restreintes pour les étudiants non européens… Tout ce qui change au 1er juillet",
       "source": "L'Humanité",
