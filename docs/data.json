@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-30T05:01:26Z",
+  "last_check": "2026-06-30T09:31:11Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -47,9 +47,84 @@
       "at": "2026-06-29T05:48:36Z"
     }
   ],
-  "last_alert_at": "2026-06-29T22:58:03Z",
+  "last_alert_at": "2026-06-30T09:31:13Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "APL : une réforme qui pourrait retirer jusqu’à 250 euros par mois à certains étudiants 0 photos",
+      "source": "menuiserie-vinet.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NVk16WGQ4TnNySDhnQUtZUk42a3JCdGpzQm9lR1NRdk9tcXhqUmg4Nk4xd3dZTm5rUi1nWXhxMU92TDFsQUM0ckctV04yTWxiYVRxOGl4em9CRWVoaFE?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 05:56:04 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "250 apl certains etudiants euros jusqu mois photos pourrait reforme retirer",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-30T09:31:13Z"
+    },
+    {
+      "title": "APL : Impact de l’exclusion des étudiants non européens sur le logement",
+      "source": "leconseilpatrimoine.fr",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTmVrUVJoVU50SkhjaFc5MFI3ckdMNWlWQ2NZeXE3djd1RS1FMDJzdDQxU3lqRXVDOUpqbk9oUGdZTFZuam9yd05HenQwQk90bmpQMFNGeFJGZjBCWm1vR0VETXAzVkdSbzA1Z2IwNjNnMTRXbk1jT3R1aWJUSVZrQlpJSnk0anJjYmN2cjh3ai1sUm5RNFJUOXBJYklzbEhvZ2lyQjh6Y3F6ZHc?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 05:03:03 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "apl etudiants europeens exclusion impact logement non",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-30T09:31:13Z"
+    },
+    {
+      "title": "APL : fin des aides pour les étudiants étrangers non boursiers, mais pas tous",
+      "source": "Politique Matin",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9OWVBmaFRDaWNwQWRUaGtGUmxBR1p2VTNTWXFYVjVhTE00NWpVY005WlZDNHlFSkVUYWNxWHVfRVhTM3dmMFpHbjZPcnVYaFI5ZDlxZWtRcm42MmhJT2g5RDVWajcycnRHQ2EtQnRfb05hRGJENGc?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 09:00:48 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "aides apl boursiers etrangers etudiants fin mais non pas tous",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-30T09:31:12Z"
+    },
+    {
+      "title": "APL étudiants étrangers : la suppression des aides entre en vigueur le 1er juillet",
+      "source": "Le Courrier de l'Atlas",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSFpXSDBTM2R5QTlqSXBWb0R2X2xscGtuZVdvQ2JzMmxoR25fanh3QWd6QnV2NWItUzAtVU1nTkZvaEhRQjlRS3gwNXY4V1lKOUVrbkQ5aWVBUHhwdy03aHZ4VmpVZzRZUWtlNVJMYTFoMU1lMDNuMnZYUE0tUEtuOTJfbE1qR0RtdFRj?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 08:53:10 GMT",
+      "priority": "high",
+      "label": "Decret confirme",
+      "confidence": "confirme",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "1er aides apl entre etrangers etudiants juillet suppression vigueur",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-30T09:31:11Z"
+    },
     {
       "title": "France : la CNCDH dénonce la suppression des APL pour certains étudiants étrangers",
       "source": "Anadolu Ajansı",
