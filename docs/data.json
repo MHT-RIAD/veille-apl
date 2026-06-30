@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-30T21:26:54Z",
+  "last_check": "2026-06-30T23:10:27Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,28 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-06-30T21:26:55Z",
+  "last_alert_at": "2026-06-30T23:10:27Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "APL : dès le 1er juillet 2026, cette aide vitale disparaît pour les étudiants étrangers sauf s'ils remplissent une condition",
+      "source": "Bourse Inside",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOT09Db1RRSkkyNXU2dV9sbEZKazAxSUw4MHVhY2ZQV0J4T0NKUy1wMF9Qal9ObWwxV0lYYWp6VFprQWxjUjcteDJ3VFA0Zjc1bUZyV3hhRkpJSWtlZHJ2Q041a2c0OENKWEN6dWNBcVJaR1YwcTUyME11OW1jejRQbG82UVJKZHlzcHhpckFFUGFOZDd1N2tXTTZ2VlR2TEFPaER1NkRpZWFxY0tTZWpMTzVVYlBfM3RKQ0Q0b3J3eUhxZlZjYmVmZnU2bHpDSjZWVTVJSlU3OGV6cXdra0I4QjAtRG4zYzlMSXc?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 19:25:39 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "1er 2026 aide apl cette condition disparait etrangers etudiants ils juillet remplissent sauf vitale",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-30T23:10:27Z"
+    },
     {
       "title": "APL étudiantes supprimées: qui perd l’aide logement en juillet 2026",
       "source": "24matins",
