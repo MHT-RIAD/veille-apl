@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-30T09:31:11Z",
+  "last_check": "2026-06-30T12:08:19Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -47,9 +47,66 @@
       "at": "2026-06-29T05:48:36Z"
     }
   ],
-  "last_alert_at": "2026-06-30T09:31:13Z",
+  "last_alert_at": "2026-06-30T12:08:21Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Mauvaise nouvelle pour les étudiants étrangers : à partir du 1er juillet, les non européens et non boursiers perdent leur droit aux APL",
+      "source": "Social Mag",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQYVRqNmdYMmU4TlRHM3JyWVdnY0t5TlFkdjhhUXFaODNVa1RxYWhNNC1TeTBCdFdTcEdfbFRLQ05jd0NMWXdGMzJ6R0JCS0x3c051enM0X1cxWV8wOGZTTEFTU2Y5eFMxT1BfTGp6UDBDUjdWTTI5TTBUTW00RkIzU3hVYmMzVkcwQ0JsQ1B1dkJTM0xtQjhndDcwaXRnQXZ6aGtfR2J2RlhrdzRWbnRHVG91cDhYbWRlMHV6NlJ1MVJFWlExS180MWNqWFVvT0tCS01jelpRT09RNFIwY2N5UFRTQ3pBUEpuWWV2X3lzQkFPbWhwb1ZfRm1ZUFJOcktB?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 05:55:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger",
+        "non europeen"
+      ],
+      "tkey": "1er apl boursiers droit etrangers etudiants europeens juillet mauvaise non nouvelle partir perdent",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-30T12:08:21Z"
+    },
+    {
+      "title": "À partir de ce mercredi 1er juillet, une partie des étudiants en France ne recevront plus d’APL",
+      "source": "Nice-Matin",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSzFxZERqR0I3bkVleUF6RHRkSXFldjZsR2djbzJEdlpvX0xUcWMzQUZhTVpwLVJsOVV1dXM1NWdIWDgyektsMHgycVhqRVJGR1RISzYwU0xKdnBINmVvam1GSHBBSHF1WmJNeHBsYWt6R0s2RXBGMmVZVzNnT3dSUmxJVlBhSHFYckxwSnBiYlczeTRTOTVnb29id2pjVmxURFlQLVpOenhaTjduWnp5ZGYyN3Z3TmNORTZhRnU4T2o5dEVveC14SEdVYzJBSFRJSDBtdg?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 10:40:06 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "1er apl etudiants france juillet mercredi partie partir plus recevront",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-30T12:08:20Z"
+    },
+    {
+      "title": "APL : 100 000 étudiants étrangers perdent leur aide dès demain",
+      "source": "Speedy Life",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9TaUtzTFBLWFpMVk1xT0Y2U1hISFl2bEY0Z3FpTjdvYW5Fdi00c0FWR0NBXy1Yek5RNXNFbzJ2Q0pyM2xCWm5WT2g4Vl9tNFZKVko1VjVydTRxbHktd0xNYkljU1BZcDRIcHZPYlFZdmI5N3VZS1ZLTUZ3?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 09:03:44 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "000 100 aide apl demain etrangers etudiants perdent",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-30T12:08:20Z"
+    },
     {
       "title": "APL : une réforme qui pourrait retirer jusqu’à 250 euros par mois à certains étudiants 0 photos",
       "source": "menuiserie-vinet.com",
