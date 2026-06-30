@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-30T15:26:01Z",
+  "last_check": "2026-06-30T17:51:18Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -47,9 +47,28 @@
       "at": "2026-06-29T05:48:36Z"
     }
   ],
-  "last_alert_at": "2026-06-30T15:26:05Z",
+  "last_alert_at": "2026-06-30T17:51:19Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Hausse du prix du Gaz, APL restreintes pour les étudiants non européens… Tout ce qui change au 1er juillet",
+      "source": "L'Humanité",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOVW9QeUh6LXN2WFVLR2tzTEFETE9rbXNWdl9fenFNSXpsSzhoYTBmNGhVd1JkYkRHWmJzUzVvTURaT3BON1RiZXZiMy1IV3NZVEdKYVJxc0JLWTNQV3FIU0tGTlRLZW1DaDZZSUZoWThsaFp4Y0ljSVRWcFdkTnY3WjNNLUlNeElpYk9MUVM1YWphTEhoQlk1QnFaU1VhTGFWOFp6a1QxNGQweEVpRXJ6dUlpcGxtRTRQUHEwN3VEdURIcVltTTZQWE5KSXZIOFpnZjVRbUFEVXNLSl9MVVI2UHVOM1NVUXhVZ2hERFljcmRGNWJRQ0dPT3F3?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 17:12:44 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "1er apl change etudiants europeens gaz hausse juillet non prix restreintes tout",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-06-30T17:51:18Z"
+    },
     {
       "title": "France : les étudiants extra-européens non boursiers privés d’APL dès le 1er juillet 2026",
       "source": "Gabon Media Time",
