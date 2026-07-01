@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-01T03:37:51Z",
+  "last_check": "2026-07-01T08:10:57Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,62 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-06-30T23:10:27Z",
+  "last_alert_at": "2026-07-01T08:10:59Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Congé de naissance, prix du gaz, APL pour les étudiants étrangers... Ce qui change à partir du 1er juillet 2026",
+      "source": "Europe 1",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVlV6WXR3SEFfMTF5RUtLYXA0Nm5CVG9sOW12UXJBSnpjeWJQMzZsOEVVSDBUdDJRdlBqd3ZhTHhlcldiZzhTSVRtNTZOVm9oZFJuUXdrVExLblZreFlLc3IzMk9IT1BUakJXUnhaR1ozZXhWb0hVNXM0RTU4SmMwYU1iVmkzeUJ0VGxjb2FlQzRlWXpRQXVLeGxWekJUclRwNVdKMG9WVzQ4NEtQWVhDZ2JPdUV3c044VUhCMTgxSUh0cDR1Ymstb240aUh5MDZfcEZMcm9GNTNXRjA1d3fSAeMBQVVfeXFMTi11THZ3WVQ3NXJkYUtPcXR6c3R3UUxJVFNfWWxPcG5FSF90SVZpMlFkUWpuM2R6YmpONGFBVk8xSHpIWk1lUTQwRF9Gc2V1WjNjY1VabDFlbkZDZHRWVkhzM1c2TWctRzluZzlUems3RURtSUdITkoyTllOSVdhVzUxTVdUSm9nZFVRU2Y1RmVBZ2xMdUdoU1FjTktnQk56elJIZjdCUENxSWk2YTVlMTJjdkRqOTZmNnpGeHZqTHZfVkF4NHBMM0V6TExwZXh6dHcxcW4tbWtDUGdKM3FTUzFGRUk?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 04:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "1er 2026 apl change conge etrangers etudiants gaz juillet naissance partir prix",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-01T08:10:58Z"
+    },
+    {
+      "title": "APL des étudiants étrangers : cette nouvelle règle peut tout couper au 1er juillet, voici comment sauver votre aide",
+      "source": "Vie Pratique Féminin",
+      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOa1pHWHl2RlB6d2dQclVXcFNOdVpHZ3ZKMGpRRUJIN05vUjBNOWJTWGxJbWJGTzBKZTlvd0JGNWhLOVRoMl9SeFBYaDBHd0R6bmpwUzZrOUJJeXN4NGlJbk83ZWsyQ1R1d2RFTmdTZmZIQjU1TEFRUnIyNElDc0xLYXc3RjdfbERXWkMteVdIZTlLQVpqNTZZby0zbkNnRHJDQUU0Yk5zLW5yNnlMczE1UDZHT05zdkFscmNTWktrYnNQWkNmNHVGQlFFSVRUdmpuYkFrTUdqNTRlSlhyc0hVeldIV0tOSnIzeTlQTmUtNm5qdXRZRlFyVWxCclBrUmxWbUN1b2laVkFHOWluNzJFZzByX2pjeGkxVVFqQlItaw?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 04:09:56 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "1er aide apl cette comment couper etrangers etudiants juillet nouvelle peut regle sauver tout voici votre",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-01T08:10:57Z"
+    },
+    {
+      "title": "Modification detectee : Service-Public — APL étudiant",
+      "source": "Service-Public — APL étudiant",
+      "link": "https://www.service-public.fr/particuliers/vosdroits/F12006",
+      "pubDate": "",
+      "priority": "high",
+      "label": "Page modifiee",
+      "confidence": "confirme",
+      "matched": [],
+      "tkey": "page:https://www.service-public.fr/particuliers/vosdroits/F12006",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-01T08:10:57Z"
+    },
     {
       "title": "APL : dès le 1er juillet 2026, cette aide vitale disparaît pour les étudiants étrangers sauf s'ils remplissent une condition",
       "source": "Bourse Inside",
