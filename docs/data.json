@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-01T12:03:26Z",
+  "last_check": "2026-07-01T15:39:57Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,47 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-01T12:03:27Z",
+  "last_alert_at": "2026-07-01T15:39:59Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Réforme de l’APL : allez-vous perdre votre aide de la CAF ? Voici les étudiants concernés dès le 1er juillet.",
+      "source": "Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPS2h6SnRxR0UxLWdFSHdiYzJCTkoxU3EtOFlxVDkteWd1aEZIQlQ3RDdyUFFVZW9uZzkyLUhhYlFUVEhXYjVMLU5BZUVVVjVDZVlkeVJaMEtLSWotMVBDeWpUU0NmRURMRE5zb1dlMjhjekZ3RWEwRkJmUEFMM3M1ZzJDRVcwaE82cTZwRTdkbndjOWtkTmMxRlV4WGx5ekVVRnM2cHdjXzFkUS03dlVoeHQ1Z3lYNk9ubElYZzRxOW9xU0tFVS1tem45NzFWYkxtSDJyemR0bmNJUWZBNXB4dHZZNW9OVTZGempDclhkeVRfczA?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 14:56:10 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "1er aide allez apl caf concernes etudiants juillet perdre reforme voici votre vous",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-01T15:39:58Z"
+    },
+    {
+      "title": "Étudiants étrangers privés d'APL : le décret raciste entre en vigueur le 1er juillet",
+      "source": "Revolution Permanente",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcmtHX3JJUmtiVmpEcW1kUU43WVFqVEwxQ09pWll3OWtXQ3lOaF9GTmtpYThaaDVNZGRvRHc1NDNUNlg3VkNScWhYa2F5R3FUSi1razRNNXNJbnZSNExzek5mMXdyMTc3cEdDYkNsS1RwRXZqeEVZWUpnV09wSzB0ZFR2cEFfcnRNN01XQ1IwMVZEWmJ5N3FGR0Q2UXZ2RGNzX3pYRXNpQkdLVlRCSkVZbDhxd3REOGlSZjMyVVktV0l6UdIBwgFBVV95cUxQcmtHX3JJUmtiVmpEcW1kUU43WVFqVEwxQ09pWll3OWtXQ3lOaF9GTmtpYThaaDVNZGRvRHc1NDNUNlg3VkNScWhYa2F5R3FUSi1razRNNXNJbnZSNExzek5mMXdyMTc3cEdDYkNsS1RwRXZqeEVZWUpnV09wSzB0ZFR2cEFfcnRNN01XQ1IwMVZEWmJ5N3FGR0Q2UXZ2RGNzX3pYRXNpQkdLVlRCSkVZbDhxd3REOGlSZjMyVVktV0l6UQ?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 13:13:45 GMT",
+      "priority": "high",
+      "label": "Decret confirme",
+      "confidence": "confirme",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger",
+        "decret"
+      ],
+      "tkey": "1er apl decret entre etrangers etudiants juillet prives raciste vigueur",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-01T15:39:57Z"
+    },
     {
       "title": "APL : fin des aides pour les étudiants étrangers non boursiers, mais pas tous",
       "source": "MSN",
