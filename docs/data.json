@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-01T08:10:57Z",
+  "last_check": "2026-07-01T12:03:26Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,46 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-01T08:10:59Z",
+  "last_alert_at": "2026-07-01T12:03:27Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "APL : fin des aides pour les étudiants étrangers non boursiers, mais pas tous",
+      "source": "MSN",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPanU3OW1Ub3p5emN1NzhSTkUzMnFhbzhTWGtWdEpkRVk4M3NQaERvTW5BcWNaTXNwbExUbUtOb2VvMGcwZUR2VVpyR1ZPS2JVOEU4MVFGRUR0SjN1VUs2cnRsdUJTSGhJajBNcGdxVlhCTlN1UDFoVmVJSldvTE8xd3NPV1p1OFN2YnFSTXdMdmY3ZVhWTEJkREJ4S1VmTjVzWGNFMFJyRHNITldPdmdZNzlNWTlRc0NTbWhZakVvZ3g0NGxuWlQxYUpaSFRjaUVEMWh3bg?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 00:32:40 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "aides apl boursiers etrangers etudiants fin mais non pas tous",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-01T12:03:27Z"
+    },
+    {
+      "title": "Pour faire des économies, le gouvernement supprime les APL pour les étudiants extra-européens",
+      "source": "Europe 1",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVlktYThSNFZDa1hrZFdvYlZfdHZWWWVXY2NsUFBqZ2tUWDd1MzVIVjZPNU1MSXVnT2VGMTViUGxmSnJzSXY4VlpjRGQzckZFUzZiR256S1ZjOGYtc280MlJvUDkwMFZVQ1Vla3ZIaXF4a3RPWUVjbk50ODkyZFg3ZzVyeHoyNnp4c1BCbDd1b2FrNGh4WExOandaZ1JsRzdYNjc5a0Nad2hQSEN3SFltemdET1kyV2dxdjZCaG9UYzJVRzlHSG02SG96SdIB0AFBVV95cUxOUkpnWXpZR2xxUl93TDF4SlpYWXBXMXlpZlotSURzTm9UQy1DZkdRaEhoN3lMcHV0NlJ6YnNuYjVHOG1RSXZVVmRidlFwNzQ5RlJuSlY4dTV6OUVxemxwOEJFTk9yaGJQcUNDTTZOeV9QTzJVV2ZYZ0lkRmNmLWlBeHZwMWxDQUpvRWRlYzBLczVMbXE5b2l1bEhTU1o2ZS1Ta21GZ0ItTmszWEUzbDc4U2tXUFVBTEM1RXNEOTR0ZENsNVFid0dVdUR0dTdibEVD?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 07:21:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "apl economies etudiants europeens extra faire gouvernement supprime",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-01T12:03:26Z"
+    },
     {
       "title": "Congé de naissance, prix du gaz, APL pour les étudiants étrangers... Ce qui change à partir du 1er juillet 2026",
       "source": "Europe 1",
