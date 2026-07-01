@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-01T15:39:57Z",
+  "last_check": "2026-07-01T17:53:09Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,29 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-01T15:39:59Z",
+  "last_alert_at": "2026-07-01T17:53:09Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Fin des APL pour les étudiants étrangers hors UE et sans bourse : Danerine témoigne (Video)",
+      "source": "L'Humanité",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOUtfMDhIWGFGcXRQMjVDdzNRNGZCTF9xNi15R09VaTZHanlLaTZVNm81REZVLXBfVksyeVNYc1d0TlBmY1BjNXA4NnBiak1BZjJUbDllWmtpb0tqcWxOZnVHZGdBSko3UXZJX25IUTlJci1aY19HYXVrRW0tMFVjeVpSUVcwaXA5TmRraEEyS01Rc1BNQVhSQy1Ndld6OE9VejhkQmloRmx3V2dCbDVhVFdQOW9MdG5D?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 15:55:53 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger",
+        "hors ue"
+      ],
+      "tkey": "apl bourse danerine etrangers etudiants fin hors sans temoigne video",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-01T17:53:09Z"
+    },
     {
       "title": "Réforme de l’APL : allez-vous perdre votre aide de la CAF ? Voici les étudiants concernés dès le 1er juillet.",
       "source": "Doctissimo",
