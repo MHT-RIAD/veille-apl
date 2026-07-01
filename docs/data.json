@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-01T17:53:09Z",
+  "last_check": "2026-07-01T19:51:46Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,46 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-01T17:53:09Z",
+  "last_alert_at": "2026-07-01T19:51:48Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "La fin des APL pour les étudiants qui sont à la fois extra-européens et non boursiers représente 200 millions d'euros d'économies par an selon le ministre du Logement",
+      "source": "BFM",
+      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQbXJsckt1UHh4dm1zYlJfdXpFSmVrdDdmQUhZNjBqSmJ4X0lzQnNuU1FVRnlyQkVBWkJUdkM1eXJVRDdaQUV3OS1KX3NhNTdKTmszMGxNZFZ4VGlwRzY2UzkxVnBHbU1FOVlZdk42MHpyU1BWUzFDcF83QUE0LWwwTzc1S3JzV3NlN3Q5MndDbkZZNVBSVm1mcmRvb1pKS3dPTU1FeHVBZkItR3owdW9RXzZoTFZOdWpmbkQ1MVA1Q21vQ21MRDluQ3ltUzJIcndWZlhQZFRjQVotTVlLQ0lxZlB0YXlNVFBsUVJLMTZpZGZoc180bmxqdXU4YlJxTEMzeHdESWdDZFI4eVJpdEJnbW1sRHFGZGRGS1h3SFVlUmVGRjFhZWFnN3VkbGlDcjl3YjU4V2FVdlQyVkd3Q2d2VUpn?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 09:11:48 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "200 apl boursiers economies etudiants europeens euros extra fin fois logement millions ministre non represente selon",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-01T19:51:47Z"
+    },
+    {
+      "title": "La France prive les étudiants étrangers et non-boursiers d’aide au logement",
+      "source": "RFI",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVUtmbXlvSXJaRXJ1M3BOWGNxX1VOSFA4cGZzLTRvdWFWZmdkWk5mbm9XWWJVZU5SdDZUSktUcnozeUM1dVA5TV83T0xuTlk4QmQwXzdaUlBETDQyYXNOdFc3aWNZeHhNX1p1enpXbGFGMk9MQk9VWFMxOEtybzFuQWZJLXB1ZGVJM0VCc2JDeDdjRHZfVGU0NGQ2cWFrRG1sYXplMDhSeHlQeTU0a1IxVmNHb1NyTC1IaUNQMFlBYUp4NWI3d2c?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 16:01:48 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "aide au logement",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "aide boursiers etrangers etudiants france logement non prive",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-01T19:51:46Z"
+    },
     {
       "title": "Fin des APL pour les étudiants étrangers hors UE et sans bourse : Danerine témoigne (Video)",
       "source": "L'Humanité",
