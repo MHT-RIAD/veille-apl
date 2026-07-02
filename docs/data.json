@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-02T19:21:32Z",
+  "last_check": "2026-07-02T21:03:51Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,28 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-02T17:45:04Z",
+  "last_alert_at": "2026-07-02T21:03:52Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Hausse des frais d'inscription pour les étudiants non européens : la Fage dénonce une mesure \"discriminatoire\"",
+      "source": "Radio France",
+      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQYkxLVUxZc1h1a21FbHFkUjkzOW5pSDlTRWNUbEZCVVJ5Y1ZaeDltZF9oYnI3bWcyTG5mN3hQeW85a3o4aGpPX3kzMmZUOElDTmwteWFWd2hvZUV6SWJoX0x1ck43c3dKbV91YUkxT3lZRTUyTXFYVDRkODliMmNyM3lpeERIenVPR3AxQTRUNzI2ZnVXVF9XT280elo2VU5Oa2lleEhDaElZS3FVR2xDZmhuMGJyUzB3dTVyUThhMmFKb3hDU1pfQWNIcTNyZmc0V2hnQkE3X0QtcmFOSmlEQUh1QjY1a2dPR3A1eWs2S0hTNFZXQlBlQ29lNGVsWURwNmdBVXl1SXB0Ykk1UGhMdmllWklYRVhYSFdOLWFuRmYxMUsyS3QtWg?oc=5",
+      "pubDate": "Tue, 12 May 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "frais d'inscription",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "denonce discriminatoire etudiants europeens fage frais hausse inscription mesure non",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-02T21:03:51Z"
+    },
     {
       "title": "APL, APA… l’accès à ces aides sociales bientôt durci pour les étrangers ?",
       "source": "Capital.fr",
