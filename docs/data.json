@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-02T12:56:18Z",
+  "last_check": "2026-07-02T15:15:35Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,27 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-02T12:56:19Z",
+  "last_alert_at": "2026-07-02T15:15:36Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Suppression des APL pour les étudiants extra-européens non boursiers à compter du 1er juillet 2026",
+      "source": "Service Public",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IU3RrbTc1YTZMYlFsdWs1SHVBZ2tGekRJUHNfOXNuLW93bDhfUk9ENTdnT001dWNlOGozSkR3a2RFaDcyNDRYTGJnRWxxTkVnRzVFSE5PNUM4MG5jVENWeG8xWXljT2JOeUUwMm43N2lObDQ?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 11:16:45 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "1er 2026 apl boursiers compter etudiants europeens extra juillet non suppression",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-02T15:15:35Z"
+    },
     {
       "title": "Fin des APL pour les étudiants étrangers hors UE et sans bourse : Danerine témoigne",
       "source": "MSN",
