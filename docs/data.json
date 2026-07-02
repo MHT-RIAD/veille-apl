@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-02T21:03:51Z",
+  "last_check": "2026-07-02T23:04:04Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,45 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-02T21:03:52Z",
+  "last_alert_at": "2026-07-02T23:04:05Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Étudiants : êtes-vous concernés par la suppression des APL au 1er juillet 2026 - Démarches Administratives",
+      "source": "Démarches Administratives",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWjgtUF9nd3ZJRmdSWjdEVVdUeHJjWTBZMmN0aDhuNk5Gdk5VU0NscU9sNE5WNGdOejNSQkZreUNnS0tmNEkzVFV1RmVjRXdnSkRSZXJXcUtTMExlMEZJckNrOUtkbkwxQm1OUXR3ZmdsejdETFhVUHlmcVhPNGI1RDZrNDRJWTFfRjZ1RktIZDFiYlA3aEI1UlJaZ0xQTWx6cFhrQUV3U3hEYnBRRFpUcjFrZkE5VjBLbkUxOUxWdHc?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 07:43:04 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "1er 2026 administratives apl concernes demarches etes etudiants juillet suppression vous",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-02T23:04:05Z"
+    },
+    {
+      "title": "Bientôt la fin des APL pour certains étudiants à partir du 1er juillet, êtes-vous concernés?",
+      "source": "MSN",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNbUhxdVJNcE5CQnNjYjRiSFNKVUdDUy1lc2p6SHhPNVJJTDZiS2pvSDRNWDZ6SUtYX3BRSXFJRmhQT05LV2o3THRjZEdURklXRm1XT2xMYzVHMkptZDh4STl3bjlKb2lEUnE5UWdwZjJNR2lGd3VnbFd4TXVTZWgzcnBnTTN1Y0dGaTVSOFI5LVY4LUFMZkVSVlBrazZOTEZnY1VUdktFa0FpTEFRY1BoaDZ2R1Q5WFYtUlgzMVhuazJDaUotYzd2NEZrazJWS1pWUERycFUzbGN4aUs3X3VHblVYV0lfT1JlcXVCUjNDZ3BHNGs2RDRSUVN4Y2w?oc=5",
+      "pubDate": "Sun, 28 Jun 2026 19:07:14 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "1er apl bientot certains concernes etes etudiants fin juillet partir vous",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-02T23:04:04Z"
+    },
     {
       "title": "Hausse des frais d'inscription pour les étudiants non européens : la Fage dénonce une mesure \"discriminatoire\"",
       "source": "Radio France",
