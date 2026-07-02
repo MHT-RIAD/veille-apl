@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-02T15:15:35Z",
+  "last_check": "2026-07-02T17:45:03Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,27 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-02T15:15:36Z",
+  "last_alert_at": "2026-07-02T17:45:04Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "APL, APA… l’accès à ces aides sociales bientôt durci pour les étrangers ?",
+      "source": "Capital.fr",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSXpvSzc4ZXBjSjhkYmVOdmJva21tT3BuN2dGdFFaTFN0WkZvN0tFT25laWp6dWlKWkVZcl9aX2ZzdUxVTzFYdnRJVHhzWE5nZklSV0V2aEY0QVFCcDFYQ002a3VJTDBPQVFYR243RW4tWHFVUTJ6N3NlM0M4R2d6NUptdF9zQWM2aUY3OG5KQ0xlbFIzdUV3YUVCLU9mMmFaS3BqY2JRdUMwTktmbFBJYnhiaEZ3MzlTbHc?oc=5",
+      "pubDate": "Wed, 19 Mar 2025 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etranger"
+      ],
+      "tkey": "acces aides apa apl bientot ces durci etrangers sociales",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-02T17:45:04Z"
+    },
     {
       "title": "Suppression des APL pour les étudiants extra-européens non boursiers à compter du 1er juillet 2026",
       "source": "Service Public",
