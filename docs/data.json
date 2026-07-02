@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-01T23:13:28Z",
+  "last_check": "2026-07-02T03:23:16Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,27 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-01T19:51:48Z",
+  "last_alert_at": "2026-07-02T03:23:17Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "France : les étudiants extra-européens non boursiers exclus des APL à partir du 1er juillet 2026 0 photos",
+      "source": "menuiserie-vinet.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80T3JRdnp3NzhyRzBQT2ltcTBMNVUwTzQ0aG8yV2lGUzJlM1Y4bVI4d3ROSHZTLV85c2g0S2l0b0hYSDd3X2tZQ0xsUUpwZVY3VW5FOHIwVTg3X3dnRmc?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "1er 2026 apl boursiers etudiants europeens exclus extra france juillet non partir photos",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-02T03:23:16Z"
+    },
     {
       "title": "La fin des APL pour les étudiants qui sont à la fois extra-européens et non boursiers représente 200 millions d'euros d'économies par an selon le ministre du Logement",
       "source": "BFM",
