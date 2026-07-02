@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-02T10:36:41Z",
+  "last_check": "2026-07-02T12:56:18Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,29 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-02T03:23:17Z",
+  "last_alert_at": "2026-07-02T12:56:19Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Fin des APL pour les étudiants étrangers hors UE et sans bourse : Danerine témoigne",
+      "source": "MSN",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQ2RNTTVVcmRyNHRVM1pDZFQtYWhDeXI5TUhsU0lhRUt3RVY0U0U5bDVyT3M4eTBlbTVjSXNPXzZ1SXFHaThWUDN2YjhkSkFVU2xBUUZ5Smllb01zbjE4LXhPbWpjYlRteUloY1RRU1pHUHNTbExsbHVCXzFRNVN6dlFic3ByeW5vZF9tMlJzeWNoaWJ2UjR1Z2dKUVlmTm5GUHpWbDFmcjIyckdyLXJBNWlQMThTS3gwY1poY3N4YTB4T1gwLWJvUGg3UGRnVzJHaTBwLWZvNDl0T2dSeDJwNnBUQQ?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 19:04:47 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger",
+        "hors ue"
+      ],
+      "tkey": "apl bourse danerine etrangers etudiants fin hors sans temoigne",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-02T12:56:18Z"
+    },
     {
       "title": "France : les étudiants extra-européens non boursiers exclus des APL à partir du 1er juillet 2026 0 photos",
       "source": "menuiserie-vinet.com",
