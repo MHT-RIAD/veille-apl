@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-03T15:09:36Z",
+  "last_check": "2026-07-03T17:23:35Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,28 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-03T06:30:35Z",
+  "last_alert_at": "2026-07-03T17:23:36Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Ce qui change au 1ᵉʳ juillet 2026 : congé de naissance, fin des APL pour les étudiants non européens et non boursiers…",
+      "source": "Le Nouvel Obs",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQYXdQWFctWXBVb1lBUHhZamRqOEhURllOdWdiUlVZcTRxZVNTbFIwMktSVTg1VVl2X3g3TGRsT3F2OTFleEJ6VllkbnNLdm5WWDhxdjVDT0lJcFRBR1NiZXZtX1pYOUFPQWFTblgzNTZyTnp4SVFwU0Y1UlJKTkpkd2NldGx0Y2kzX0N2SDZ4WFEwTnFmZS1qVW9jbVZTUTZldmNOSHVrQm1JNFJyMFppcHF0N0g1U1RrNFQySEFZM0dWbU9KNkNZRjZpZXFFTXIyTjRUT0pnM3RDaGwxUm4xZEJScDZJSEZLUlRyc1RpMk8xeUtyQ0JFZWZ1T3hTdnc?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 05:00:15 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "2026 apl boursiers change conge etudiants europeens fin juillet naissance non",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-03T17:23:35Z"
+    },
     {
       "title": "Étudiants étrangers privés d'APL : le décret raciste entre en vigueur le 1er juillet",
       "source": "Revolution Permanente",
