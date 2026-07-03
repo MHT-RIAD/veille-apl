@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-02T23:04:04Z",
+  "last_check": "2026-07-03T02:46:12Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,29 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-02T23:04:05Z",
+  "last_alert_at": "2026-07-03T02:46:13Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Timbre fiscal -Titres de séjour : augmentation du montant des taxes demandées aux étrangers à compter du 1er mai",
+      "source": "Service Public",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85aGthRGR6LTRzZ3JQZnAyTlYwSDByU0pwekg5RXVzMzkxcndodXNFRDNGa1prejF3amY2dllfenZDZEdyYzBuam52WUtvcGozcUpNTmJEblZIUXJwMjY2cVBzZzgwMUdPOHlIYkVQT1BMVjA?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 13:02:25 GMT",
+      "priority": "high",
+      "label": "Probable decret",
+      "confidence": "probable",
+      "matched": [
+        "taxe",
+        "timbre fiscal",
+        "etranger",
+        "augmentation"
+      ],
+      "tkey": "1er augmentation compter demandees etrangers fiscal mai montant sejour taxes timbre titres",
+      "topic": "titres-sejour",
+      "topic_name": "Taxes & titres de séjour",
+      "summary": "",
+      "found_at": "2026-07-03T02:46:13Z"
+    },
     {
       "title": "Étudiants : êtes-vous concernés par la suppression des APL au 1er juillet 2026 - Démarches Administratives",
       "source": "Démarches Administratives",
