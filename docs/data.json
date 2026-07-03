@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-03T02:46:12Z",
+  "last_check": "2026-07-03T06:30:35Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,28 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-03T02:46:13Z",
+  "last_alert_at": "2026-07-03T06:30:35Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Les étudiants non européens et non boursiers seront privés d'APL à partir du 1er juillet",
+      "source": "franceinfo",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbWpFYWJzaG9rYmlrX1M1OWlfSEY1XzZmRWFsNWdLSXdMem5jTzJ6TEFNYjJ6UHhDZmxtcktXV1kwN1FROE1WQkhvY1haU1RtVDJSMFhrZ0FLSkVySkNpdENnaGd2SjI2T3FYdm8wa1NLZUV4OExfclBpRTlsaE0tbDJHRm93Z1NTcDRnWndiMkRVV2ZHWEdMYURjVEQtZUxMOXJOcW91czQ3dTFjeFZIX2lQVHRMbEFMRTJwYy1fMS02UmdUWklGTDQ2eWpIeXN3d2p2TWd5MA?oc=5",
+      "pubDate": "Sun, 28 Jun 2026 12:01:58 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "1er apl boursiers etudiants europeens juillet non partir prives seront",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-03T06:30:35Z"
+    },
     {
       "title": "Timbre fiscal -Titres de séjour : augmentation du montant des taxes demandées aux étrangers à compter du 1er mai",
       "source": "Service Public",
