@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-03T09:56:06Z",
+  "last_check": "2026-07-03T12:09:12Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -57,6 +57,26 @@
   "last_alert_at": "2026-07-03T06:30:35Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Étudiants étrangers privés d'APL : le décret raciste entre en vigueur le 1er juillet",
+      "source": "Revolution Permanente",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWng1aTZwOGZoeUc0d0htaDF5VThMbnBZeTlQNnFPRi1aWG5vY2pRcjZ1anZLOXZaTWcwR25PaHlRMXVXS0JqVUVFTnQ4NE9QNEFkZ1hCc2JZdkZ6akZYZjM2TWQ0ZWdyVmVla2RubDJGdDNWODJJalI2OTU2Qm94UG1zOE1ZRThadmxraDhZZzRpdzRaR2pSdHhnbW1MRWN2QUxBbXpac0V3TGxmLVV3Y0xsTmo5b1luV0HSAcIBQVVfeXFMUHJrR19ySVJrYlZqRHFtZFFON1lRalRMMUNPaVpZdzlrV0N5TmhfRk5raWE4Wmg1TWRkb0R3NTQzVDZYN1ZDUnFoWGtheUdxVEota2s0TTVzSW52UjRMc3pOZjF3cjE3N3BHQ2JDbEtUcEV2anhFWVlKZ1dPcEswdGRUdnBBX3J0TTdNV0NSMDFWRFpieTdxRkdENlF2dkRjc196WEVzaUJHS1ZUQkpFWWw4cXd0RDhpUmYzMlVZLVdJelE?oc=5",
+      "pubDate": "Sun, 28 Jun 2026 07:00:00 GMT",
+      "priority": "high",
+      "label": "Decret confirme",
+      "confidence": "confirme",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger",
+        "decret"
+      ],
+      "tkey": "1er apl decret entre etrangers etudiants juillet prives raciste vigueur",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-03T12:09:12Z"
+    },
     {
       "title": "Les étudiants non européens et non boursiers seront privés d'APL à partir du 1er juillet",
       "source": "franceinfo",
