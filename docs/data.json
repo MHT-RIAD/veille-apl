@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-04T09:21:15Z",
+  "last_check": "2026-07-04T11:25:04Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,47 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-03T17:23:36Z",
+  "last_alert_at": "2026-07-04T11:25:06Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "France : Fin des APL pour les étudiants étrangers non boursiers, les Tunisiens concernés",
+      "source": "webdo",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMV80aFN1YkVWQTZab0J4WUNPUExkbk8yOFFRQUl5OVF3UEFYc1V1QnZtQll6QlQ0Nk1ZamVTdG9hanhJMGtDaHpSZ19jSFk5aEt5RGFOV3lWTE0waTZmYlE0SUR2dVNLT29PczdHZUdrZVZfQlNlVDlZanBIMFFGVl9pZWF2bllNUjdjUjk4aUUxdmQ1VDFJOEEzUFVBaldjZDdLN1ZpNUF2RmhvazdmTGJGY1BZeVFZUS1aX2tPaXNjVHNibHBtMG5Sd283MHJyX1lJUi1uMVk?oc=5",
+      "pubDate": "Sat, 04 Jul 2026 11:11:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "apl boursiers concernes etrangers etudiants fin france non tunisiens",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-04T11:25:05Z"
+    },
+    {
+      "title": "France : fin des APL pour de nombreux étudiants étrangers",
+      "source": "Mosaique FM",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMUVjd25ZdThENl9zekRkeVBBaVZoWTBmLThTMm1rdmlaYUZjcXBxU2tnaXVHSFNYV0xROC1EYVhjbHVuTVpBSENFMFYzSFFKNEJNVDNCWEJlS19mcHVzWTZYcVRXMlhKQUVoRmFVbExyaWZxREdGREhlVGhWMkh3ZkN4V3ZCel93NVBoblVJN3R6T1Z5VkhEZ2lhMUxlODlVLWNWaWFJYWszVExyU01DSFF5c2xfcDFCR3MwMw?oc=5",
+      "pubDate": "Sat, 04 Jul 2026 09:04:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "apl etrangers etudiants fin france nombreux",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-04T11:25:04Z"
+    },
     {
       "title": "Ce qui change au 1ᵉʳ juillet 2026 : congé de naissance, fin des APL pour les étudiants non européens et non boursiers…",
       "source": "Le Nouvel Obs",
