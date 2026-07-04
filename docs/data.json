@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-04T15:03:38Z",
+  "last_check": "2026-07-04T17:02:16Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -57,6 +57,25 @@
   "last_alert_at": "2026-07-04T13:20:22Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "France : fin des APL pour de nombreux étudiants étrangers",
+      "source": "Mosaique FM",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPb0doeXpFTFAxWkpGTFpNMFpGdzFVTnZ3Q3JHWnUxeHMyX3hCN0xfeVJsa2g3UlRrR1dBVC1mbEFNRnhRZDlIdTB0TlRzeFpaa1FRTGpvZFVXWTNKeHFQSjhna0hzY0M0M2M3QUFhejl6YjVMV1phYzF2Q1lNVk1hN1VPMmg3dzV4TlB2dGgyZXFneDk0YmlfQjdSc3RPWlN5N0VZOVdsTXhFX1ZMSjFRTDc5el9GZndaTHpnRVNLWUhVUQ?oc=5",
+      "pubDate": "Sat, 04 Jul 2026 09:04:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "apl etrangers etudiants fin france nombreux",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-04T17:02:16Z"
+    },
     {
       "title": "Certains étudiants non européens ne toucheront plus d’APL à partir du 1er juillet : le gouvernement veut économiser près de 200 millions d’euros",
       "source": "Le Parisien",
