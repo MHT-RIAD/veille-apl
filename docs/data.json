@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-04T21:57:27Z",
+  "last_check": "2026-07-04T23:00:04Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,29 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-04T13:20:22Z",
+  "last_alert_at": "2026-07-04T23:00:05Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "France : La taxe sur la carte de séjour des étudiants étrangers augmentée de plus de 600%",
+      "source": "Yabiladi.com",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY2E0SE1GMXZPYjdSbTdVVk9HTy1PZ3JiX01Dak9iZXpkTC0weVQtRTV1Y28zT0EwN2h3b3Zaa3lXaDRORkVoTTcybXd4RmtCWjNaNzZ2Z2Y3UTNYV25QZzJmV09HQ3dhRC1Vb25PTlVMb2xrU0hOOExNWmxQNkIxU04wWXJScWtsNWlLWFN0NA?oc=5",
+      "pubDate": "Fri, 30 Dec 2011 08:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "carte de sejour",
+        "taxe",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "600 augmentee carte etrangers etudiants france plus sejour taxe",
+      "topic": "titres-sejour",
+      "topic_name": "Taxes & titres de séjour",
+      "summary": "",
+      "found_at": "2026-07-04T23:00:04Z"
+    },
     {
       "title": "France : fin des APL pour de nombreux étudiants étrangers",
       "source": "Mosaique FM",
