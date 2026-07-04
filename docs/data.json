@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-04T11:25:04Z",
+  "last_check": "2026-07-04T13:20:21Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,28 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-04T11:25:06Z",
+  "last_alert_at": "2026-07-04T13:20:22Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Certains étudiants non européens ne toucheront plus d’APL à partir du 1er juillet : le gouvernement veut économiser près de 200 millions d’euros",
+      "source": "Le Parisien",
+      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNV3EzN3k2SFE0TEc1bzJDV0xKOTl3TDRub28yQ3hueVRDbUlaQTh0T0IzdGhqUWJQSlh2NjltTDE0T000UDdqRURJcFRmWHRMTFVZYTBjeFpuU1hZSURKalRuRmljR1BXQl9aQ2xuSEtBYkVtUDJySDFyUTVFYW05aHE5blhxZzNoS0dwck1YLUVjekJLWTZSTWRUd2Rzck1wSklsOU1PVUVoUUp1eC10cVppRzFNMEZkUTZwaU14c05oTmQwQm9fdEM2dGRRVEtDT0hMX09xOW9Scmw3LW80dkM1VzFEWjJpV2JOYzhSeTFMRUoyS1JqY2kzdnM1UUxUTDdESG1BR3BYeElaRS1uS1h3OG5SUTJZd2JzZlIwRnZZZkx2OVZnaTgzbEY5RVE?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 11:44:42 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "non europeen"
+      ],
+      "tkey": "1er 200 apl certains economiser etudiants europeens euros gouvernement juillet millions non partir plus pres toucheront veut",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-04T13:20:21Z"
+    },
     {
       "title": "France : Fin des APL pour les étudiants étrangers non boursiers, les Tunisiens concernés",
       "source": "webdo",
