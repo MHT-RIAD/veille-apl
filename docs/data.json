@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-05T07:55:23Z",
+  "last_check": "2026-07-05T10:10:43Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,47 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-04T23:00:05Z",
+  "last_alert_at": "2026-07-05T10:10:45Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Universités : le gouvernement veut mettre fin aux “exonérations massives” des droits d’inscription des étudiants étrangers",
+      "source": "La Montagne",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPVDhFcGtXNWgzMG04LTBHWW1nblk2MVhLTjltS2xvVl9vSTZYcU5KYVdGeXBqM09PLUZNSVdHaXpHTklHc213ZEFqVW94Ui00bDk0UTZ5ajN4cHFDUXZvNkN6WlRLNUhxMjNqeHB0WlB4ZnFrdU1ldkt1b1NoOGw5ZjBnZjJSWkdiU2VieVRDdC1oeWlaVjNmRENhb3BBRXpZNGZtUXdsbWVuV2xYTkZLYVpCQmdkUGZjYktqX3J4eldIcy1QU0NuQ1lOd1NGZWpuNVo3cGdmWU0zbjhzV3hXQWVWZDhtZzJtM0VENVowaDB3NEpRWm5reDA4Y1phc09SZDM0dUxTeXNEZw?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "exoneration",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "droits etrangers etudiants exonerations fin gouvernement inscription massives mettre universites veut",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-05T10:10:44Z"
+    },
+    {
+      "title": "« On a le sentiment que la France veut qu’on rentre chez nous » : la fin des aides au logement angoisse les étudiants étrangers",
+      "source": "Le Parisien",
+      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOQTBQY256Sm1za2R1dWV4ZXdPVkJYcU8zUUFxVUZ6Y2JCNktSRTVyOWp3dTR5U2M3aGpFd3pzNlZ0NkFtWnRiTy03alUtbHlIanpCQ24xUEpILVJDNGZNWVI1eURPVzdKSVZxUnpyOERTYVFGbVpINHJjZ1FENHUtN0wxTjRQOUJoMjV6eWN6eTNWN1dQMTlDUmNoelRFUnRyR09qa3BOaDR2bldpdl9jXzNsY3o4SzNSNjZOdnJibTdzWWNySXlSQnN1S1phU1RrLXMycV8wQlIzZVpibW5TRmtlV2RwQlpPS0FUdnNVa2RPbV93cnZyZ1BUaHVYZXpuNEN6T0I5czR4UkJIV1VDcXVadmlKWnhmMGRkSzVaZk9VZw?oc=5",
+      "pubDate": "Sun, 05 Jul 2026 08:30:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "aides au logement",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "aides angoisse chez etrangers etudiants fin france logement nous que rentre sentiment veut",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-05T10:10:43Z"
+    },
     {
       "title": "France : La taxe sur la carte de séjour des étudiants étrangers augmentée de plus de 600%",
       "source": "Yabiladi.com",
