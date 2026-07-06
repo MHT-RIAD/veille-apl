@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-06T16:19:37Z",
+  "last_check": "2026-07-06T18:54:09Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,45 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-05T10:10:45Z",
+  "last_alert_at": "2026-07-06T18:54:10Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "France : Fini l’APL pour les étudiants hors-UE non boursiers",
+      "source": "Yabiladi.com",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPV19zTE5JRURHQ29kYVJocE1QLVdPQjRWNWhsTXpGQ1Y5NnRTT1FsbUg1RHFyTHpVNDRPMmF0RzROSEhzMTg3RDNnS2hGUDY4RFpIcjN2UmZxRllocUFQTzU2U3Y1N3hQdEQyZTI3V21oS1JlX1ZxZ1M4bi1BNXZNcmZiN25weHM2U1ZwLWJn?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 16:35:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "apl boursiers etudiants fini france hors non",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-06T18:54:10Z"
+    },
+    {
+      "title": "France : Fini l’APL pour les étudiants hors-UE non boursiers",
+      "source": "Yabiladi.com",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMTZOV1Vnc1czdHZBRDdac3BZaE5UdHNXSkhnQ1U1YXltQVctb09BM0JIWUVfVjQ5d1VmeTFWZWNicjEtZFdGSHQ3V195X0x1b3FLMHBPU0JJbjZ5NXZnOFJBZDh0VVZQbl9Ic2piX1RFZ29iVzlwdzM4T253dlc0SHlGcDE1WXhq?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 16:35:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "apl boursiers etudiants fini france hors non",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-06T18:54:09Z"
+    },
     {
       "title": "Universités : le gouvernement veut mettre fin aux “exonérations massives” des droits d’inscription des étudiants étrangers",
       "source": "La Montagne",
