@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-07T14:28:41Z",
+  "last_check": "2026-07-07T17:12:28Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,28 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-07T11:48:08Z",
+  "last_alert_at": "2026-07-07T17:12:28Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "En France, la fin des APL pour les étudiants étrangers frappera durement les Africains",
+      "source": "Jeune Afrique",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZkV0Y2FIRTlhRk5nT20tQ0k0bHV0VmdfR05wV0hZbVo3eVZOcEZCU0xoeEZXSG00bl9RUGRGTGdsWmZIVkVDM2lLUW43Q3p0V1d2TUNZV2ZqZDRya01oUzhxM1Q3bll2RGlGQnlPckdvRlJseHNqRzFvYzYyeGMxM1VzNm9LeXh2ZUlwY0UzV2t6UzV5RFptcWRDLVlLTDBSb283X0tlSjBNZ194LTlIRS1aN0Z5STVDdVNJaDAwdDdkYl9pUzZ5UmMxMA?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "africains apl durement etrangers etudiants fin france frappera",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-07T17:12:28Z"
+    },
     {
       "title": "Ce pays du Maghreb instaure une nouvelle taxe de séjour pour les touristes étrangers",
       "source": "ulysse.com",
