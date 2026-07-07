@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-07T04:50:51Z",
+  "last_check": "2026-07-07T08:21:37Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,29 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-06T18:54:10Z",
+  "last_alert_at": "2026-07-07T08:21:38Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "APL : les étudiants étrangers non boursiers perdent leurs aides au logement dès cet été 2026",
+      "source": "MSN",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPWUpSNmFxUWRvY1hralNrekhhdlZmaWx6X0NJNFg1Q1FxdVFlblg5SVFqTEp0bHJNZm1KdmJtZ1dOQTFwWXZ3WXhBcTU3V3NzRm5hcmtuWUJRdTlucnROZ1J3M0M5RS0zRVV6Um1NbFdvNjBJVmpaWWhKZ0RIQVpaWHpKbnFyay1sZTVXOVNCaGFIN0p2bkFkVkx0aHA2OXlsNGl5ZnF1ZGp4bjEtMXdySGNhaER2T3NKTUJ0blItNENyWWY1MnR4NW5GYWNYa0c3VksxZEplRF8tMGlwdXdrV3Qxazd4a1dzWHhfQkVkMkk2MERoTEg3cGVPdWhUY1U?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 19:31:26 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "aides au logement",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "2026 aides apl boursiers cet ete etrangers etudiants leurs logement non perdent",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-07T08:21:38Z"
+    },
     {
       "title": "France : Fini l’APL pour les étudiants hors-UE non boursiers",
       "source": "Yabiladi.com",
