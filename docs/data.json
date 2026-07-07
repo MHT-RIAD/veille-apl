@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-07T08:21:37Z",
+  "last_check": "2026-07-07T11:48:06Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,45 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-07T08:21:38Z",
+  "last_alert_at": "2026-07-07T11:48:08Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Ce pays du Maghreb instaure une nouvelle taxe de séjour pour les touristes étrangers",
+      "source": "ulysse.com",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNFdQdXNNWUVlNWo1bVRpV3FjRzhGWDBYT2VUeWpZbjVjLTdENTNfclhHZmx6ZXV6NVR6VnNpXzU5dUVGcV9EUUtmdWZvWm1EbElfQkhhTDlJT0FPUmpLQUltRFA0NkJReFAwUnpaRzRwNG52TzlUZ2l1WkQ3MzBYQnl5QTFSRms?oc=5",
+      "pubDate": "Thu, 06 Jun 2024 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "taxe",
+        "etranger"
+      ],
+      "tkey": "etrangers instaure maghreb nouvelle pays sejour taxe touristes",
+      "topic": "titres-sejour",
+      "topic_name": "Taxes & titres de séjour",
+      "summary": "",
+      "found_at": "2026-07-07T11:48:07Z"
+    },
+    {
+      "title": "Trump impose des frais annuels colossaux pour ce visa américain prisé des étrangers",
+      "source": "Le HuffPost",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNeDJlbDB3X2JLZS1zWVBqaEJEdVozZ1JhUjZPdmkyMzJiN1plLU90VFBYb2xwMjUwal9fTkNKWm5JVEVoa092TE1Ybl91cFFjczlDZ1hJT184OE0xT015YmVTRmhHcllaa282MUs1RkdIOF9sZHZYRkZnUDc0NG52R3lfNV9Rc0ZLM2tIVjF5cktEbU8wWmgxY01pU184bWZ4Xzk4NWRPa1hXZHJPYVNCSW1OUldXLVFWYjBCNnYzRWJ4cUxUbC1RUVR0N3lOYVNRRVlOc0JVcDdybVRYNkV4SGpxTGNyVE5mazgxQlEwTUh6Q3hVbl80bzZjaHQ?oc=5",
+      "pubDate": "Sat, 20 Sep 2025 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "visa",
+        "etranger"
+      ],
+      "tkey": "americain annuels colossaux etrangers frais impose prise trump visa",
+      "topic": "titres-sejour",
+      "topic_name": "Taxes & titres de séjour",
+      "summary": "",
+      "found_at": "2026-07-07T11:48:06Z"
+    },
     {
       "title": "APL : les étudiants étrangers non boursiers perdent leurs aides au logement dès cet été 2026",
       "source": "MSN",
