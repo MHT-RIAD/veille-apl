@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-07T22:59:10Z",
+  "last_check": "2026-07-08T00:06:14Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,28 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-07T17:12:28Z",
+  "last_alert_at": "2026-07-08T00:06:15Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Suppression des APL pour certains étudiants étrangers : ce qui change au 1er juillet 2026",
+      "source": "IJ HDF",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeHR5S0FwamZFS3VOVkQ4ZDhlajBTYVVQX0VFOTFZVmpRTkVlT2JqWUM0ZGxNRGUwSVc5UmpYSHZaWmE3bExUNUNySm9kTkFkeWE1V3ZMSzAyYmFMbW9yX2w4NUxxOUg1TE5RNUNNVEhpbVVMbDBQM1IwZ0lWZmRnNlNLWmNKODBrenFNYkp4QWJoSDE0Y3g3N1VLbHJWOHVUbWNsUDlieHJ3STZSZFh5aWMxM0c0dml1?oc=5",
+      "pubDate": "Thu, 25 Jun 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "1er 2026 apl certains change etrangers etudiants juillet suppression",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-08T00:06:14Z"
+    },
     {
       "title": "En France, la fin des APL pour les étudiants étrangers frappera durement les Africains",
       "source": "Jeune Afrique",
