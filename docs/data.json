@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-09T18:49:30Z",
+  "last_check": "2026-07-09T20:45:47Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,27 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-08T00:06:15Z",
+  "last_alert_at": "2026-07-09T20:45:48Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "« Fin de votre aide au logement » : des milliers d’étudiants découvrent la mauvaise surprise",
+      "source": "actual-immo.fr",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PRjgzbmIwTENsR3VMZnNad2pRcW9VM2ZFY002S0MwdEp0UG5OYUwySTR2STBqT0RHR1lHRzZBUDlGRkptT2VvWHZfVUVzczVGcnEtcWFDOXJ5WC16WXZYeXNydnVjYzhORkRHenA2c2VJQQ?oc=5",
+      "pubDate": "Thu, 09 Jul 2026 17:45:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "aide au logement",
+        "etudiant"
+      ],
+      "tkey": "aide decouvrent etudiants fin logement mauvaise milliers surprise votre",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-09T20:45:47Z"
+    },
     {
       "title": "Suppression des APL pour certains étudiants étrangers : ce qui change au 1er juillet 2026",
       "source": "IJ HDF",
