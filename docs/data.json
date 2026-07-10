@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-10T11:50:06Z",
+  "last_check": "2026-07-10T14:21:14Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,27 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-09T20:45:48Z",
+  "last_alert_at": "2026-07-10T14:21:15Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Étudiants marocains en France : la facture s'alourdit encore avec la fin de l'aide au logement",
+      "source": "Le Matin.ma",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPekdHUWhONXRBUmladkt1QXZrRVRvSEc3NVJnR0lwZ2JuNi1OZW5vWkJIZjhMSFgyRm5NN0lHbUsyYkdYVVZaczJjTm5lWDVFZnAwejA5QVBHdURzdnNxcjBYZlB0WmN0NkJTRlpSelJ5RU9pWWhyc0lGS3hwM3h1X3JIaW9JVm5HUEozZ0w2UEloc3PSAZgBQVVfeXFMUEhBaUZXWER1MUtpOURlQ3FwWi1wS3ExbnpDNERmQXBXX0lfeUp5d3dmQ3d6bFlVUktPUDFuUjFSY3d4TzlCaGlXQnY1QTdieXlyRGNLZ19CZTVOR1hxVm9nYW5qZWtqM3VoWnc1Q1JibTBtYUl3UU0wSEV3TG9sZ1MwYXV4UTc5OTZZSTBXRWtvcFJ5NUVmRDU?oc=5",
+      "pubDate": "Fri, 03 Jul 2026 13:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "aide au logement",
+        "etudiant"
+      ],
+      "tkey": "aide alourdit encore etudiants facture fin france logement marocains",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-10T14:21:14Z"
+    },
     {
       "title": "« Fin de votre aide au logement » : des milliers d’étudiants découvrent la mauvaise surprise",
       "source": "actual-immo.fr",
