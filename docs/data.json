@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-12T19:02:29Z",
+  "last_check": "2026-07-12T20:43:22Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,29 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-10T14:21:15Z",
+  "last_alert_at": "2026-07-12T20:43:22Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Frais d'inscription : Sorbonne Université adopte l'exonération pour ses étudiants étrangers",
+      "source": "MSN",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPVGt4NUREMUxaU256RzdQSWtLaG5jVWExNjlpTWtKTERfMW9HZlN3LXFmSUxhb0l6d2RVRTlCd3FCZmxLLVpma0FMaE9LTUVxNVZuaERaQTRXVlBpcldkX05TeWhpSWFTZlo1dUxFUmhtMzR2dXd2SGt0TTJrOXpGWkRxRG9Bd1BDamJ1Z2FUV3BxWS1kMENORXFuOTZ0VGlSem8yRDViZVFGYmtLNjZFalVmeHhMM0VEN09sUzdUbHdva0kyX3JwLWhkaUdQSFZUVFdQNnFSTU1zNlR2clpHVWhoczdja01IMlRWVkFILVRNWkZ4dXc?oc=5",
+      "pubDate": "Sun, 12 Jul 2026 11:29:38 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "frais d'inscription",
+        "exoneration",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "adopte etrangers etudiants exoneration frais inscription sorbonne universite",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-12T20:43:22Z"
+    },
     {
       "title": "Étudiants marocains en France : la facture s'alourdit encore avec la fin de l'aide au logement",
       "source": "Le Matin.ma",
