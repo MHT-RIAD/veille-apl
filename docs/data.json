@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-13T13:21:56Z",
+  "last_check": "2026-07-13T16:30:58Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,27 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-12T20:43:22Z",
+  "last_alert_at": "2026-07-13T16:30:59Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "À l'université de Strasbourg, les étudiants africains abasourdis par la hausse des frais d'inscription",
+      "source": "InfoMigrants",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQWQyMk1EekVjT1Q2a0xDTXRCb0llWWNlalJ2M1ZTQ0lvaFJvMnhTbUZ5bUJISnBSR0puZGlhaHVqZGRGNHJGd1NiWjVYZEVkY0k1NExMWlhNQVRQTFdVdDBQcGgxWkZadUJMYUxQV0lSRm4zZlZ3aG5sQzVPRndubVFOVmNINXlVd2tSRkc2Qzl5UGlGMGdIU0p6WE0xRjJGVnNxRlVJcm9qVVVvUlpPVS1Ta3FBX051UW9WRUM2bXVWZHJkQmtabTIxRFRYTG9oc1JyQ2lNZ2xmQQ?oc=5",
+      "pubDate": "Mon, 13 Jul 2026 15:09:43 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "frais d'inscription",
+        "etudiant"
+      ],
+      "tkey": "abasourdis africains etudiants frais hausse inscription strasbourg universite",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-13T16:30:58Z"
+    },
     {
       "title": "Frais d'inscription : Sorbonne Université adopte l'exonération pour ses étudiants étrangers",
       "source": "MSN",
