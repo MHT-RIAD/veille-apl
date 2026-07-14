@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-14T10:06:55Z",
+  "last_check": "2026-07-14T12:09:58Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,28 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-13T16:30:59Z",
+  "last_alert_at": "2026-07-14T12:09:59Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "À Poitiers, les étudiants étrangers dans l'incertitude face à la hausse annoncée des frais d'inscription à l'université",
+      "source": "Radio France",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNTlNpd3hfUlg0dE1HQVNRUXIxUG5NSGRMQTVoYVAwMHBKZ2xlSlVJbE53WHFGLWU5NEg3em5kdDNLVWw2Unh6YXg1THRqUHBaTUV5eTVCVHB0ZGVFMTdGYUR4ci1kYVRBaVlrdVZSS0lBSmxkRDM4T2pYUFFXN2JkTllMU1BhU2hDZW51UFV1VnFtUkxtdU9ubzdlR2hyY1loMUlFUFpMYlZPQUZOekFqZWk2cF9HNnJRaWZ0ZkNib1F2TEhTNDUxQzBGT0RmcDhtWnJ5bUJHUWh3aTRvY09va0xiV3ViZmp2a2RIX1NuWFZmYVpUbC0yWXpxcXRqelV2dUZ2WTNTSElMY3diVC1xcUpvU3ZnYmgweWVvZWltNnVRSlk?oc=5",
+      "pubDate": "Tue, 12 May 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "frais d'inscription",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "annoncee etrangers etudiants face frais hausse incertitude inscription poitiers universite",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-14T12:09:58Z"
+    },
     {
       "title": "À l'université de Strasbourg, les étudiants africains abasourdis par la hausse des frais d'inscription",
       "source": "InfoMigrants",
