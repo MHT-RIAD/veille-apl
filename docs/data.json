@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-16T10:57:19Z",
+  "last_check": "2026-07-16T12:21:37Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -52,11 +52,36 @@
       "date": "2026-06-30",
       "count": 13,
       "at": "2026-06-30T21:26:55Z"
+    },
+    {
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "date": "2026-07-16",
+      "count": 3,
+      "at": "2026-07-16T12:21:37Z"
     }
   ],
-  "last_alert_at": "2026-07-16T10:57:21Z",
+  "last_alert_at": "2026-07-16T12:21:37Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "APL: certains étudiants sont exclus du dispositif à partir de ce mercredi",
+      "source": "RMC",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNazJPQXI2cjJTWUQ5em45TENIejcySEx3TnAtOElWLXc2dXlZVFJZd0hKM3FlbHdVOVZTdFhCZzZ2TU1ZeThDQWd6UTMzX2RrSWRTMVJTX01WQXlaZmI5N0FCcjIxWUtzOXhrd1l6MHhocW0xYXA0SjNLcTJWV0EwamhPSXotOTF1N0hTRXJmOU1fR3drZGtLU242X2JHOXZJUUdzNW1CeFFRbWR6cmdNNUJRdkpRSmNVX0FPbFVn?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "apl certains dispositif etudiants exclus mercredi partir",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-16T12:21:37Z"
+    },
     {
       "title": "Filières sanitaires et sociales : maintien des APL pour les étudiants étrangers boursiers",
       "source": "Le Media Social",
