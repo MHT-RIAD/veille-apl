@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-16T18:04:40Z",
+  "last_check": "2026-07-16T20:01:29Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -61,9 +61,27 @@
       "at": "2026-07-16T12:21:37Z"
     }
   ],
-  "last_alert_at": "2026-07-16T12:21:37Z",
+  "last_alert_at": "2026-07-16T20:01:30Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Mauvaise surprise pour des milliers d’étudiants : les APL disparaissent dès cet été",
+      "source": "actual-immo.fr",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE04VlRlNy1pSlRNZDNjR1RNb1B5akJoUGRPcURRM1AyR29uMU10Rm5PWlRHSmJCa3R1VnJOZGFMVWJtQ3l1VUEyOTczelNmZmg0V0ZyT3pZb3FodXpvcnVaOWZ0bTZ2V21FSjhWME9iV0cyczRDNFFn?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 17:45:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "apl cet disparaissent ete etudiants mauvaise milliers surprise",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-16T20:01:30Z"
+    },
     {
       "title": "APL: certains étudiants sont exclus du dispositif à partir de ce mercredi",
       "source": "RMC",
