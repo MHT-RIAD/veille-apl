@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-16T08:08:58Z",
+  "last_check": "2026-07-16T10:57:19Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -54,9 +54,47 @@
       "at": "2026-06-30T21:26:55Z"
     }
   ],
-  "last_alert_at": "2026-07-14T12:09:59Z",
+  "last_alert_at": "2026-07-16T10:57:21Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Filières sanitaires et sociales : maintien des APL pour les étudiants étrangers boursiers",
+      "source": "Le Media Social",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQjBvT3ZpY3ZhbGt3TG9SdDA5aHo0YXV4dV9pTnd5bDhCUGN4b1VyVFNpb0s2Uk50TUhSSXR4MkJJU2NNN3UzWHNMcjRaQUpISFh1a1dXdHhtODk1T0F5RU5CcXIyUlIwVzU0OV9xaDdudWJ1bGg4X0FhVEhZQjNiSmpkUDFaTElHYm9jd2NWYWFMOVROSzdHbnpvZC04c0dKTHNHaENxRER4N3dSVTc1R210NVllVC1sbFdYSUU5b1Q?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 09:58:35 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "apl boursiers etrangers etudiants filieres maintien sanitaires sociales",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-16T10:57:21Z"
+    },
+    {
+      "title": "APL des étudiants étrangers : une petite économie, une grande question pour notre modèle social",
+      "source": "lagrandeconversation.com",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeVo2ODlTaDEzM2c3MkxqMEtucTRxWEVGOHBTWEpWbVkyX0swd2xkRXR3bzdLU3A5YmN0VlRPYXZKOXpzNmc0UE8wTHVzVUNBbzZYa0JCOG5RSUlHeGo0V2ZDVGh4WlVGR196STBqTWh4bjBqR0llX180Y2RhT2xfWUxGT3NWMlIwOXRtc2JvWG1IUndiNzJlbG9FeE1pS2FNcExSWVZKdjJuYWk4THFRc2ttdkdWdC1EbGNhZ2F2N0gyMGowTFpMWTZDbExleEVRN0l0ZA?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 10:41:15 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "apl economie etrangers etudiants grande modele notre petite question social",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-16T10:57:19Z"
+    },
     {
       "title": "À Poitiers, les étudiants étrangers dans l'incertitude face à la hausse annoncée des frais d'inscription à l'université",
       "source": "Radio France",
