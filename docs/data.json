@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-19T13:16:58Z",
+  "last_check": "2026-07-19T14:53:33Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -61,9 +61,27 @@
       "at": "2026-07-16T12:21:37Z"
     }
   ],
-  "last_alert_at": "2026-07-17T10:45:12Z",
+  "last_alert_at": "2026-07-19T14:53:34Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "France : Fini l’APL pour les étudiants hors-UE non boursiers",
+      "source": "Yabiladi.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZzAwaDV0M3pCb2FZQ214Rl9XSl9SLWZob214OEhncm9ZZWFQTjBsNmJnOUN3ZWl0V0tkV19SbFJjQmFSZFNOVXZ4Yl9CVjFmN09HNkNpc0pLVHNCVXlCaUtLSlBpOVVHbS1CTUR0d0tyUHZRZ3d1OG5xeDdoem1GNXpWWmd1OWd2ei1CcVIxMVo?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant"
+      ],
+      "tkey": "apl boursiers etudiants fini france hors non",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-19T14:53:33Z"
+    },
     {
       "title": "Possible suppression des APL pour les étudiants étrangers : \"Une mesure qui vise encore plus à les précariser\", dénonce l'UNEF",
       "source": "franceinfo",
