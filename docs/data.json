@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-23T04:14:02Z",
+  "last_check": "2026-07-23T07:31:26Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -61,9 +61,28 @@
       "at": "2026-07-16T12:21:37Z"
     }
   ],
-  "last_alert_at": "2026-07-19T14:53:34Z",
+  "last_alert_at": "2026-07-23T07:31:27Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Forte hausse des frais de visa et de résidence pour les étrangers à partir d’octobre au Japon",
+      "source": "nippon.com",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BVnlwaHBUWE9PM0V0UGxvQ1ZDZ3JzSW5CLVhxOXNVelBUZ1ZQZUlDMy13LVMyLXNfZ2pjRzdSWkpnakNoclBXVEpoa0ZsRzREM2xwYkc4LVc1dS1F?oc=5",
+      "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
+      "priority": "high",
+      "label": "Probable decret",
+      "confidence": "probable",
+      "matched": [
+        "visa",
+        "etranger",
+        "hausse"
+      ],
+      "tkey": "etrangers forte frais hausse japon octobre partir residence visa",
+      "topic": "titres-sejour",
+      "topic_name": "Taxes & titres de séjour",
+      "summary": "",
+      "found_at": "2026-07-23T07:31:26Z"
+    },
     {
       "title": "France : Fini l’APL pour les étudiants hors-UE non boursiers",
       "source": "Yabiladi.com",
