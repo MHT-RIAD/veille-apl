@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-25T11:07:37Z",
+  "last_check": "2026-07-25T13:20:24Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -61,9 +61,29 @@
       "at": "2026-07-16T12:21:37Z"
     }
   ],
-  "last_alert_at": "2026-07-23T17:20:23Z",
+  "last_alert_at": "2026-07-25T13:20:25Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "La Seine-Saint-Denis attaque le décret sur la hausse des frais d'inscription des étudiants étrangers",
+      "source": "Actu.fr",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNEZzcms0VHlLRDJmSkt5OGM2bFBNcVZnMkdVRXNJT3U2V181aVBEM2MtWkVyZmhsekxTX2owSWdHX20xVTdaT1M5aHMzQm0yLW9aendQSzZTTmtaRTlPQjVMTm9QbmU2N3NhNDFBRlVmLXg4d1FJVkFEdFE0QUlVbkNrMkpDaEw0QVhzbmFRNm4tLThjLTFCblVPV21QeGpOUFpPWk1LaGpQWTdFcWE0c1JWWFA0cGNOR2lMN1ZMTjBNVUl4WGc1dV93b1F6N3RldzRhcg?oc=5",
+      "pubDate": "Sat, 25 Jul 2026 07:56:37 GMT",
+      "priority": "high",
+      "label": "Probable decret",
+      "confidence": "probable",
+      "matched": [
+        "frais d'inscription",
+        "etudiant",
+        "etranger",
+        "decret"
+      ],
+      "tkey": "attaque decret denis etrangers etudiants frais hausse inscription saint seine",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-25T13:20:25Z"
+    },
     {
       "title": "France : Fini l’APL pour les étudiants hors-UE non boursiers",
       "source": "Yabiladi.com",
