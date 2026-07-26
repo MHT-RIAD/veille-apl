@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-25T23:58:48Z",
+  "last_check": "2026-07-26T03:39:11Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -61,9 +61,28 @@
       "at": "2026-07-16T12:21:37Z"
     }
   ],
-  "last_alert_at": "2026-07-25T13:20:25Z",
+  "last_alert_at": "2026-07-26T03:39:12Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "APL supprimée pour étudiant étranger : garant, Visale et loyer impayé, que faire ?",
+      "source": "Kohen Avocats",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYjZmaUNwUWk0MDNkZjRMYmEydFk3MlM4MmxiMFNrWWpYN1BIN2JwdFdjVzN4ZGpFLUdGaXFfTXVMZUpmTGs3SEhOMnp3T0tYY3ZIcVZQdVFNaHRtN3phbElUVlJsb2VMWWdZbnh6MDlvakNka0R5dEp1Q0tZLXoxdVF4b21HZ2VmamtkTU05Ui1XWlJPUHVQbVdn?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "apl etranger etudiant faire garant impaye loyer que supprimee visale",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-26T03:39:11Z"
+    },
     {
       "title": "La Seine-Saint-Denis attaque le décret sur la hausse des frais d'inscription des étudiants étrangers",
       "source": "Actu.fr",
