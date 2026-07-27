@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-27T18:22:52Z",
+  "last_check": "2026-07-27T20:20:24Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -61,9 +61,29 @@
       "at": "2026-07-16T12:21:37Z"
     }
   ],
-  "last_alert_at": "2026-07-27T16:15:36Z",
+  "last_alert_at": "2026-07-27T20:20:26Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Universités : le gouvernement veut mettre fin aux «exonérations massives» des droits d'inscription des étudiants étrangers",
+      "source": "CNews",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYnQ0YmhIMHBpV1pQNFFwWmZncmF0ckZpWHRRNHZKSWZTZDQ3T2h5VnozRVZiZG1nVVhRSWRTMXpfU1lzN2xQWHZDUy1HczJXbU5za0UyUExrU1BSOTZ5N0xCNUNEcWpyTldXRnRDOFVJYk85bnZsV0RCTm1oWlJrTDlyT3FQNEpfQ2lZR1RSWUNwVFpFa3FDM1d6Qjg5akhUVWtlSTRma0E1NlROdVg1SGxXUG1MRGU5U3RJ0gHAAUFVX3lxTE84SVBKWjRUVXBTMGM2SFI3Z0VEWEo2N09Wb1hxVGg1bmE2WEY0djJZZ1VqZy05bkpQNm1Nem9jNEFNeHltcnhMUndDbmNETGUzeE9pZGlhNGdwNV9jclB5WlhDc3pzOXdYSkNKdU1nS212TVBVODlsdTFxMXpPRUwwZTBCQ2Fhb1BGdGVGUVFUQVRSZU9xcjZRVC1FRlF5V1hEUlFRYm02akZaNnpjOUlOUGZRenJxeTRmUDlXVnlzNg?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "droits d'inscription",
+        "exoneration",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "droits etrangers etudiants exonerations fin gouvernement inscription massives mettre universites veut",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-27T20:20:24Z"
+    },
     {
       "title": "FAQ | Droits d'inscription différenciés pour les étudiants extra-communautaires",
       "source": "enseignementsup-recherche.gouv.fr",
