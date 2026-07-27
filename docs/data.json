@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-27T13:43:05Z",
+  "last_check": "2026-07-27T16:15:34Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -61,9 +61,27 @@
       "at": "2026-07-16T12:21:37Z"
     }
   ],
-  "last_alert_at": "2026-07-26T03:39:12Z",
+  "last_alert_at": "2026-07-27T16:15:36Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "FAQ | Droits d'inscription différenciés pour les étudiants extra-communautaires",
+      "source": "enseignementsup-recherche.gouv.fr",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSHZuZUh1MlB2T0s2Y0xNcU9oaC1pamMtNzZad0NuQ3A3NllqX0ZhSHNJY1dyM2NxQ0t4VjBEemRHck16YS1pUnZDWklyeEZhbkNNYUJYSVl2RDVPVjBUdDRqb3ZTOFVmeW0xQzlrOW93cVVXWHFISUtHM21Yc3lndk9pYVVDb2FTTGtzbTVRdTg4VmpFSWx4OHNhMjd0YVVZVzZ3RmhFeTVIUHVNQjdSN1gwUkVuTC13U1VPeFphamVrZmY2SUI1bExqTFhfQQ?oc=5",
+      "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "droits d'inscription",
+        "etudiant"
+      ],
+      "tkey": "communautaires differencies droits etudiants extra faq inscription",
+      "topic": "frais-inscription",
+      "topic_name": "Frais d'inscription étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-27T16:15:34Z"
+    },
     {
       "title": "APL supprimée pour étudiant étranger : garant, Visale et loyer impayé, que faire ?",
       "source": "Kohen Avocats",
