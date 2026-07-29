@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-29T20:11:21Z",
+  "last_check": "2026-07-29T21:59:02Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -59,11 +59,37 @@
       "date": "2026-07-16",
       "count": 3,
       "at": "2026-07-16T12:21:37Z"
+    },
+    {
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "date": "2026-07-29",
+      "count": 3,
+      "at": "2026-07-29T21:59:05Z"
     }
   ],
-  "last_alert_at": "2026-07-29T14:05:03Z",
+  "last_alert_at": "2026-07-29T21:59:05Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "APL étudiant étranger : ce qui change depuis le 1er juillet 2026",
+      "source": "Mes-Allocs.fr",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcUFqRHlZem5obEVBNzlRdDhoSDVnYkRRTDluZ1F2WW9KQkpLVW5kSGxqa0dfdzhkVC12alJ4RTNLV2FYXzU0MDhXLXFQMnJWUmNfZlF6VHd0dVhKZ0JWU2lSMmlScWp2TXBtRW9wRk84ckdYcEx1RUY3SDhSVUV6ZjBZM19xU2lvSC14Uk41dDJNU3RpTTI0bWJYWGRVeGFBS2lNODJDc1ZBRmwtTFHSAa4BQVVfeXFMT3FBakR5WXpuaGxFQTc5UXQ4aEg1Z2JEUUw5bmdRdllvSkJKS1VuZEhsamtHX3c4ZFQtdmpSeEUzS1dhWF81NDA4Vy1xUDJyVlJjX2ZRelR3dHVYSmdCVlNpUjJpUnFqdk1wbUVvcEZPOHJHWHBMdUVGN0g4UlVFemYwWTNfcVNpb0gteFJONXQyTVN0aU0yNG1iWFhkVXhhQUtpTTgyQ3NWQUZsLUxR?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "1er 2026 apl change depuis etranger etudiant juillet",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-29T21:59:03Z"
+    },
     {
       "title": "Modification detectee : Service-Public — APL étudiant",
       "source": "Service-Public — APL étudiant",
