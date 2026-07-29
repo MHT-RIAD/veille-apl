@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-29T11:24:20Z",
+  "last_check": "2026-07-29T14:05:00Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -61,9 +61,24 @@
       "at": "2026-07-16T12:21:37Z"
     }
   ],
-  "last_alert_at": "2026-07-29T11:24:22Z",
+  "last_alert_at": "2026-07-29T14:05:03Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Modification detectee : Service-Public — APL étudiant",
+      "source": "Service-Public — APL étudiant",
+      "link": "https://www.service-public.fr/particuliers/vosdroits/F12006",
+      "pubDate": "",
+      "priority": "high",
+      "label": "Page modifiee",
+      "confidence": "confirme",
+      "matched": [],
+      "tkey": "page:https://www.service-public.fr/particuliers/vosdroits/F12006",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-29T14:05:00Z"
+    },
     {
       "title": "Modification detectee : Service-Public — APL étudiant",
       "source": "Service-Public — APL étudiant",
