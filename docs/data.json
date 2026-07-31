@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-31T02:37:12Z",
+  "last_check": "2026-07-31T06:10:51Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -68,9 +68,28 @@
       "at": "2026-07-29T21:59:05Z"
     }
   ],
-  "last_alert_at": "2026-07-29T21:59:05Z",
+  "last_alert_at": "2026-07-31T06:10:53Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "APL étudiant étranger supprimée en 2026 : qui peut conserver l’aide et comment contester la CAF",
+      "source": "kohenavocats.fr",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM2lyWl9semtzcm52OFI3MTZWSC1NLWM1RGRRaF9DQ2ZNQTVoVzlLM1k0Qk5xeTBZOW53dWxjZnJqamFNck9ZcGxzMmxqbVVRRnpWcGdGY0p6S0YzVV9FNUFBTlFrOXhCTGE4Y24xN29saXY0ZFdaeFNNblZtY2M3OFVmYWlzcGdiemJRZU40TU9nckphUTFCUmFlNA?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 13:14:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "2026 aide apl caf comment conserver contester etranger etudiant peut supprimee",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-07-31T06:10:51Z"
+    },
     {
       "title": "APL étudiant étranger : ce qui change depuis le 1er juillet 2026",
       "source": "Mes-Allocs.fr",
