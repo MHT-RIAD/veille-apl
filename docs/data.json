@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-08-01T03:41:29Z",
+  "last_check": "2026-08-01T06:26:59Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -68,9 +68,28 @@
       "at": "2026-07-29T21:59:05Z"
     }
   ],
-  "last_alert_at": "2026-07-31T06:10:53Z",
+  "last_alert_at": "2026-08-01T06:27:02Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Budget 2026 : le gouvernement veut geler les APL et les supprimer pour certains étudiants étrangers",
+      "source": "Démarches Administratives",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQWZwdVdxZENvdThqaUQyYXZYbGdGZVdtUV9vY0lvanNENktCV3Mtb1YteVdvWGFFTzZXbmkyQ3RDOF9fYjhJMHZjMU9zUWQ3Y0VHem83VEtCRmFfQ1NaaHRyeE5XQkpGU0tMdDdmRThoTGh1VlZsX2RMUU42ZVFaWlNmZThDckJiNFJ6QnpnTmZkMWc4NnpYQUhBQXYyajE0Mmh4VmhlZThtbmFfZ2c0TXNOWDNNRWhabThLeTgzVUVmMXptYVd6ZXF3QlNTNjR5M0ItRTRWYW5aWW91?oc=5",
+      "pubDate": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "2026 apl budget certains etrangers etudiants geler gouvernement supprimer veut",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-08-01T06:27:00Z"
+    },
     {
       "title": "APL étudiant étranger supprimée en 2026 : qui peut conserver l’aide et comment contester la CAF",
       "source": "kohenavocats.fr",
