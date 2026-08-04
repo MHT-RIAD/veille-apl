@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-08-04T10:36:09Z",
+  "last_check": "2026-08-04T13:00:19Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -68,9 +68,27 @@
       "at": "2026-07-29T21:59:05Z"
     }
   ],
-  "last_alert_at": "2026-08-01T06:27:02Z",
+  "last_alert_at": "2026-08-04T13:00:21Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Nouveaux montants des taxes demandées aux étrangers - Étrangers - Démarches",
+      "source": "Les services de l'État en Vendée",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQlNsY0R5czF2TVYtdkd3UjZDUnJzcy1DUndyY3hBTEo5dFRtOWVtbHhNTnVEV0ZoVHZsNEpYdUxINjdPWVBIeTZkZ290RFk1TXJnN3E1QXhxUHdQVVpoRlNTWG9uUU1VTUF1Z1B3ajFLc0pibE1fS0JNOTlFSWRta0RQOWpLVlZMSDJVX3dOcGpjOHJkOTlMWGRfenhaS0U?oc=5",
+      "pubDate": "Fri, 31 Jul 2026 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "taxe",
+        "etranger"
+      ],
+      "tkey": "demandees demarches etrangers montants nouveaux taxes",
+      "topic": "titres-sejour",
+      "topic_name": "Taxes & titres de séjour",
+      "summary": "",
+      "found_at": "2026-08-04T13:00:19Z"
+    },
     {
       "title": "Budget 2026 : le gouvernement veut geler les APL et les supprimer pour certains étudiants étrangers",
       "source": "Démarches Administratives",
