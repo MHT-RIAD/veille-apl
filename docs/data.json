@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-08-05T08:32:05Z",
+  "last_check": "2026-08-05T11:18:42Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -68,9 +68,28 @@
       "at": "2026-07-29T21:59:05Z"
     }
   ],
-  "last_alert_at": "2026-08-04T15:31:04Z",
+  "last_alert_at": "2026-08-05T11:18:44Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Gel des APL en 2026 : suppression pour certains étudiants étrangers dans le projet de budget",
+      "source": "fr.newsner.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbVd5TmlVNGJ6S2x4dmJHVFlRUFNETTFaTWhhWmxxQzVZYWN3YXUyNmxvb0Z5T3BfU2wwVHB3eDdRMVF0UGcyLVE4UXBWRmpka2xBVUhIZnAwQkFMR3BtbS1sWEhLV1g3MDVJQTdJMWhWWmU0bmpCTk9RdlZnS0YxRUI1YlY4QS1rOXpVYkVlNjB2ZHNw?oc=5",
+      "pubDate": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "priority": "related",
+      "label": "Sujet lie",
+      "confidence": "lie",
+      "matched": [
+        "apl",
+        "etudiant",
+        "etranger"
+      ],
+      "tkey": "2026 apl budget certains etrangers etudiants gel projet suppression",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-08-05T11:18:42Z"
+    },
     {
       "title": "Universités : le gouvernement veut mettre fin aux «exonérations massives» des droits d'inscription des étudiants étrangers",
       "source": "CNews",
