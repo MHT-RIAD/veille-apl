@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-08-06T12:00:54Z",
+  "last_check": "2026-08-06T15:13:18Z",
   "topics_list": [
     {
       "id": "decret-apl",
@@ -68,9 +68,24 @@
       "at": "2026-07-29T21:59:05Z"
     }
   ],
-  "last_alert_at": "2026-08-05T11:18:44Z",
+  "last_alert_at": "2026-08-06T15:13:20Z",
   "last_heartbeat": null,
   "alerts": [
+    {
+      "title": "Modification detectee : Service-Public — APL étudiant",
+      "source": "Service-Public — APL étudiant",
+      "link": "https://www.service-public.fr/particuliers/vosdroits/F12006",
+      "pubDate": "",
+      "priority": "high",
+      "label": "Page modifiee",
+      "confidence": "confirme",
+      "matched": [],
+      "tkey": "page:https://www.service-public.fr/particuliers/vosdroits/F12006",
+      "topic": "decret-apl",
+      "topic_name": "Décret APL étudiants étrangers",
+      "summary": "",
+      "found_at": "2026-08-06T15:13:18Z"
+    },
     {
       "title": "Gel des APL en 2026 : suppression pour certains étudiants étrangers dans le projet de budget",
       "source": "fr.newsner.com",
